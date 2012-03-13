@@ -79,3 +79,8 @@ watcher:
 ganalytics:
   domain: nukomeet.com
   site_id: UA-29862765-1
+
+deploy:
+  public:
+    kind: rsync
+    dst:  "nukomeet:/srv/www/nukomeet.com/public_html"
