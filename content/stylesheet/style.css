@@ -1,0 +1,93 @@
+body {
+  background-color: #EAEAEA;
+  border-top: 12px solid #3C7AA3;
+  padding-top: 60px;
+}
+h1 {
+  font-size:90px;
+}
+
+hr {
+  color: #CCC;
+}
+
+.main {
+  position: relative;
+}
+.main h1 {
+  margin-bottom: 9px;
+  font-size: 81px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.main p {
+  margin-bottom: 18px;
+  font-weight: 300;
+}
+.main .btn-large {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 14px 24px;
+  margin-right: 10px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+.intro {
+  padding-top: 30px;
+  margin-bottom: 54px;
+}
+.intro h1, .intro p {
+  text-align: center;
+}
+.intro h1 {
+  margin-bottom: 18px;
+}
+.intro p {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.desc {
+  padding-top: 12px;
+  margin-bottom: 72px;
+}
+.desc h1, .desc p {
+  text-align: center;
+}
+.desc h1 {
+  margin-bottom: 18px;
+}
+.desc p {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+hr.soften {
+  height: 1px;
+  margin: 44px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
+
+hr.neat {
+  height: 1px;
+  margin: 12px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
+
+.post p {
+  font-size: 16px;
+  line-height: 24px;
+}

@@ -1,0 +1,4 @@
+- (@site.sorted_articles[0..4]).each do |post|
+  %h4
+    = link_to(post[:title], post.path)
+    %small= post[:created_at]
