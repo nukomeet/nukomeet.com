@@ -91,3 +91,12 @@ hr.neat {
   font-size: 16px;
   line-height: 24px;
 }
+
+.post h2 {
+  font-size: 22px;
+}
+
+.post ol li {
+  font-size: 16px;
+  line-height: 24px;
+}
