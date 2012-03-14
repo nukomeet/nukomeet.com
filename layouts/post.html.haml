@@ -15,19 +15,18 @@
       %h4
         %a{:href => "http://nukomeet.com"} Back home
         %p &nbsp;
-        %hr
       .row
         .span8.post
           %h2= link_to(@item[:title], @item.path)
           %hr.neat/
           = yield
-        .span4.sidebar
-          %h3 More posts
-          %p &nbsp;
-          %hr
-          - (@site.sorted_articles[0..4]).each do |post|
-
-            %h4
-              = link_to(post[:title], post.path)
-              %small= post[:created_at]
+        - unless @item.identifier == "/blog/"
+          .span4.sidebar
+            %h3 More posts
+            %p &nbsp;
+            %hr.neat/
+            - (@site.sorted_articles[0..4]).each do |post|
+              %h4
+                = link_to(post[:title], post.path)
+                %small= post[:created_at]
     / /container
