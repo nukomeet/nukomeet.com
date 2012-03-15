@@ -46,3 +46,6 @@ Nukomeet is a company ran by self-managed developers using cutting-edge technolo
 We would be delighted to have your feedback on this post, please discuss it on Hacker News. 
 
 Feel free to ask us any questions on [Twitter](https://twitter.com/#!/nukomeet) or using [an email](mailto:bonjour@nukomeet.com)
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="nukomeet" data-size="large">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
