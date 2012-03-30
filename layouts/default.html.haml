@@ -11,7 +11,7 @@
     %link{:href => "/stylesheet/font.css", :rel => "stylesheet"}
     %link{:href => "/stylesheet/style.css", :rel => "stylesheet"}
     %meta{:content => "nanoc 3.3.1", :name => "generator"}
-  %body{:style => "background-image:url("images/paper.png");}
+  %body
     .container
       %header.main.intro
         .inner
@@ -27,7 +27,7 @@
               %li
                 %a{"data-toggle" => "tab", :href => "#profile"} Profile
               %li.dropdown
-                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"} 
                   Dropdown
                   %b.caret
                 %ul.dropdown-menu
