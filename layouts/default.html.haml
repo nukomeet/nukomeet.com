@@ -2,10 +2,11 @@
 %html{:lang => "en"}
   %head
     %meta{:charset => "utf-8"}
-    %title Nukomeet, crafting applications
+    %title
+      Nukomeet, crafting applications
     %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"}
     %script{:src => "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.0.1/bootstrap.min.js", :type => "text/javascript"}
-    %script{:src => "/js/bootstrap-tab.js", :type => "text/javascript"}
+    %script{:src => "http://twitter.github.com/bootstrap/assets/js/bootstrap-tab.js", :type => "text/javascript"}
     %link{:href => "/stylesheet/bootstrap.css", :rel => "stylesheet"}
     %link{:href => "/stylesheet/bootstrap-responsive.css", :rel => "stylesheet"}
     %link{:href => "/stylesheet/font.css", :rel => "stylesheet"}
@@ -15,49 +16,122 @@
     .container
       %header.main.intro
         .inner
-          %h2.fontface Nukomeet
-          %h1 We craft software
-          %p We are a team of passionate programmers, based in Paris.
-          %p
-            %a.btn.btn-large{:href => "mailto:bonjour@nukomeet.com"} Hire Us
-            %a.btn.btn-large.btn-success{:href => "/blog/"} Our Blog 
-            %ul#tab.nav.nav-tabs
-              %li.active
-                %a{"data-toggle" => "tab", :href => "#home"} Home
-              %li
-                %a{"data-toggle" => "tab", :href => "#profile"} Profile
-              %li.dropdown
-                %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"} 
-                  Dropdown
-                  %b.caret
-                %ul.dropdown-menu
-              %li
-                %a{"data-toggle" => "tab", :href => "#dropdown1"} @fat
-              %li
-                %a{"data-toggle" => "tab", :href => "#dropdown2"} @mdo
-            #myTabContent.tab-content
-              #home.tab-pane.fade.in.active
-                %p Raw denim you probably havent heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
-              #profile.tab-pane.fade
-                %p Food truck fixie locavore, accusamus mcsweeneys marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
-              #dropdown1.tab-pane.fade
-                %p Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.
-              #dropdown2.tab-pane.fade
-                %p Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.
-           
-          %hr.soften/
-      .desc
-        .row
-          .span6
-            %p Clojure Java Python Ruby Scala
-          .span6
-            %p HTML5 CSS JavaScript iOS Android
+          %h2.fontface 
+            Nukomeet
+          %h1 
+            We craft software
+          %p &nbsp;
+          %ul#tab.nav.nav-tabs
+            %li.active.navig
+              %a{"data-toggle" => "tab", :href => "#team"} 
+                Team
+            %li.navig
+              %a{"data-toggle" => "tab", :href => "#techno"} 
+                Technologies
+            %li.navig
+              %a{"data-toggle" => "tab", :href => "#work"} 
+                Work
+            %li.navig
+              %a{"data-toggle" => "tab", :href => "#projects"} 
+                Projects
+            %li.navig
+              %a{"data-toggle" => "tab", :href => "mailto:bonjour@nukomeet.com"} 
+                Hire Us
+            %li.navig
+              %a{"data-toggle" => "tab", :href => "#apply"} 
+                Apply
+            %li.navig  
+              %a{"data-toggle" => "tab", :href => "/blog/"} 
+                Our Blog 
+          %p &nbsp;          
+          %p &nbsp;          
+          #myTabContent.tab-content
+            #team.tab-pane.fade.in.active
+              .row
+                .span4
+                  %p
+                    Lukasz Kups
+                    %img.pull-right.pic{:src => "assets/images/lukasz.jpg"}
+                .span4
+                  %p
+                    Tomek Kuklis
+                    %img.pull-right.pic{:src => "assets/images/tomek.jpg"}
+                .span4
+                  %p
+                    Bartlomiej Wiaduch
+                    %img.pull-right.pic{:src => "assets/images/bartek.jpg"}
+              %hr.soften/
+              .row
+                .span4
+                  %p
+                    Zaiste
+                    %img.pull-right.pic{:src => "assets/images/zaiste.jpg"}
+                .span4
+                  %p
+                    Alban LV
+                    %img.pull-right.pic{:src => "assets/images/alban.jpg"}
+                .span4
+                  %p
+                    You?
+                  %script{:src => "http://platform.linkedin.com/in.js", :type => "text/javascript"}   api_key: whtrv75ydlzq
+                  %p
+                    %script{"data-companyname" => "nukomeet", "data-email" => "albanlv@gmail.com", "data-joblocation" => "", "data-jobtitle" => "Haxor", "data-phone" => "required", :type => "IN/Apply"}
+            #techno.tab-pane.fade
+              %p Clojure Java Python Ruby Scala
+              %p &nbsp;          
+              %p HTML5 CSS JavaScript iOS Android
+            #work.tab-pane.fade
+              .row
+                .span4
+                  %h3 Quickstudio
+                  %p.pull-right Quickstudio is a Saas for music studios. Our team is creating the version 2 using Ruby on Rails.
+                .span4
+                  %h3
+                    QuizzTournament
+                  %p.pull-right QuizzTournament is a start-up creating multiplayer games. Our team helps them to scale up.   
+                .span4
+                  %h3 
+                    You? 
+                  %p.pull-right
+                    We provide 15% of the amount of a contract to the contact that brought it to us. 
+                  %p.pull-right 
+                    You know about someone who could need us? 
+                    %a{:href => "mailto:bonjour@nukomeet.com"} Let us know
+                    
+            #projects.tab-pane.fade
+              .row
+                .span4
+                  %h3
+                    Coworfing
+                  %p
+                    An application that helps you find a place to work. Cafés, libraries, coworking spaces, but also our own places are referenced and open for you. 
+                  %p
+                    %a{:src => "http://coworfing.com"} Ask to be invited.
+                .span4
+                  %h3
+                    Wikilaw
+                  %p
+                    A generator for legal texts. 
+                  %p
+                    %a{:src => "http://quiet-stone-9777.heroku.com/"} Try it yourself.
+                .span4
+                  %p
+                    You have an awesome idea and you would like to submit it? 
+                  %p
+                    %a{:href => "mailto:bonjour@nukomeet.com"} Tell us.
+              %hr.soften/
+            #apply.tab-pane.fade
+              %p
+                Write us at 
+                %a{:href => "mailto:bonjour@nukomeet.com"} bonjour@nukomeet.com
+                or simply apply with LinkedIn. 
+              %p
+                Please provide a link to your Github account.
+                %script{"data-companyname" => "nukomeet", "data-email" => "albanlv@gmail.com", "data-joblocation" => "", "data-jobtitle" => "Haxor", "data-phone" => "required", :type => "IN/Apply"}
+        %hr.soften/
           
       .row
         .span12{:style => "text-align: center;"}
-          %script{:src => "http://platform.linkedin.com/in.js", :type => "text/javascript"} api_key: whtrv75ydlzq
-          %p
-            %script{"data-companyname" => "nukomeet", "data-email" => "albanlv@gmail.com", "data-joblocation" => "", "data-jobtitle" => "Haxor", "data-phone" => "required", :type => "IN/Apply"}
     / /container
 
-  = render('_ganalytics') 
+  =render('_ganalytics') 
