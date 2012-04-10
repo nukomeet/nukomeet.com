@@ -1,8 +1,9 @@
 body {
   background-color: #EAEAEA;
   border-top: 12px solid #3C7AA3;
-  padding-top: 60px;
+  padding-top: 20px;
 }
+
 h1 {
   font-size:90px;
 }
@@ -122,4 +123,8 @@ ul#tab.nav.nav-tabs li.navig{
 .post ol li {
   font-size: 16px;
   line-height: 24px;
+}
+
+#techno p{
+    font-size: 24px;
 }
