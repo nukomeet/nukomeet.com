@@ -115,3 +115,11 @@ ul#tab.nav.nav-tabs li.navig{
     padding-left: 55px;
 }
 
+.post h2 {
+  font-size: 22px;
+}
+
+.post ol li {
+  font-size: 16px;
+  line-height: 24px;
+}
