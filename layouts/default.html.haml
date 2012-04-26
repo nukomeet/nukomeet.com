@@ -7,6 +7,8 @@
     %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"}
     %script{:src => "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.0.1/bootstrap.min.js", :type => "text/javascript"}
     %script{:src => "http://twitter.github.com/bootstrap/assets/js/bootstrap-tab.js", :type => "text/javascript"}
+    %script{:src => "http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js", :type => "text/javascript"}
+    %script{:src => "http://twitter.github.com/bootstrap/assets/js/bootstrap-popover.js", :type => "text/javascript"}
     %link{:href => "/stylesheet/bootstrap.css", :rel => "stylesheet"}
     %link{:href => "/stylesheet/bootstrap-responsive.css", :rel => "stylesheet"}
     %link{:href => "/stylesheet/font.css", :rel => "stylesheet"}
@@ -47,35 +49,21 @@
           %p &nbsp;          
           #myTabContent.tab-content
             #team.tab-pane.fade.in.active
-              .row
-                .span4
-                  %p
-                    Ofca
-                    %img.pull-right.pic{:src => "assets/images/lukasz.jpg"}
-                .span4
-                  %p
-                    Tomek Kuklis
-                    %img.pull-right.pic{:src => "assets/images/tomek.jpg"}
-                .span4
-                  %p
-                    Bartlomiej Wiaduch
-                    %img.pull-right.pic{:src => "assets/images/bartek.jpg"}
+              .pics{:style => "text-align:center"}
+                %img.pic.bio#bio1{:src => "assets/images/lukasz.jpg", :title => "Ofca", "data-content" => "is our first apprentice. Under Nukomeet tutelage he is learning various spells mainly in Ruby, jQuery & CSS trying to not blow anything up :)"}
+                %img.bio#bio2.pic{:src => "assets/images/tomek.jpg", :title => "Tomek Kuklis", "data-content" => "is a mage, experienced with Ruby and mastering front-end spirits. He can summon powerful real-time, creatures using BackBone.js His speed of casting spells is already legendary, he never lacks Mana."}
+                %img.bio#bio3.pic{:src => "assets/images/bartek.jpg", :title => "Bartlomiej Wiaduch", "data-content" => "is Rails wiz who likes to cast spells on every aspect of the object, to have power over it from the early beginning. His magic began from testing banking systems, casting  on corporate ogres with Ruby and Rails."}
+                %img.bio#bio4.pic{:src => "assets/images/zaiste.jpg", :title => "Zaiste", "data-content" => "is a λ aficionado, a sorcerer submitted to functional gods. In the past he was protecting wealthy kingdoms using Java EE based magic. He mainly casts his spells using Ruby & Lisp dialects. He is fond of controlling text spirits thanks to his vast Vim knowledge.  According to some legends as a child he lived among daemons inside Unix realms."}
+                %img.bio#bio5.pic{:src => "assets/images/alban.jpg", :title => "Alban Leveau-Vallier", "data-content" => "grew up wandering between several kingdoms of Europes. He developed an early interest for the languages of the tribes we was visiting. It is only after a lot of time trying to understand the secrets of philosophy that he turned his appetite toward craft. He then enclosed himself in cave to learn the artifacts of HTML5/CSS3, to play with the lutins of Wordpress and PHP and to master the powerful techniques of Ruby on Rails. As a polyglot mage he is able to cast with the same proficiency spells of inner & outer world. Some people say his ancestors were dragons."}
               %hr.soften/
-              .row
-                .span4
-                  %p
-                    Zaiste
-                    %img.pull-right.pic{:src => "assets/images/zaiste.jpg"}
-                .span4
-                  %p
-                    Alban LV
-                    %img.pull-right.pic{:src => "assets/images/alban.jpg"}
-                .span4
-                  %p
-                    You?
-                  %script{:src => "http://platform.linkedin.com/in.js", :type => "text/javascript"}   api_key: whtrv75ydlzq
-                  %p
-                    %script{"data-companyname" => "nukomeet", "data-email" => "albanlv@gmail.com", "data-joblocation" => "", "data-jobtitle" => "Haxor", "data-phone" => "required", :type => "IN/Apply"}
+              .join
+                %p
+                  Have no fear, stranger.
+                %p
+                  Ask to join the guild.
+                %script{:src => "http://platform.linkedin.com/in.js", :type => "text/javascript"}   api_key: whtrv75ydlzq
+                %p
+                  %script{"data-companyname" => "nukomeet", "data-email" => "albanlv@gmail.com", "data-joblocation" => "", "data-jobtitle" => "Haxor", "data-phone" => "required", :type => "IN/Apply"}
             #techno.tab-pane.fade
               %p Clojure Java Python Ruby Scala
               %p &nbsp;          
@@ -135,3 +123,11 @@
     / /container
 
   =render('_ganalytics') 
+  :javascript
+    jQuery(function() {                                         
+    $(".bio").popover(
+    {
+    placement: 'top'
+    }
+    );
+    });
