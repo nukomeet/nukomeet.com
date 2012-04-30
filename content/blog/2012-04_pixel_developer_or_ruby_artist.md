@@ -2,7 +2,7 @@
 created_at: 2012-04-30 12:39:40 +0200
 kind: article
 publish: true
-title: "pixel developer or ruby artist"
+title: "Pixel developer or Ruby artist ?"
 ---
 
 This is the story of **Łukasz** - better known in the internet society by his pseudonym **ofca**.
