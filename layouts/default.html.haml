@@ -18,43 +18,48 @@
     .container
       %header.main.intro
         .inner
-          %h2.fontface 
-            Nukomeet
-          %h1 
-            We craft software
+          %h1
+            NUKOMEET
+          %h2 
+            WE   CODE.
           %p &nbsp;
           %ul#tab.nav.nav-tabs
             %li.active.navig
               %a{"data-toggle" => "tab", :href => "#team"} 
-                Team
+                TEAM
             %li.navig
               %a{"data-toggle" => "tab", :href => "#techno"} 
-                Technologies
+                TECHNOLOGIES
             %li.navig
               %a{"data-toggle" => "tab", :href => "#work"} 
-                Work
+                WORK
             %li.navig
               %a{"data-toggle" => "tab", :href => "#projects"} 
-                Projects
+                PROJECTS
             %li.navig
               %a{:href => "mailto:bonjour@nukomeet.com"} 
-                Hire Us
+                HIRE US
             %li.navig
               %a{"data-toggle" => "tab", :href => "#apply"} 
-                Apply
+                APPLY
             %li.navig  
               %a{:href => "/blog/"} 
-                Our Blog 
+                BLOG 
           %p &nbsp;          
           %p &nbsp;          
-          #myTabContent.tab-content
+          #myTabContent.tab-content.container
             #team.tab-pane.fade.in.active
               .pics{:style => "text-align:center"}
-                %img.pic.bio#bio1{:src => "assets/images/lukasz.jpg", :title => "Ofca", "data-content" => "is our first apprentice. Under Nukomeet tutelage he is learning various spells mainly in Ruby, jQuery & CSS trying to not blow anything up :)"}
-                %img.bio#bio2.pic{:src => "assets/images/tomek.jpg", :title => "Tomek Kuklis", "data-content" => "is a mage, experienced with Ruby and mastering front-end spirits. He can summon powerful real-time, creatures using BackBone.js His speed of casting spells is already legendary, he never lacks Mana."}
-                %img.bio#bio3.pic{:src => "assets/images/bartek.jpg", :title => "Bartlomiej Wiaduch", "data-content" => "is Rails wiz who likes to cast spells on every aspect of the object, to have power over it from the early beginning. His magic began from testing banking systems, casting  on corporate ogres with Ruby and Rails."}
-                %img.bio#bio4.pic{:src => "assets/images/zaiste.jpg", :title => "Zaiste", "data-content" => "is a λ aficionado, a sorcerer submitted to functional gods. In the past he was protecting wealthy kingdoms using Java EE based magic. He mainly casts his spells using Ruby & Lisp dialects. He is fond of controlling text spirits thanks to his vast Vim knowledge.  According to some legends as a child he lived among daemons inside Unix realms."}
-                %img.bio#bio5.pic{:src => "assets/images/alban.jpg", :title => "Alban Leveau-Vallier", "data-content" => "grew up wandering between several kingdoms of Europes. He developed an early interest for the languages of the tribes we was visiting. It is only after a lot of time trying to understand the secrets of philosophy that he turned his appetite toward craft. He then enclosed himself in cave to learn the artifacts of HTML5/CSS3, to play with the lutins of Wordpress and PHP and to master the powerful techniques of Ruby on Rails. As a polyglot mage he is able to cast with the same proficiency spells of inner & outer world. Some people say his ancestors were dragons."}
+                %a{:href => "http://lukaszkups.pl/"}     
+                  %img.pic.bio#bio1{:src => "assets/images/lukasz.jpg", :title => "Ofca", "data-content" => "Ofca has always wanted to be a graphic designer but one day he discovered a new passion that changed everything. Some dark forces called Ruby On Rails called his soul. They possessed him like daemons and he began to program more and more.<br/> Today, Ofca is working and learning at Nukomeet while at the same time developing his original-skills as a graphic designer.<br/> Together with his brother they achieved an old-school-looking pixel platform flash game named Terry Poorflyer and are making another one, this time for Android platform."}
+                %a{:href => "https://github.com/tomkuk"}  
+                  %img.bio#bio2.pic{:src => "assets/images/tomek.jpg", :title => "Tomek Kuklis", "data-content" => "is a mage, experienced with Ruby and mastering front-end spirits.<br/> He can summon powerful real-time, creatures using BackBone.js<br/> His speed of casting spells is already legendary and he never lacks Mana."}
+                %a{:href => "https://github.com/2can"}  
+                  %img.bio#bio3.pic{:src => "assets/images/bartek.jpg", :title => "Bartlomiej Wiaduch", "data-content" => "is Rails wiz who likes to cast spells on every aspect of the object, to have power over it from the early beginning.<br/> His magic began from testing banking systems, casting on corporate ogres with Ruby and Rails."}
+                %a{:href => "http://zaiste.net"}  
+                  %img.bio#bio4.pic{:src => "assets/images/zaiste.jpg", :title => "Zaiste", "data-content" => "is a λ aficionado, a sorcerer submitted to functional gods.<br/>In the past he was protecting wealthy kingdoms using Java EE based magic. <br/>Now he mainly casts his spells using Ruby & Lisp dialects. He is fond of controlling text spirits thanks to his vast Vim knowledge. <br/>According to some legends as a child he lived among daemons inside Unix realms."}
+                %a{:href => "http://alban.leveau-vallier.com"}
+                  %img.bio#bio5.pic{:src => "assets/images/alban.jpg", :title => "Alban Leveau-Vallier", "data-content" => "grew up wandering between several kingdoms of Europes. He developed an early interest for the languages of the tribes we was visiting.<br/>It is only after a lot of time trying to understand the secrets of philosophy that he turned his appetite toward craft.<br/>He then enclosed himself in a cave to learn the artifacts of HTML5/CSS3, to play with the lutins of Wordpress and to master the powerful techniques of RoR. <br/>As a polyglot mage he is able to cast with the same proficiency spells of inner & outer world. <br/>Some people say his ancestors were dragons."}
               %hr.soften/
               .join
                 %p
@@ -92,17 +97,20 @@
                   %h3
                     Coworfing
                   %p
-                    An application that helps you find a place to work. Cafés, libraries, coworking spaces, but also our own places are referenced and open for you. 
+
+                    We are a network of teleworkers, freelancers and entrepreneurs. We put in common our workplaces and cowork together. Find places to work anywhere and stop working alone.
                   %p
                     %a{:src => "http://coworfing.com"} Ask to be invited.
                 .span4
                   %h3
-                    Wikilaw
+                    Lawve.me
                   %p
-                    A generator for legal texts. 
+                    We automate the writing of legal texts (contracts, company creation, legal mentions, privacy policy...). 
                   %p
-                    %a{:src => "http://quiet-stone-9777.heroku.com/"} Try it yourself.
+                    %a{:src => "http://lawve.me/"} Try it yourself.
                 .span4
+                  %h3
+                    Your awesome idea
                   %p
                     You have an awesome idea and you would like to submit it? 
                   %p
@@ -116,10 +124,17 @@
               %p
                 Please provide a link to your Github account.
                 %script{"data-companyname" => "nukomeet", "data-email" => "albanlv@gmail.com", "data-joblocation" => "", "data-jobtitle" => "Haxor", "data-phone" => "required", :type => "IN/Apply"}
-        %hr.soften/
           
       .row
-        .span12{:style => "text-align: center;"}
+        .span12{:style => "text-align: center; color: #999;"}
+          %p &nbsp;
+          %p
+            This website was developed in nanoc by 
+            %a{:href => "http://zaiste.net"}Zaiste
+            , designed by
+            %a{:href => "http://emiland.me"}EmilandDC
+            , implemented by 
+            %a{:href => "http://alban.leveau-vallier.com"}Albanlv
     / /container
 
   =render('_ganalytics') 
