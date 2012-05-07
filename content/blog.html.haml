@@ -1,4 +1,9 @@
+%h2 Welcome to Nukomeet's blog
+%p &nbsp;
+%hr
+%p &nbsp;
 - (@site.sorted_articles[0..4]).each do |post|
-  %h4
+  %h3
     = link_to(post[:title], post.path)
-    %small= post[:created_at]
+    = post[:created_at]
+    %p &nbsp;
