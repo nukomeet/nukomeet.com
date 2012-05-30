@@ -26,22 +26,22 @@
           %ul#tab.nav.nav-tabs
             %li.active.navig
               %a{"data-toggle" => "tab", :href => "#team"} 
-                TEAM
+                WHAT? 
             %li.navig
               %a{"data-toggle" => "tab", :href => "#techno"} 
-                TECHNOLOGIES
+                WEAPONS
             %li.navig
               %a{"data-toggle" => "tab", :href => "#work"} 
-                WORK
+                SHOW ME
             %li.navig
               %a{"data-toggle" => "tab", :href => "#projects"} 
-                PROJECTS
+                SHOW MORE
             %li.navig
               %a{:href => "mailto:bonjour@nukomeet.com"} 
-                HIRE US
+                WANT US?
             %li.navig
               %a{"data-toggle" => "tab", :href => "#apply"} 
-                APPLY
+                WE WANT YOU
             %li.navig  
               %a{:href => "/blog/"} 
                 BLOG 
@@ -49,7 +49,16 @@
           %p &nbsp;          
           #myTabContent.tab-content.container
             #team.tab-pane.fade.in.active
-              .pics{:style => "text-align:center"}
+              .desc.span6
+                %h3 WE ARE A TEAM OF HAPPY DEVELOPPERS
+                %p We code web and mobile applications. 
+                %p We work for clients, and for fun.
+                %p We like to use the latest technologies.
+                %p We believe in social innovation.
+                %p We enjoy working on out of the box projects.
+                %p We live in Paris, Poznan, Berlin and Montréal.
+              .pics.span5{:style => "text-align:center"}
+                %h3 THE CREW
                 %a{:href => "http://lukaszkups.pl/"}     
                   %img.pic.bio#bio1{:src => "assets/images/lukasz.jpg", :title => "Ofca", "data-content" => "Ofca has always wanted to be a graphic designer but one day he discovered a new passion that changed everything. Some dark forces called Ruby On Rails called his soul. They possessed him like daemons and he began to program more and more.<br/> Today, Ofca is working and learning at Nukomeet while at the same time developing his original-skills as a graphic designer.<br/> Together with his brother they achieved an old-school-looking pixel platform flash game named Terry Poorflyer and are making another one, this time for Android platform."}
                 %a{:href => "https://github.com/tomkuk"}  
@@ -60,19 +69,21 @@
                   %img.bio#bio4.pic{:src => "assets/images/zaiste.jpg", :title => "Zaiste", "data-content" => "is a λ aficionado, a sorcerer submitted to functional gods.<br/>In the past he was protecting wealthy kingdoms using Java EE based magic. <br/>Now he mainly casts his spells using Ruby & Lisp dialects. He is fond of controlling text spirits thanks to his vast Vim knowledge. <br/>According to some legends as a child he lived among daemons inside Unix realms."}
                 %a{:href => "http://alban.leveau-vallier.com"}
                   %img.bio#bio5.pic{:src => "assets/images/alban.jpg", :title => "Alban Leveau-Vallier", "data-content" => "grew up wandering between several kingdoms of Europes. He developed an early interest for the languages of the tribes we was visiting.<br/>It is only after a lot of time trying to understand the secrets of philosophy that he turned his appetite toward craft.<br/>He then enclosed himself in a cave to learn the artifacts of HTML5/CSS3, to play with the lutins of Wordpress and to master the powerful techniques of RoR. <br/>As a polyglot mage he is able to cast with the same proficiency spells of inner & outer world. <br/>Some people say his ancestors were dragons."}
-              %hr.soften/
-              .join
-                %p
-                  Have no fear, stranger.
-                %p
-                  Ask to join the guild.
-                %script{:src => "http://platform.linkedin.com/in.js", :type => "text/javascript"}   api_key: whtrv75ydlzq
-                %p
-                  %script{"data-companyname" => "nukomeet", "data-email" => "albanlv@gmail.com", "data-joblocation" => "", "data-jobtitle" => "Haxor", "data-phone" => "required", :type => "IN/Apply"}
+                %hr.soften/
+                .join
+                  %p
+                    Have no fear, stranger.
+                  %p
+                    Ask to join the guild.
+                  %script{:src => "http://platform.linkedin.com/in.js", :type => "text/javascript"}   api_key: whtrv75ydlzq
+                  %p
+                    %script{"data-companyname" => "nukomeet", "data-email" => "albanlv@gmail.com", "data-joblocation" => "", "data-jobtitle" => "Haxor", "data-phone" => "required", :type => "IN/Apply"}
             #techno.tab-pane.fade
-              %p Clojure Java Python Ruby Scala
+              %h2 Python, Ruby, Scala, Java
               %p &nbsp;          
-              %p HTML5 CSS JavaScript iOS Android
+              %h2 HTML5, CSS3, JavaScript 
+              %p &nbsp;
+              %h2 iOS & Android
             #work.tab-pane.fade
               .row
                 .span4
