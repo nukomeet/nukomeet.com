@@ -26,7 +26,7 @@ end
 
 compile '/blog/' do
   filter :haml
-  layout 'post'
+  layout 'default'
 end
 
 compile '/blog/*/' do
