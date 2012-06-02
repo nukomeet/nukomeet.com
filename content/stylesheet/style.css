@@ -1837,7 +1837,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
     .team-member .content { 
       padding: 0 15px; 
-      height: 300px;
+      height: 250px;
     }
 
         .team-member .name {
@@ -1858,7 +1858,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         }
 
         .team-member .social-links {
-            border-top: 1px solid #efefef;
             margin: 0 0 5px;
             padding: 15px 0 0;
         }
