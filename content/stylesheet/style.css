@@ -86,7 +86,7 @@ hr {
   padding-top: 12px;
 }
 .desc p {
-  text-align: center;
+  text-align: justify;
 }
 .desc p {
   margin-left: 5%;
@@ -125,7 +125,6 @@ p{
 .inner p{
     font-size: 16px;
     letter-spacing: 1.2px;
-    text-align: center;
     line-height: 24px;
 }
 
@@ -134,6 +133,7 @@ h3{
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #377e86;
+    margin-bottom: 15px;
 }
 ul#tab.nav.nav-tabs {
     border-bottom: 0px solid white;
@@ -147,7 +147,7 @@ ul#tab.nav.nav-tabs a{
 }
 
 ul#tab.nav.nav-tabs li.navig a{
-    padding: 15px 27px 0px 30px ;
+    padding: 15px 30px 0px 30px ;
     height: 30px;
     }
 
@@ -180,5 +180,5 @@ ul#tab.nav.nav-tabs li.navig a:hover{
 }
 
 .bio{
-    padding-right: 20px;
+    padding-right: 5px;
 }
