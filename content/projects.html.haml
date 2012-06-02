@@ -1,0 +1,48 @@
+%header.page-header
+  %h1.page-title Our Projects 
+  %ul#portfolio-items-filter
+    %li Showing
+    %li
+      %a{"data-categories" => "*"} All
+    %li
+      %a{"data-categories" => "animation"} Animation
+    %li
+      %a{"data-categories" => "design"} Design
+    %li
+      %a{"data-categories" => "illustration"} Illustration
+    %li
+      %a{"data-categories" => "photography"} Photography
+    %li
+      %a{"data-categories" => "web"} Web
+  / end #portfolio-items-filter
+/ end .page-header
+%section#portfolio-items.clearfix
+  %article.one-third{"data-categories" => "illustration design"}
+    %a.single-image{:href => "img/placeholders/portfolio-project-3rd-1.jpg", :title => "Altered - Something abstract."}
+      %img{:alt => "", :src => "http://cambelt.co/300x190"}
+    %a.project-meta{:href => "single-project.html"}
+      %h5.title Altered
+      %span.categories illustration / design
+  / end .one-third (Altered)
+  %article.one-third{"data-categories" => "illustration photography"}
+    %a.single-image{:href => "img/placeholders/portfolio-project-3rd-2.jpg", :title => "Snow Tower - "}
+      %img{:alt => "", :src => "http://cambelt.co/300x190"}
+    %a.project-meta{:href => "single-project.html"}
+      %h5.title Snow Tower
+      %span.categories illustration / photography
+  / end .one-third (Snow Tower)
+  %article.one-third{"data-categories" => "illustration animation"}
+    %a.single-image{:href => "img/placeholders/portfolio-project-3rd-3.jpg", :title => "Not the end - The beginning of the end."}
+      %img{:alt => "", :src => "http://cambelt.co/300x190"}
+    %a.project-meta{:href => "single-project.html"}
+      %h5.title Not the end
+      %span.categories animation / illustration
+  / end .one-third (Not the end)
+  %article.one-third{"data-categories" => "animation web"}
+    %a.iframe.video{:href => "http://player.vimeo.com/video/29943426?byline=0&portrait=0", :title => "Shift - Abstract animation using Modo & After Effects."}
+      %img{:alt => "", :src => "http://cambelt.co/300x190"}
+    %a.project-meta{:href => "single-project.html"}
+      %h5.title Shift
+      %span.categories web / animation
+  / end .one-third (Shift)
+/ end #portfolio-items
