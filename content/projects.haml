@@ -1,0 +1,44 @@
+%header.page-header
+  %h1.page-title Our Projects 
+  %ul#portfolio-items-filter
+    %li Showing
+    %li
+      %a{"data-categories" => "*"} All
+    %li
+      %a{"data-categories" => "consulting"} Consulting 
+    %li
+      %a{"data-categories" => "integration"} Integration 
+    %li
+      %a{"data-categories" => "arch"} Architecture 
+    %li
+      %a{"data-categories" => "mobile"} Mobile 
+    %li
+      %a{"data-categories" => "web"} Web 
+  / end #portfolio-items-filter
+/ end .page-header
+%section#portfolio-items.clearfix
+  %article.one-third{"data-categories" => "web mobile development"}
+    %img{:alt => "", :src => "http://cambelt.co/300x190"}
+    %a.project-meta{:href => "single-project.html"}
+      %h5.title Coworfing 
+      %span.categories Web / Mobile / Development 
+
+  %article.one-third{"data-categories" => "web development"}
+    %img{:alt => "", :src => "http://cambelt.co/300x190"}
+    %a.project-meta{:href => "single-project.html"}
+      %h5.title Quick Studio 
+      %span.categories Web / Development 
+
+  %article.one-third{"data-categories" => "web development"}
+    %img{:alt => "", :src => "http://cambelt.co/300x190"}
+    %a.project-meta{:href => "single-project.html"}
+      %h5.title Slicecook 
+      %span.categories Web / Development 
+
+  %article.one-third{"data-categories" => "animation web"}
+    %img{:alt => "", :src => "http://cambelt.co/300x190"}
+    %a.project-meta{:href => "single-project.html"}
+      %h5.title Freyment 
+      %span.categories web / Development 
+  / end .one-third (Shift)
+/ end #portfolio-items

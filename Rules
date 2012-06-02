@@ -18,6 +18,10 @@ compile '/stylesheet/*/' do
   # don’t filter or layout
 end
 
+compile '/js/*/' do
+  # don’t filter or layout
+end
+
 compile '/images/*/' do
 end
 
@@ -26,7 +30,7 @@ end
 
 compile '/blog/' do
   filter :haml
-  layout 'post'
+  layout 'default'
 end
 
 compile '/blog/*/' do
@@ -53,11 +57,15 @@ route '/stylesheet/*/' do
   item.identifier.chop + '.css' 
 end
 
+route '/js/*/' do
+  item.identifier.chop + '.js' 
+end
+
 route '/fonts/*/' do
 end
 
 route '/images/*/' do
-  '/assets' + item.identifier.chop + '.jpg'
+  '/assets' + item.identifier.chop + '.png'
 end
 
 route '/blog/*/' do
