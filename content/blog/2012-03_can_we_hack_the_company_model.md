@@ -1,6 +1,6 @@
 ---
 kind: article
-created_at: 2012-03-14
+created_at: 2012-03-02
 title: Can we hack the company model ?
 ---
 

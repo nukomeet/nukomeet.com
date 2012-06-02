@@ -1,11 +1,11 @@
 ---
-created_at: 2012-04-30 12:39:40 +0200
+created_at: 2012-04-30 
 kind: article
 publish: true
 title: "Pixel developer or Ruby artist ?"
 ---
 
-This is the story sossff **Łukasz** - better known in the internet society by his pseudonym **ofca**.
+This is the story of **Łukasz** - better known in the internet society by his pseudonym **ofca**.
 
 **Ofca** had always wanted to be a graphic designer. Since the beginning of his studies his whole world was composed by web layouts, logos and business cards. 
 
