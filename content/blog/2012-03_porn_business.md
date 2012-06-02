@@ -12,11 +12,4 @@ I will leave you with his answer to someone who asked if there were any VCs inve
 
 This simple quote lets us imagine what is at stake in a field of the net business that we tend to overlook...
 
-
 --Alban
-
-
-[alt=center]{
-    display:block;
-    margin:auto;
-}

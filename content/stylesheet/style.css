@@ -1618,6 +1618,8 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
         .no-js .projects-carousel > li, .no-js #portfolio-items > article { margin-bottom: 40px; }
 
+		
+
         .projects-carousel a, #portfolio-items article a {
             border-bottom: 1px solid #efefef;
             display: block;
