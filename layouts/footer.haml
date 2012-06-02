@@ -1,0 +1,41 @@
+%footer#footer.clearfix
+  .container
+    .three-fourth
+      %nav#footer-nav.clearfix
+        %ul
+          %li= link_to 'Home', '/'
+          %li= link_to 'Our Team', '/team/'
+          %li= link_to 'Projects', '/projects/'
+          %li= link_to 'Blog', '/blog/'
+      / end #footer-nav
+      %ul.contact-info
+        %li.phone= link_to 'Open Chat', 'https://www.hipchat.com/g4T5W6KqS'
+        %li.email= link_to 'bonjour@nukomeet.com', 'mailto:bonjour@nukomeet.com'
+      / end .contact-info
+    / end .three-fourth
+    .one-fourth.last
+      %span.title Elsewhere on the Internet 
+      %ul.social-links
+        %li.github
+          %a{href: "http://github.com/nukomeet"} Github 
+        %li.twitter
+          %a{href: "http://twitter.com/nukomeet"} Twitter
+        %li.facebook
+          %a{href: "http://facebook.com/nukomeet"} Facebook
+        %li.youtube
+          %a{href: "http://youtube.com/user/nukomeet"} YouTube
+      / end .social-links
+    / end .one-fourth.last
+  / end .container
+/ end #footer
+%footer#footer-bottom.clearfix
+  .container
+    %ul
+      %li Nukomeet © 2012
+      %li
+        %a{:href => "#"} Our story 
+      %li
+        %a{:href => "#"} Press 
+      %li
+        %a{:href => "#"} Join the guild 
+
