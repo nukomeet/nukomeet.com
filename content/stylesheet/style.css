@@ -500,7 +500,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                     color: #aeaeae;
                     content: attr(data-description);
                     font-size: 11px;
-                    font-style: italic;
                     font-weight: 400;
                     display: block;
                     line-height: 0;
@@ -631,6 +630,11 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         .slogan {
             font-size: 24px;
             margin-bottom: 40px;
+        }
+
+        .baseline {
+            font-weight: bold;
+            font-size: 36px;
         }
 
         .page-title { margin-top: 0; }
