@@ -57,7 +57,7 @@ route '/fonts/*/' do
 end
 
 route '/images/*/' do
-  '/assets' + item.identifier.chop + '.jpg'
+  '/assets' + item.identifier.chop + '.png'
 end
 
 route '/blog/*/' do

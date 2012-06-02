@@ -1,0 +1,43 @@
+%footer#footer.clearfix
+  .container
+    .three-fourth
+      %nav#footer-nav.clearfix
+        %ul
+          %li= link_to 'Home', '/'
+          %li= link_to 'Our Team', '/team/'
+          %li= link_to 'Projects', '/projects/'
+          %li= link_to 'Blog', '/blog/'
+      / end #footer-nav
+      %ul.contact-info
+        %li.phone (123) 456-7890
+        %li.email= link_to 'bonjour@nukomeet.com', 'mailto:bonjour@nukomeet.com'
+      / end .contact-info
+    / end .three-fourth
+    .one-fourth.last
+      %span.title Social 
+      %ul.social-links
+        %li.twitter
+          %a{:href => "#"} Twitter
+        %li.facebook
+          %a{:href => "#"} Facebook
+        %li.digg
+          %a{:href => "#"} Digg
+        %li.vimeo
+          %a{:href => "#"} Vimeo
+        %li.youtube
+          %a{:href => "#"} YouTube
+        %li.skype
+          %a{:href => "#"} Skype
+      / end .social-links
+    / end .one-fourth.last
+  / end .container
+/ end #footer
+%footer#footer-bottom.clearfix
+  .container
+    %ul
+      %li Nukomeet © 2012
+      %li
+        %a{:href => "#"} Press 
+      %li
+        %a{:href => "#"} Join the guild 
+
