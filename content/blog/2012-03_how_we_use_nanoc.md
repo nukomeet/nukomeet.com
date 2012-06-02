@@ -1,5 +1,5 @@
 ---
-created_at: 2012-03-14 00:51:31 +0100
+created_at: 2012-03-14 
 kind: article
 publish: true
 title: "How we use Nanoc"
