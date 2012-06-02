@@ -18,6 +18,10 @@ compile '/stylesheet/*/' do
   # don’t filter or layout
 end
 
+compile '/js/*/' do
+  # don’t filter or layout
+end
+
 compile '/images/*/' do
 end
 
@@ -51,6 +55,10 @@ end
 
 route '/stylesheet/*/' do
   item.identifier.chop + '.css' 
+end
+
+route '/js/*/' do
+  item.identifier.chop + '.js' 
 end
 
 route '/fonts/*/' do
