@@ -615,6 +615,10 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             margin-bottom: 40px;
         }
 
+        .teampic {
+            margin-top: 20px;
+        }
+
         .baseline {
             font-weight: bold;
             font-size: 36px;
