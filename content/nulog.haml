@@ -50,7 +50,30 @@
         %a{:href => "#"} Web 
   .widget
     %h6.widget-title Twitter Feed
-    %ul.tweets-feed
-      %li
-        Oops, our Twitter feed is unavailable at the moment -
-        %a{href: "http://twitter.com/nukomeet"} Follow us on Twitter!
+    %script{:charset => "utf-8", :src => "http://widgets.twimg.com/j/2/widget.js"}
+      :javascript
+        new TWTR.Widget({
+          version: 2,
+          type: 'profile',
+          rpp: 4,
+          interval: 30000,
+          width: 200,
+          height: 300,
+          theme: {
+            shell: {
+              background: '#ffffff',
+              color: '#00aeff'
+            },
+            tweets: {
+              background: '#ffffff',
+              color: '#000000',
+              links: '#00ADFF'
+            }
+          },
+          features: {
+            scrollbar: true,
+            loop: false,
+            live: false,
+            behavior: 'all'
+          }
+        }).render().setUser('nukomeet').start();
