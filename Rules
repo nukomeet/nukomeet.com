@@ -71,7 +71,7 @@ end
 
 route '/blog/*/' do
   item.identifier.gsub(%r{^/blog/(\d+)-(\d+)_(.*)$}) do |match|
-    "/flow/#{$1}/#{$3}" + 'index.html'
+    "/#{$1}/#{$2}/#{$3}" + 'index.html'
   end 
 end
 
