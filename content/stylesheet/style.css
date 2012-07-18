@@ -28,8 +28,8 @@ dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset,blockquote,article,p { 
 body {
     background: #fff;
     border-top: 6px solid #3a3a3a;
-    color: #909090;
-    font: 11px/1.7 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: #101010;
+    font: 14px/1.6 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
 }
@@ -610,6 +610,14 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             padding: 0 0 35px;
         }
 
+        p a {
+            color: rgb(0,173,255);
+        }
+        p a:hover {
+            color: rgb(0,173,255);
+            text-decoration: underline;
+        }
+
         .slogan {
             font-size: 24px;
             margin-bottom: 40px;
@@ -647,6 +655,9 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
     .section-title {
         font-weight: 800;
         text-transform: uppercase;
+        border-bottom: 1px solid #707070;
+        margin-top: 12px;
+        margin-bottom: 24px;
     }
 
     /* -------------------------------------------------- */
@@ -1810,7 +1821,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
     .team-member .content { 
       padding: 0 15px; 
-      height: 250px;
+      height: 295px;
     }
 
         .team-member .name {
@@ -1824,10 +1835,12 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             color: #aeaeae;
             display: block;
             margin: 0 0 10px;
+              font-size: 11px;
         }
 
         .team-member p{
           text-align: left;
+          font-size: 11px;
         }
 
         .team-member .social-links {
@@ -2402,6 +2415,9 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 /* ---------------------------------------------------------------------- */
 /*  Footer
 /* ---------------------------------------------------------------------- */
+footer {
+    font: 11px/1.5 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
 
 #footer {
     background: #3a3a3a;
