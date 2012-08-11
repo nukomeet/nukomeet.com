@@ -71,7 +71,7 @@ hr {
 
 blockquote {
     background: #f8f8f8 url(/assets/images/quote.png) no-repeat 17px 21px;
-    font: italic 15px/1.6 'PT Serif', Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    font: normal 15px/1.6 'PT Serif', Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
     padding: 20px 20px 20px 55px;
 }
 
