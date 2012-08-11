@@ -109,6 +109,8 @@ blockquote {
     .button:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
         background: #3a3a3a;
         color: #fff;
+        font-weight: normal;
+        text-decoration: none;
     }
 
 .button {
@@ -611,11 +613,13 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         }
 
         p a {
-            color: rgb(0,173,255);
+            color: #00ADFF;
+            font-weight: bold;
         }
         p a:hover {
-            color: rgb(0,173,255);
+            color: #00ADFF;
             text-decoration: underline;
+            font-weight: bold;
         }
 
         .slogan {
@@ -726,9 +730,9 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
     .image-gallery-slider-nav {}
 
         .image-gallery-slider-nav a {
-            background: rgb(241, 90, 35) url(/assets/images/slider-arrows-medium.png) no-repeat 0 0; /* Fallback for old IE */
+            background: rgb(0, 173, 255) url(/assets/images/slider-arrows-medium.png) no-repeat 0 0; /* Fallback for old IE */
             filter: alpha(opacity=60); /* Fallback for old IE */
-            background: rgba(241, 90, 35, 0.6) url(/assets/images/slider-arrows-medium.png) no-repeat 0 0;
+            background: rgba(0, 173, 255, 0.6) url(/assets/images/slider-arrows-medium.png) no-repeat 0 0;
             color: transparent;
             cursor: pointer;
             display: block;
@@ -753,8 +757,8 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         }
 
             .image-gallery-slider-nav a:hover, .image-gallery-slider-nav a:active {
-                background-color: rgb(241, 90, 35);
-                background-color: rgba(241, 90, 35, 1);
+                background-color: rgb(0, 173, 255);
+                background-color: rgba(0, 173, 255, 1);
                 filter: alpha(opacity=100); /* Fallback for old IE */
             }
 
