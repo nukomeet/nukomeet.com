@@ -89,7 +89,7 @@ blockquote {
     blockquote small { font-size: 12px; }
 
 .button, input[type="submit"], input[type="reset"], button {
-    background: #f15a23;
+    background: #00adff;
     border: none;
     color: #fff;
     cursor: pointer;    
