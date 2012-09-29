@@ -39,6 +39,9 @@ compile '/blog/*/' do
   layout 'default'
 end
 
+compile 'googleb74edef4a46cf19d' do
+end
+
 compile 'sitemap' do
   filter :haml
 end
@@ -79,6 +82,10 @@ route '/blog/*/' do
   item.identifier.gsub(%r{^/blog/(\d+)-(\d+)_(.*)$}) do |match|
     "/#{$1}/#{$2}/#{$3}" + 'index.html'
   end 
+end
+
+route 'googleb74edef4a46cf19d' do
+  item.identifier.chop + '.html'
 end
 
 route 'sitemap' do
