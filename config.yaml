@@ -84,3 +84,5 @@ deploy:
   default:
     kind: rsync
     dst:  "nukomeet:/srv/www/nukomeet.com/public_html"
+
+base_url: http://nukomeet.com
