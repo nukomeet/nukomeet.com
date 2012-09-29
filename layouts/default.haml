@@ -7,18 +7,18 @@
   %head
     %meta{charset: "utf-8"}
     %meta{content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
-    %meta{content: "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}
-    %title Meet Our Team - Nukomeet 
-    %meta{content: "Nukomeet is a community of self-managed digital experts.  We use cutting-edge technologies to build top-notch apps, for clients or for fun. ", name: "description"}
-    %meta{content: "Nukomeet Team", :name => "author"}
+    %meta{content: "width=device-width, initial-scale=1, maximum-scale=1", name: "viewport"}
+    %title Nukomeet : #{@item[:title].nil? ? 'We make software' : @item[:title]}
+    %meta{content: "Nukomeet is a flat organization company with exceptional talents who are passionate about creating great software: for clients or for fun.", name: "description"}
+    %meta{content: "Nukomeet Team", name: "author"}
     / [if !lte IE 6]><!
-    %link{href: "/stylesheet/style.css", :media => "screen", :rel => "stylesheet"}/
+    %link{href: "/stylesheet/style.css", media: "screen", rel: "stylesheet"}/
     %link{href: "//fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic", :rel => "stylesheet"}/
     / <![endif]
     /[if lte IE 6]
       <link rel="stylesheet" href="//universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection">
     / HTML5 Shiv + detect touch events
-    %script{:src => "/js/modernizr.custom.js"}
+    %script{src: "/js/modernizr.custom.js"}
   %body
     %header#header.container.clearfix
       %a#logo{href: "/"}
@@ -33,16 +33,16 @@
     = render '_ganalytics'
 
     /[if !lte IE 6]>
-    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
+    %script{src: "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
     :javascript
       window.jQuery || document.write('<\/script>')
-    %script{:src => "/js/respond.min.js"}
-    %script{:src => "/js/jquery.fancybox.pack.js"}
-    %script{:src => "/js/jquery.easing.1.3.js"}
-    %script{:src => "/js/jquery.smartStartSlider.js"}
-    %script{:src => "/js/jquery.jcarousel.min.js"}
-    %script{:src => "/js/jquery.cycle.all.js"}
-    %script{:src => "/js/jquery.isotope.js"}
-    %script{:src => "//maps.google.com/maps/api/js?sensor=false"}
-    %script{:src => "/js/jquery.touchSwipe.js"}
-    %script{:src => "/js/custom.js"}
+    %script{src: "/js/respond.min.js"}
+    %script{src: "/js/jquery.fancybox.pack.js"}
+    %script{src: "/js/jquery.easing.1.3.js"}
+    %script{src: "/js/jquery.smartStartSlider.js"}
+    %script{src: "/js/jquery.jcarousel.min.js"}
+    %script{src: "/js/jquery.cycle.all.js"}
+    %script{src: "/js/jquery.isotope.js"}
+    %script{src: "//maps.google.com/maps/api/js?sensor=false"}
+    %script{src: "/js/jquery.touchSwipe.js"}
+    %script{src: "/js/custom.js"}
