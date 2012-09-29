@@ -39,6 +39,10 @@ compile '/blog/*/' do
   layout 'default'
 end
 
+compile 'sitemap' do
+  filter :haml
+end
+
 compile '*' do
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
 
@@ -53,6 +57,8 @@ compile '*' do
     layout 'default'
   end
 end
+
+
 
 route '/stylesheet/*/' do
   item.identifier.chop + '.css' 
@@ -73,6 +79,10 @@ route '/blog/*/' do
   item.identifier.gsub(%r{^/blog/(\d+)-(\d+)_(.*)$}) do |match|
     "/#{$1}/#{$2}/#{$3}" + 'index.html'
   end 
+end
+
+route 'sitemap' do
+  item.identifier.chop + '.xml'
 end
 
 route '*' do
