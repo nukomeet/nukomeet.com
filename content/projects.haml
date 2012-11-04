@@ -2,15 +2,11 @@
 title: Projects 
 ---
 %header.page-header
-  %h1.page-title Our Projects 
+  %h1.page-title Latest work 
   %ul#portfolio-items-filter
-    %li Showing
+    %li Select
     %li
       %a{"data-categories" => "*"} All
-    %li
-      %a{"data-categories" => "consulting"} Consulting 
-    %li
-      %a{"data-categories" => "integration"} Integration 
     %li
       %a{"data-categories" => "arch"} Architecture 
     %li
@@ -19,16 +15,28 @@ title: Projects
       %a{"data-categories" => "web"} Web 
     %li
       %a{"data-categories" => "open-source"} Open Source 
+    %li
+      %a{"data-categories" => "iPad"} iPad 
+    %li
+      %a{"data-categories" => "android"} Android
+    %li
+      %a{"data-categories" => "iOS"} iOS 
+    %li
+      %a{"data-categories" => "Node"} Node.js 
+    %li
+      %a{"data-categories" => "rails"} Ruby on Rails 
+    %li
+      %a{"data-categories" => "game"} Game 
   / end #portfolio-items-filter
 / end .page-header
 %section#portfolio-items.clearfix
-  %article.one-third{"data-categories" => "web mobile development"}
+  %article.one-third{"data-categories" => "game iPad Node arch web mobile development"}
     %img{:alt => "", :src => "/assets/images/gdf.png"}
     %a.project-meta{:href => "http://gdfsuez.com"}
       %h5.title Serious Game on iPad for GDF
       %span.categories Game / iPad / Node.js / iOs 
 
-  %article.one-third{"data-categories" => "web rails development open source"}
+  %article.one-third{"data-categories" => "arch web rails development open-source"}
     %img{:alt => "", :src => "/assets/images/coworfing_logo.png"}
     %a.project-meta{href: "/projects/coworfing/"}
       %h5.title Coworfing web 
@@ -40,25 +48,25 @@ title: Projects
       %h5.title Coworfing mobile 
       %span.categories Mobile / Android / iOS  
 
-  %article.one-third{"data-categories" => "mobile android iOS open source"}
+  %article.one-third{"data-categories" => "mobile android iOS open-source"}
     %img{:alt => "", :src => "/assets/images/seth.png"}
     %a.project-meta{href: "/projects/seth/"}
       %h5.title Seth Goes Mobile 
       %span.categories Mobile / Android / iOS / Open Source
 
-  %article.one-third{"data-categories" => "web development"}
+  %article.one-third{"data-categories" => "saas rails arch web development"}
     %img{alt: "", src: "/assets/images/quickstudio.png"}
     %a.project-meta{:href => "http://quickstudio.com"}
       %h5.title Quick Studio 
       %span.categories Web / Rails / Saas / Development 
 
-  %article.one-third{"data-categories" => "web development"}
+  %article.one-third{"data-categories" => "arch web development"}
     %img{alt: "", src: "/assets/images/slicecook.png"}
     %a.project-meta{href: "/projects/slicecook/"}
       %h5.title Slicecook 
       %span.categories Web / Online Marketplace / Rails / Development 
 
-  %article.one-third{"data-categories" => "animation web"}
+  %article.one-third{"data-categories" => "payment development animation web"}
     %img{alt: "", src:  "/assets/images/freyment.png"}
     %a.project-meta{:href => "#"}
       %h5.title Freyment 
