@@ -1,50 +1,86 @@
-%h1.baseline.align-center
-  We make software.
-%p.align-center
-  %img{:src => "/assets/images/nukomeet_av.png"}
-%h2.slogan.align-center 
-  We are a flat organization company with exceptional talents
+%h2.slogan.align-center
+  A multidisciplinary 
+  %a{:href => "/about"} team
+  crafting mobile apps, websites and complex software
   %br
-  who are passionate about creating great software.
+  We do consulting and share our expertise in technoloy.
+  %br
+%h1.baseline.align-center
+  %a{:href => "mailto:bonjour@nukomeet.com"}Ask us anything  
+%hr
+%header.page-header
+  %h1.page-title Latest work 
+  %ul#portfolio-items-filter
+    %li Select
+    %li
+      %a{"data-categories" => "*"} All
+    %li
+      %a{"data-categories" => "arch"} Architecture 
+    %li
+      %a{"data-categories" => "mobile"} Mobile 
+    %li
+      %a{"data-categories" => "web"} Web 
+    %li
+      %a{"data-categories" => "open-source"} Open Source 
+    %li
+      %a{"data-categories" => "iPad"} iPad 
+    %li
+      %a{"data-categories" => "android"} Android
+    %li
+      %a{"data-categories" => "iOS"} iOS 
+    %li
+      %a{"data-categories" => "Node"} Node.js 
+    %li
+      %a{"data-categories" => "rails"} Ruby on Rails 
+    %li
+      %a{"data-categories" => "game"} Game 
+  / end #portfolio-items-filter
+/ end .page-header
+%section#portfolio-items.clearfix
+  %article.one-third{"data-categories" => "game iPad Node arch web mobile development"}
+    %img{:alt => "", :src => "/assets/images/gdf.png"}
+    %a.project-meta{:href => "http://gdfsuez.com"}
+      %h5.title Serious Game on iPad for GDF
+      %span.categories Game / iPad / Node.js / iOs 
 
-%h3 Testimonials
+  %article.one-third{"data-categories" => "arch web rails development open-source"}
+    %img{:alt => "", :src => "/assets/images/coworfing_logo.png"}
+    %a.project-meta{href: "/projects/coworfing/"}
+      %h5.title Coworfing web 
+      %span.categories Web / Rails / Development / Open Source
 
-.one-half
-  %blockquote
-    I hired Zaiste and his team to help with setting up new infrastructure for our Rails applications, and to improve existing architecture. We had very smooth communication process. The team was always available to suggest changes and transfer their expertise. We were able to quickly advance with the project and I'm satisfied with results. If you are looking for a first-class Rails experts with DevOps knowledge, you should get in touch with Zaiste.
-  %p
-    %strong Capucine Surrel, 
-    Founder at 
-    = link_to 'Custle', 'http://www.custle.com/'
+  %article.one-third{"data-categories" => "mobile android iOS"}
+    %img{:alt => "", :src => "/assets/images/coworfing.png"}
+    %a.project-meta{href: "/projects/coworfing_mobile/"}
+      %h5.title Coworfing mobile 
+      %span.categories Mobile / Android / iOS  
 
-.one-half.last
-  %blockquote 
-    It has been now more than a year that I work regularly with Alban, requiring his skills on diverse missions related to Wordpress development, web design, SEO, online identity, social media management, technology consulting and web marketing. He has always been efficient, understanding problems quickly, delivering on time with quality and providing the best service. I would definitely recommend him, for highly abstract problem solving, as well as very down to earth tasks.
-  %p 
-    %strong Marie Boulet,
-    Founder at
-    = link_to 'Ethos', 'http://wwww.ethos.fr'
+  %article.one-third{"data-categories" => "mobile android iOS open-source"}
+    %img{:alt => "", :src => "/assets/images/seth.png"}
+    %a.project-meta{href: "/projects/seth/"}
+      %h5.title Seth Goes Mobile 
+      %span.categories Mobile / Android / iOS / Open Source
 
-.one-half
-  %blockquote
-    Dear Alban, with regards to the assignment you did to help build web awareness of my new firm, I am extremely thankful and respectful for this outstanding contribution. Not only you picked right on the kind of image I wished to convey, you found the proper tone, which hit my target Managers perfectly. You also helped me in my first foot prints into the web communication. I wish the Clients of your new Company to get as great satisfaction in the long run
-  %p 
-    %strong Jean-Philippe Caude,
-    Founder at
-    = link_to 'Caude Management', 'http://www.caudemanagement.com/'
+  %article.one-third{"data-categories" => "saas rails arch web development"}
+    %img{alt: "", src: "/assets/images/quickstudio.png"}
+    %a.project-meta{:href => "http://quickstudio.com"}
+      %h5.title Quick Studio 
+      %span.categories Web / Rails / Saas / Development 
 
-.one-half.last
-  %blockquote
-    I'd like to thanks Nukomeet again for their diligence in the mission we did together. The result is here and our client is satisfied. For us, the mission went well in general. We really liked Zaiste's availability and his responsiveness. Nothing to complain there. I can't judge the quality of the code but I can say that, first, the expected result was here, and, second, Zaiste was spontaneously solving problems we didn't think about beforehand.
-  %p
-    %strong Alexis Bourassé,
-    Consultant at,
-    = link_to 'Headlink Partners (Beijaflore Group)', 'http://www.headlink-partners.com/'
+  %article.one-third{"data-categories" => "arch web development"}
+    %img{alt: "", src: "/assets/images/slicecook.png"}
+    %a.project-meta{href: "/projects/slicecook/"}
+      %h5.title Slicecook 
+      %span.categories Web / Online Marketplace / Rails / Development 
 
-.one-half
-  %blockquote
-    Nukomeet helped our company to build a web presence on the Internet. We had very precise requirements that tthey understood right away. They work fast and are very reliable. 
-  %p 
-    %strong Rudy Guénaire,
-    Founder at
-    = link_to 'Paris New-York', '#'
+  %article.one-third{"data-categories" => "payment development animation web"}
+    %img{alt: "", src:  "/assets/images/freyment.png"}
+    %a.project-meta{:href => "#"}
+      %h5.title Freyment 
+      %span.categories Web / Development / Online Payment
+
+  %article.one-third{"data-categories" => "open-source"}
+    %img{alt: "", src:  "/assets/images/vimified.png"}
+    %a.project-meta{:href => "https://github.com/zaiste/vimified"}
+      %h5.title Vimified 
+      %span.categories Open Source 
