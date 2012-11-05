@@ -624,7 +624,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
         .slogan {
             font-size: 24px;
-            margin-bottom: 40px;
+            line-height: 40px;
         }
 
         .teampic {
@@ -634,6 +634,8 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         .baseline {
             font-weight: bold;
             font-size: 36px;
+            margin-top:20px;
+            margin-bottom: 60px;
         }
 
         .page-title { margin-top: 0; }
@@ -2104,7 +2106,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 #portfolio-items-filter {
     float: right;
-    margin: -65px 0 0;
+    margin: -35px 0 0;
     overflow: hidden;
 }
 
