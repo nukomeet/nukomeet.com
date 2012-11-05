@@ -20,10 +20,10 @@ Being a Nukomeet sleeper agent means to continue leading your life, don't change
 
 If things go well and we are contracted by your contact, we give back 10% of the value of the first contract signed.
 
-To help you with your mission, you can join our [Facebook group]("https://www.facebook.com/groups/272379212864411/"), [download]("http://nukomeet.com/assets/images/nucard.jpg") and print a template of a business card. You're allowed to change it, make it fun or pink (and send us your best design).
+To help you with your mission, you can join our [Facebook group]("https://www.facebook.com/groups/272379212864411/"), [download]("http://nukomeet.com/assets/images/nucard.png") and print a template of a business card. You're allowed to change it, make it fun or pink (and send us your best design).
 
-Is it legal? Of course, you would have the status of apporteur d'affaire under the French law and be paid once the contract is finished, paid, and that we receive your bill. 
+Is it legal? Of course, you would have the status of apporteur d'affaire under the French law and be paid once the contract is finished, paid, and that we receive your bill.
 
 Interested? Print your cards and start your mission!
 
-![The flyer machine](/assets/images/flyermachine.jpg "The Flyer Machine")
+![The flyer machine](/assets/images/flyermachine.png "The Flyer Machine")
