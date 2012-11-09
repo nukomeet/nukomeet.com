@@ -24,6 +24,12 @@ To help you with your mission, you can join our [Facebook group](https://www.fac
 
 Is it legal? Of course, you would have the status of apporteur d'affaire under the French law and be paid once the contract is finished, paid, and that we receive your bill.
 
+*"I was glad to recommend Nukomeet and bring them some business because i know
+these guys are nice and very good at what they do. Obviously the 10% commission
+didn't hurt either :)"*
+Says Sebastien, one of our first sleeper agents, who made 875 euros simply by
+sending a mail.
+
 Interested? Print your cards and start your mission!
 
 [The flyer machine](/assets/images/blog/nucard.png)
