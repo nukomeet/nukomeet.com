@@ -89,7 +89,7 @@ blockquote {
     blockquote small { font-size: 12px; }
 
 .button, input[type="submit"], input[type="reset"], button {
-    background: #00adff;
+    background: #00aed1;
     border: none;
     color: #fff;
     cursor: pointer;    
@@ -512,9 +512,9 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
                     #main-nav a:hover, #main-nav .hover > a, #main-nav .current > a {
                         border-bottom-color: #AFAFAF;
-                        border-top-color: #00ADFF;
+                        border-top-color: #00AED1;
                         /* color: #f15a23; */
-                        color: #00ADFF;
+                        color: #00AED1;
                     }
 
                     #main-nav a:hover, #main-nav .hover > a, #main-nav .current > a { background: #f8f8f8; }
@@ -558,7 +558,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                         }
 
                             #main-nav ul ul a:hover, #main-nav ul ul .hover > a, #main-nav ul ul .current > a, #main-nav ul ul .current > a:hover {
-                                background: #00ADFF;
+                                background: #00AED1;
                                 color: #fff;
                             }
 
@@ -613,18 +613,18 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         }
 
         p a {
-            color: #00ADFF;
+            color: #00AED1;
             font-weight: bold;
         }
         p a:hover {
-            color: #00ADFF;
+            color: #00AED1;
             text-decoration: underline;
             font-weight: bold;
         }
 
         .slogan {
             font-size: 24px;
-            line-height: 40px;
+            margin-bottom: 40px;
         }
 
         .teampic {
@@ -634,8 +634,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         .baseline {
             font-weight: bold;
             font-size: 36px;
-            margin-top:20px;
-            margin-bottom: 60px;
         }
 
         .page-title { margin-top: 0; }
@@ -661,9 +659,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
     .section-title {
         font-weight: 800;
         text-transform: uppercase;
-        border-bottom: 1px solid #707070;
-        margin-top: 12px;
-        margin-bottom: 24px;
     }
 
     /* -------------------------------------------------- */
@@ -802,7 +797,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
                 .acc-trigger a:hover { background-color: #f8f8f8; }
 
-                .acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover { color: #00ADFF; }
+                .acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover { color: #00AED1; }
 
                 .acc-trigger.active a:hover { background-color: transparent; }
 
@@ -1206,7 +1201,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         z-index: 100;
     }
 
-        #back-to-top:hover, .touch-device #back-to-top:active { background-color: #00ADFF; }
+        #back-to-top:hover, .touch-device #back-to-top:active { background-color: #00AED1; }
             
 /* ---------------------------------------------------------------------- */
 /*  Home
@@ -1332,7 +1327,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                 
                 .ss-slider.fully-loaded .slide-button:hover, .ss-slider.fully-loaded .slide-button.active {
                     background: #f0f0f0;
-                    color: #00ADFF;
+                    color: #00AED1;
                 }
                 
                 .ss-slider.fully-loaded .slide-button:hover { border-top-color: #aeaeae; }
@@ -1639,7 +1634,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
         .no-js .projects-carousel > li, .no-js #portfolio-items > article { margin-bottom: 40px; }
 
-		
+
 
         .projects-carousel a, #portfolio-items article a {
             border-bottom: 1px solid #efefef;
@@ -1676,7 +1671,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
             .projects-carousel a:hover, #portfolio-items > article:hover {
                 background: #f8f8f8;
-                border-bottom: 1px solid #00ADFF;
+                border-bottom: 1px solid #00AED1;
             }
 
             .projects-carousel a:hover img, #portfolio-items > article:hover img {
@@ -1684,7 +1679,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                 opacity: 1;
             }
 
-            .projects-carousel a:hover .title, #portfolio-items > article:hover .title { color: #00ADFF; }
+            .projects-carousel a:hover .title, #portfolio-items > article:hover .title { color: #00AED1; }
 
     /* -------------------------------------------------- */
     /*  Post Carousel
@@ -1825,8 +1820,8 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
     .team-member > a > .photo { margin: 0 auto; }
 
-    .team-member .content { 
-      padding: 0 15px; 
+    .team-member .content {
+      padding: 0 15px;
       height: 295px;
     }
 
@@ -1927,7 +1922,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                     font-style: italic;
                 }
 
-                    .entry-meta a:hover { color: #00adff; }
+                    .entry-meta a:hover { color: #00aed1; }
             
         .post-format {
             background-color: #ddd;
@@ -2031,7 +2026,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                                 margin: 1px 0 5px;
                             }
 
-                                .comment .author a:hover, .comment .date a:hover { color: #00adff; }
+                                .comment .author a:hover, .comment .date a:hover { color: #00aed1; }
 
                     .comment .children {
                         margin: 0;
@@ -2095,7 +2090,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
                 .pagination a:hover {
                     border-color: #e6edef;
-                    color: #00adff;
+                    color: #00aed1;
                 }
 
                 .pagination .next a, .pagination .prev a { border: none; }
@@ -2127,7 +2122,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
     .ie7 #portfolio-items-filter li:first-child { display: none !important; }
 
         #portfolio-items-filter a {
-            background: #00ADFF;
+            background: #00aed1;
             color: #fff;
             cursor: pointer;
             display: block;
@@ -2222,7 +2217,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             margin-top: -5px;
         }
 
-        .single-project .page-header a:hover { color: #00adff; }
+        .single-project .page-header a:hover { color: #00aed1; }
 
     .single-project .image-gallery-slider ul {
         -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .15);
@@ -2332,7 +2327,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                     padding: 5px 0 5px 15px;
                 }
                     
-                    .categories a:hover { color: #00adff; }
+                    .categories a:hover { color: #00aed1; }
 
         /* ---------------------------------------- */
         /*  Accordion Content
@@ -2376,7 +2371,7 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             padding: 0 0 0 30px;
         }
 
-            #sidebar .tweets-feed li a, #footer .tweets-feed li a { color: #00adff; }
+            #sidebar .tweets-feed li a, #footer .tweets-feed li a { color: #00aed1; }
 
                 #sidebar .tweets-feed li a:hover, #sidebar .tweets-feed .date a:hover { color: #3a3a3a; }
 
@@ -2456,7 +2451,7 @@ footer {
     #footer-bottom, #footer-bottom a { color: #868686; }
 
         #footer a:hover,
-        #footer-bottom a:hover { color: #00adff; }
+        #footer-bottom a:hover { color: #00aed1; }
 
     #footer .title {
         border-bottom: 1px solid #4b4b4b;
@@ -2644,8 +2639,7 @@ footer {
             .social-links li.twitter a {
                 background-image: url(/assets/images/icon-twitter.png);
                 background-position: 0 -15px;
-                height: 15px;
-                width: 21px;
+                height: 16px;
             }
 
             .social-links li.vimeo a {
