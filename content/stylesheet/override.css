@@ -13,3 +13,12 @@ h4 {
 .section-title {
   margin-bottom: 30px;
 }
+
+.lined {
+  border-top: 1px solid #CCC;
+  padding-top: 30px;
+}
+
+.strong {
+  font-size: 22px;
+}
