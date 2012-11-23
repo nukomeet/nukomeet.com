@@ -1,0 +1,37 @@
+.one-fourth
+  %h4 Company Info
+  %p
+    Nukomeet SAS
+    %br
+    Phone: (123) 456-7890
+    %br
+    Email:
+    %a{href: 'mailto:bonjour@nukomeet.com'} bonjour@nukomeet.com
+
+.three-fourth.last
+  %h3 Let's keep in touch
+  %form.contact-form{action: "/contact/send/mail", method: "post"}
+    %p.input-block
+      %label{:for => "contact-name"}
+        %strong Name
+        (required)
+      %input#contact-name{:name => "name", :required => "", :type => "text", :value => ""}
+    %p.input-block
+      %label{:for => "contact-email"}
+        %strong Email
+        (required)
+      %input#contact-email{:name => "from", :required => "", :type => "email", :value => ""}
+    %p.input-block
+      %label{:for => "contact-subject"}
+        %strong Subject
+      %input#contact-subject{:name => "subject", :type => "text", :value => ""}
+    %p.textarea-block
+      %label{:for => "contact-message"}
+        %strong Your Message
+        (required)
+      %textarea#contact-message{:cols => "88", :name => "body", :required => "", :rows => "6"}
+    .hidden
+      %label{:for => "contact-spam-check"} Do not fill out this field:
+      %input#contact-spam-check{:name => "spam-check", :type => "text", :value => ""}
+    %input{:type => "submit", :value => "Submit"}
+      .clear
