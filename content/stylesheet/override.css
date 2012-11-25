@@ -22,3 +22,7 @@ h4 {
 .strong {
   font-size: 22px;
 }
+
+.button.grey {
+  background-color: #8A8A8A;
+}
