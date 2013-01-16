@@ -1,35 +1,30 @@
 %footer#footer.clearfix
   .container
-    .three-fourth
-      %nav#footer-nav.clearfix
-        %ul
-          %li= link_to 'Home', '/'
-          %li= link_to 'About', '/about/'
-          %li= link_to 'Projects', '/projects/'
-          %li= link_to 'Press', '/press/'
-          %li= link_to 'Blog', '/blog/'
-      / end #footer-nav
+    .one-third
+      %ul.social-links
+        %li.twitter
+          %a{href: "http://twitter.com/nukomeet"} Twitter
+        %li.facebook
+          %a{href: "http://facebook.com/nukomeet"} Facebook
+        %li.github
+          %a{href: "http://github.com/nukomeet"} Github
+    .one-third
       %ul.contact-info
         %li.phone= link_to 'Open Chat', 'https://www.hipchat.com/g4T5W6KqS'
         %li.email= link_to 'bonjour@nukomeet.com', 'mailto:bonjour@nukomeet.com'
       / end .contact-info
     / end .three-fourth
-    .one-fourth.last
-      %span.title Elsewhere on the Internet
-      %ul.social-links
-        %li.github
-          %a{href: "http://github.com/nukomeet"} Github
-        %li.twitter
-          %a{href: "http://twitter.com/nukomeet"} Twitter
-        %li.facebook
-          %a{href: "http://facebook.com/nukomeet"} Facebook
+    .one-third.last.bitcoin
+      %img{src: '/assets/images/bitcoin.png'}
 
 %footer#footer-bottom.clearfix
   .container
-    %ul
-      %li Nukomeet © 2012
-      %li
-        %a{href: "/about/"} Our story
-      %li
-        %a{href: "/press/"} Press
+    %nav#footer-nav.clearfix
+      %ul
+        %li= link_to 'Home', '/'
+        %li= link_to 'About', '/about/'
+        %li= link_to 'Projects', '/projects/'
+        %li= link_to 'Press', '/press/'
+        %li= link_to 'Blog', '/blog/'
+      / end #footer-nav
 
