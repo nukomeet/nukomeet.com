@@ -13,7 +13,7 @@ there](http://weusecoins.com).
 
 A few reasons why:
 It is safer than credit card payment.
-We don't the rates applied by banks and Paypal are fair.
+We think that the rates applied by banks and Paypal are not fair.
 And we like the idea of using the fruit of a open source distributed software as
 a mean of payment.
 
