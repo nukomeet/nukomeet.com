@@ -23,5 +23,5 @@
       - (@item[:technology] || []).each do |el|
         %li= el
     %p
-      %a.button{href: "https://play.google.com/store/apps/details?id=com.workshop"} Download the app
+      %a.button{href: "#{@item[:link]}"} View it
     %p
