@@ -39,6 +39,12 @@ compile '/blog/*/' do
   layout 'default'
 end
 
+compile '/projects/*/' do
+  filter :rdiscount, :extensions => %w( strict smart )
+  layout 'project'
+  layout 'default'
+end
+
 compile 'googleb74edef4a46cf19d' do
 end
 
@@ -64,11 +70,11 @@ end
 
 
 route '/stylesheet/*/' do
-  item.identifier.chop + '.css' 
+  item.identifier.chop + '.css'
 end
 
 route '/js/*/' do
-  item.identifier.chop + '.js' 
+  item.identifier.chop + '.js'
 end
 
 route '/fonts/*/' do
@@ -81,7 +87,7 @@ end
 route '/blog/*/' do
   item.identifier.gsub(%r{^/blog/(\d+)-(\d+)_(.*)$}) do |match|
     "/#{$1}/#{$2}/#{$3}" + 'index.html'
-  end 
+  end
 end
 
 route 'googleb74edef4a46cf19d' do
