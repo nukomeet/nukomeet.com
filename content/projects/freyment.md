@@ -15,4 +15,5 @@ technology:
 link: http://imaps-france.fr
 ---
 
-FPC is an application that automates internal sales process at Freyssinet.
+Freyment is a ticketing systems, developped for IMAPS France that integrates
+with BNP Paribas.
