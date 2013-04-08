@@ -9,11 +9,17 @@ categories:
 - Integration
 thumb: /assets/images/freyssinet.png
 gallery:
-
+-
+  href: http://freyssinet.com
+  src: /assets/images/projects/freyform1.png
+  alt: FPC
+-
+  href: http://freyssinet.com
+  src: /assets/images/projects/freyform2.png
+  alt: FPC
 technology:
 - Rails 3.2
 - Cuba.rb
-- Backbone.js
 link: http://freyssinet.com
 ---
 
