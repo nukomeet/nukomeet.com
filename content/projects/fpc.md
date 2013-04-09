@@ -19,8 +19,9 @@ gallery:
   alt: FPC
 technology:
 - Rails 3.2
+- PostgreSQL
 - Cuba.rb
 link: http://freyssinet.com
 ---
 
-FPC is an application that automates internal sales process at Freyssinet.
+FPC automates internal sales process at Freyssinet. Application consists of shop build with Ruby on Rails and external services api build with Cuba.rb. Shop gives FPC internal international clients opportunity to order products without need of commercials to do estimation and validation of offer details thanks to developed api which acts as intermediary sevice providing ability to integrate with external aplications.
