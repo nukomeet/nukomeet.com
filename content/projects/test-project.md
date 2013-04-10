@@ -7,18 +7,10 @@ categories:
 - Mobile
 thumb:
 gallery:
--
-  href: http://coworfing.com
-  src: /assets/images/projects/coworfing_mobile1.png
-  alt: Some Text
--
-  href: http://coworfing.com
-  src: /assets/images/projects/coworfing_mobile2.png
-  alt: Some Text
 
 technology:
-- JavaScript
-- Foo
+- BrainFuck
+- BrainFuck on FooBar
 ---
 
-This is test description.
+This is a widget factory. .

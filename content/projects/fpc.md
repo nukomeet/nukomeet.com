@@ -22,4 +22,6 @@ technology:
 link: http://freyssinet.com
 ---
 
-FPC automates internal sales process at Freyssinet. Application consists of shop build with Ruby on Rails and external services api build with Cuba.rb. Shop gives FPC internal international clients opportunity to order products without need of commercials to do estimation and validation of offer details thanks to developed api which acts as intermediary sevice providing ability to integrate with external aplications.
+FPC automates internal sales process at Freyssinet. It consists of a custom e-commerce platform built with Rails and an external API consumer endpoint, built with Cuba.rb.
+
+The platform gives FPC clients opportunity to order products without need of commercials to do an estimation or a validation manually.
