@@ -4,8 +4,6 @@ handle: fpc
 kind: project
 categories:
 - Web
-- Rails
-- UX & UI
 - Integration
 thumb: /assets/images/freyssinet.png
 gallery:

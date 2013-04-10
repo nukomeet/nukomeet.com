@@ -5,8 +5,6 @@ kind: project
 thumb: /assets/images/slicecook.png
 categories:
 - Web
-- SaaS
-- Rails
 gallery:
 -
   href: http://coworfing.com

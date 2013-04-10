@@ -3,7 +3,6 @@ title: Coworfing
 handle: coworfing
 kind: project
 categories:
-- Rails
 - Web
 - Open Source
 thumb: /assets/images/coworfing_logo.png

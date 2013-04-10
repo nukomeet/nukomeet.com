@@ -5,7 +5,6 @@ kind: project
 categories:
 - Web
 - Payment
-- Ticketing
 thumb: /assets/images/freyment.png
 gallery:
 

@@ -4,9 +4,6 @@ handle: quickstudio
 kind: project
 categories:
 - Web
-- Rails
-- SaaS
-- Backbone.js
 thumb: /assets/images/quickstudio.png
 gallery:
 

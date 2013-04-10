@@ -3,10 +3,9 @@ title: Test Project
 handle: test-project
 kind: project
 categories:
-- Rails
-- Java
-- iPad
-thumb: /assets/images/headlink.png
+- Web
+- Mobile
+thumb:
 gallery:
 -
   href: http://coworfing.com
