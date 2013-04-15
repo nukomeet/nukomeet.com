@@ -6,17 +6,19 @@ gem 'mime-types'
 gem 'systemu'
 gem 'rdiscount'
 gem 'fssm'
+gem 'yuicompressor'
 
-# Code Highlight 
+# Code Highlight
 gem 'pygments.rb'
 
 gem 'redcarpet'
-gem 'haml', '~> 3.2.0.alpha.13' 
+gem 'haml'
 gem 'nokogiri'
 gem 'less'
 gem 'therubyracer'
+gem 'thin'
 
-# XML Sitemap 
+# XML Sitemap
 gem 'builder'
 
 gem 'nanoc'
