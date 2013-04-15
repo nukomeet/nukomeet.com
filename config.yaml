@@ -80,6 +80,16 @@ ganalytics:
   domain: nukomeet.com
   site_id: UA-29862765-1
 
+debug: false
+
+css:
+ - style
+ - override
+ - icons
+
+autocompile:
+  handler: thin
+
 deploy:
   default:
     kind: rsync

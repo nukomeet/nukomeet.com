@@ -12,4 +12,17 @@ def link_to_with_current(text, path, desc)
   else
     "<li>#{link_to(text, path, :'data-description' => desc)}</li>"
   end
-end 
+end
+
+def combined(assets, type='css')
+  content = []
+
+  assets.each do |asset|
+    item = @items.find { |i| i.identifier == "/#{type}/#{asset}/" }
+    if item
+      content << item.compiled_content
+    end
+  end
+
+  content.join("\n")
+end
