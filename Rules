@@ -25,7 +25,13 @@ compile '/css/*/' do
 end
 
 compile '/js/*/' do
-  # don’t filter or layout
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if ext == 'erb'
+    filter :erb
+  end
+
+  filter :yui_compressor, type: 'js'
 end
 
 compile '/images/*/' do
