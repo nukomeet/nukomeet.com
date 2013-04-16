@@ -21,7 +21,7 @@ We’ve done our accounting on [Freshbooks](http://freshbooks.com) for a while a
 
 We host some of our web apps on [Heroku](http://heroku.com) (some clients prefer an easy management over cost), our static websites on Github Pages, the PHP apps (rare) on Appfog and a lot of stuff on Hetzner servers.
 
-For hosting code repositories, we use [Github](http://github.com) and [Bitbucket](http://bitbucket.org).  This is also where we will assign tasks related to coding.
+For hosting code repositories, we use [Github](http://github.com) and [Bitbucket](http://bitbucket.org).  This is also where we will assign tasks related to coding. Our workflow as a team follows the rules of a fork and pull model, taken from open-source projects. [read this for more details on a fork and pull workflow](http://zaiste.net/2012/05/how_i_use_git_-_basics/).
 
 For tasks we use [Asana](http://asana.com). We also use it as a CRM application (each lead/client is a task) after trying tons of things (Base, Streak, Capsule...) that never caught us.
 
