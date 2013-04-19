@@ -60,6 +60,9 @@ end
 compile 'googleb74edef4a46cf19d' do
 end
 
+compile 'google51cdab9265302e7f' do
+end
+
 compile 'sitemap' do
   filter :haml
 end
@@ -103,6 +106,10 @@ route '/blog/*/' do
 end
 
 route 'googleb74edef4a46cf19d' do
+  item.identifier.chop + '.html'
+end
+
+route 'google51cdab9265302e7f' do
   item.identifier.chop + '.html'
 end
 
