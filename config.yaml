@@ -87,6 +87,16 @@ css:
  - override
  - icons
 
+js:
+ - respond
+ - jquery.fancybox
+ - jquery.easing
+ - jquery.smartStartSlider
+ - jquery.jcarousel
+ - jquery.cycle.all
+ - jquery.isotope
+ - custom
+
 autocompile:
   handler: thin
 

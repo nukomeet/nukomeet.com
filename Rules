@@ -25,7 +25,13 @@ compile '/css/*/' do
 end
 
 compile '/js/*/' do
-  # don’t filter or layout
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if ext == 'erb'
+    filter :erb
+  end
+
+  filter :yui_compressor, type: 'js'
 end
 
 compile '/images/*/' do
@@ -52,6 +58,9 @@ compile '/projects/*/' do
 end
 
 compile 'googleb74edef4a46cf19d' do
+end
+
+compile 'google51cdab9265302e7f' do
 end
 
 compile 'sitemap' do
@@ -97,6 +106,10 @@ route '/blog/*/' do
 end
 
 route 'googleb74edef4a46cf19d' do
+  item.identifier.chop + '.html'
+end
+
+route 'google51cdab9265302e7f' do
   item.identifier.chop + '.html'
 end
 
