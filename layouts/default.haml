@@ -16,6 +16,7 @@
 
     %link{href: "//fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic", :rel => "stylesheet"}/
     %script{src: "/js/modernizr.custom.js"}
+
   %body
     #social
       %ul.social-links
@@ -25,6 +26,7 @@
           %a{href: "http://facebook.com/nukomeet"} Facebook
         %li.github
           %a{href: "http://github.com/nukomeet"} Github
+
     %header#header.container.clearfix
       %a#logo{href: "/"}
         %img{alt: "Nukomeet", src: "/assets/images/logo.png"}
@@ -40,9 +42,13 @@
     %script{src: "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
     :javascript
       window.jQuery || document.write('<\/script>')
-
-    - if @config[:debug]
-      - @config[:js].each do |asset|
-        %script{src: "/js/#{asset}.js"}
-    - else
-      %script{src: "/js/combined.js"}
+    %script{src: "/js/respond.min.js"}
+    %script{src: "/js/jquery.fancybox.pack.js"}
+    %script{src: "/js/jquery.easing.1.3.js"}
+    %script{src: "/js/jquery.smartStartSlider.js"}
+    %script{src: "/js/jquery.jcarousel.min.js"}
+    %script{src: "/js/jquery.cycle.all.js"}
+    %script{src: "/js/jquery.isotope.js"}
+    %script{src: "//maps.google.com/maps/api/js?sensor=false"}
+    %script{src: "/js/jquery.touchSwipe.js"}
+    %script{src: "/js/custom.js"}
