@@ -42,13 +42,9 @@
     %script{src: "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
     :javascript
       window.jQuery || document.write('<\/script>')
-    %script{src: "/js/respond.min.js"}
-    %script{src: "/js/jquery.fancybox.pack.js"}
-    %script{src: "/js/jquery.easing.1.3.js"}
-    %script{src: "/js/jquery.smartStartSlider.js"}
-    %script{src: "/js/jquery.jcarousel.min.js"}
-    %script{src: "/js/jquery.cycle.all.js"}
-    %script{src: "/js/jquery.isotope.js"}
-    %script{src: "//maps.google.com/maps/api/js?sensor=false"}
-    %script{src: "/js/jquery.touchSwipe.js"}
-    %script{src: "/js/custom.js"}
+
+    - if @config[:debug]
+      - @config[:js].each do |asset|
+        %script{src: "/js/#{asset}.js"}
+    - else
+      %script{src: "/js/combined.js"}
