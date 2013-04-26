@@ -88,6 +88,7 @@ jQuery(document).ready(function($) {
             var $this   = $(this),
                 $anchor = $this.children('a'),
                 depth   = $this.parents('ul').length - 1,
+                anchorHref = $anchor.attr('href'),
                 indent  = '';
 
             if( depth ) {
@@ -97,7 +98,9 @@ jQuery(document).ready(function($) {
                 }
             }
 
-            optionsList += '<option value="' + $anchor.attr('href') + '">' + indent + ' ' + $anchor.text() + '</option>';
+            if (anchorHref) {
+              optionsList += '<option value="' + anchorHref + '">' + indent + ' ' + $anchor.text() + '</option>';
+            }
         }).end()
           .after('<select class="responsive-nav">' + optionsList + '</select>');
 
