@@ -10,7 +10,7 @@
       %ul
         - (@item[:gallery] || []).each do |el|
           %li
-            %a.single-image{href: "#{el[:href]}", rel: "single-project", title: "#{el[:alt]}", target: "_blank"}
+            %a.single-image{href: "#{el[:src]}", rel: "single-project", title: "#{el[:alt]}", target: "_blank"}
               %img{alt: "#{el[:alt]}", src: "#{el[:src]}"}
 
   #sidebar
