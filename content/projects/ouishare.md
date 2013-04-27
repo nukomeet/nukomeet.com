@@ -24,7 +24,7 @@ gallery:
 technology:
 - PHP
 - MySQL
-link: http://knowable.com
+link: http://ouisharefest.com
 ---
 
 A static website for Ouisharefest, the first European event dedicated to the collaborative economy.
