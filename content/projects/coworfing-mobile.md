@@ -7,19 +7,15 @@ categories:
 thumb: /assets/images/coworfing.png
 gallery:
 -
-  href: http://coworfing.com
   src: /assets/images/projects/coworfing-mobile1.png
   alt: Coworfing Mobile
 -
-  href: http://coworfing.com
   src: /assets/images/projects/coworfing-mobile2.png
   alt: Coworfing Mobile
 -
-  href: http://coworfing.com
   src: /assets/images/projects/coworfing-mobile3.png
   alt: Coworfing Mobile
 -
-  href: http://coworfing.com
   src: /assets/images/projects/coworfing-mobile4.png
   alt: Coworfing Mobile
 

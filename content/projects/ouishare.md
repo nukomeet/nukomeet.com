@@ -7,23 +7,18 @@ categories:
 thumb: /assets/images/projects/ouisharefest.png
 gallery:
 -
-  href: http://ouisharefest.com
   src: /assets/images/projects/ouisharefest1.png
   alt: Ouisharefest
 -
-  href: http://ouisharefest.com
   src: /assets/images/projects/ouisharefest2.png
   alt: Ouisharefest
 -
-  href: http://ouisharefest.com
   src: /assets/images/projects/ouisharefest3.png
   alt: Ouisharefest
 -
-  href: http://ouisharefest.com
   src: /assets/images/projects/ouisharefest4.png
   alt: Ouisharefest
 -
-  href: http://ouisharefest.com
   src: /assets/images/projects/ouisharefest5.png
   alt: Ouisharefest
 technology:
