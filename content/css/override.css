@@ -82,21 +82,3 @@ h4 {
     padding: 20px 4px 20px;
     margin-bottom: 20px;
 }
-
-/* BEGIN FancyBox Override */
-#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('/assets/images/fancybox/fancybox_sprite.png');
-}
-
-.fancybox-overlay {
-	background: url('/assets/images/fancybox/fancybox_overlay.png');
-}
-
-#fancybox-buttons a {
-	background-image: url('/assets/images/fancybox/fancybox_buttons.png');
-}
-
-.fancybox-nav {
-	background: transparent url('/assets/images/fancybox/blank.gif'); /* helps IE */
-}
-/* END FancyBox Override */
