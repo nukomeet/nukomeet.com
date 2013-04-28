@@ -4,7 +4,7 @@ handle: coworfing-mobile
 kind: project
 categories:
 - Mobile (Android, iOS)
-thumb: /assets/images/coworfing.png
+thumb: /assets/images/coworfing.jpg
 gallery:
 -
   src: /assets/images/projects/coworfing-mobile1.png
