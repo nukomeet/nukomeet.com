@@ -22,6 +22,6 @@
     %ul.check
       - (@item[:technology] || []).each do |el|
         %li= el
-    %p
-      %a.button{href: "#{@item[:link]}"} View it
-    %p
+    - if not @item[:link].nil? and not @item[:link].empty?
+      %p
+        %a.button{href: "#{@item[:link]}"} View it
