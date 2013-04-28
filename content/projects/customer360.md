@@ -7,11 +7,9 @@ categories:
 thumb: /assets/images/customer360_logo.png
 gallery:
 -
-  href:
   src: /assets/images/projects/customer360_1.png
   alt: Customer360
 -
-  href:
   src: /assets/images/projects/customer360_2.png
   alt: Customer360
 technology:

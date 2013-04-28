@@ -85,11 +85,9 @@ debug: false
 css:
  - style
  - override
- - icons
 
 js:
  - respond
- - jquery.fancybox
  - jquery.easing
  - jquery.smartStartSlider
  - jquery.jcarousel

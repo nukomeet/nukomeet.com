@@ -10,8 +10,7 @@
       %ul
         - (@item[:gallery] || []).each do |el|
           %li
-            %a.single-image{href: "#{el[:href]}", rel: "single-project", title: "#{el[:alt]}", target: "_blank"}
-              %img{alt: "#{el[:alt]}", src: "#{el[:src]}"}
+            %img{alt: "#{el[:alt]}", src: "#{el[:src]}"}
 
   #sidebar
     %h4 Overview
@@ -22,6 +21,6 @@
     %ul.check
       - (@item[:technology] || []).each do |el|
         %li= el
-    %p
-      %a.button{href: "#{@item[:link]}"} View it
-    %p
+    - if not @item[:link].nil? and not @item[:link].empty?
+      %p
+        %a.button{href: "#{@item[:link]}"} View it

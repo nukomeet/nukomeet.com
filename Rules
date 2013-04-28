@@ -96,7 +96,7 @@ route '/fonts/*/' do
 end
 
 route '/images/*/' do
-  '/assets' + item.identifier.chop + '.png'
+  '/assets' + item.identifier.chop + '.' + item[:extension]
 end
 
 route '/blog/*/' do

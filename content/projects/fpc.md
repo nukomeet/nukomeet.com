@@ -8,11 +8,9 @@ categories:
 thumb: /assets/images/freyssinet.png
 gallery:
 -
-  href: http://freyssinet.com
   src: /assets/images/projects/freyform1.png
   alt: FPC
 -
-  href: http://freyssinet.com
   src: /assets/images/projects/freyform2.png
   alt: FPC
 technology:
