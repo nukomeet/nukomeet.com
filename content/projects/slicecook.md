@@ -7,7 +7,6 @@ categories:
 - Web
 gallery:
 -
-  href: http://coworfing.com
   src: /assets/images/projects/slicecook-app1.png
   alt: Slicecook App
 

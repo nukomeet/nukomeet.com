@@ -1,10 +1,10 @@
 ---
-title: Our Blog 
+title: Our Blog
 ---
 %header.page-header
   %h2.page-subdescription
-    This is 
-    %strong Nulog, 
+    This is
+    %strong Nulog,
     a blog by Nukomeet about technology, society, business, Internet and geek stuff.
 %section#main
   - @site.sorted_articles.each do |post|
@@ -35,22 +35,24 @@ title: Our Blog
     %li.prev
       %a{:href => "#"} Previous →
 / end #main
+
 %aside#sidebar
   .widget
     %h6.widget-title Categories
     %ul.categories
       %li
-        %a{:href => "#"} Business 
+        %a{:href => "#"} Business
       %li
-        %a{:href => "#"} Coding 
+        %a{:href => "#"} Coding
       %li
-        %a{:href => "#"} Innovation 
+        %a{:href => "#"} Innovation
       %li
-        %a{:href => "#"} Society 
+        %a{:href => "#"} Society
       %li
-        %a{:href => "#"} Technology 
+        %a{:href => "#"} Technology
       %li
-        %a{:href => "#"} Web 
+        %a{:href => "#"} Web
+
   .widget
     %h6.widget-title Twitter Feed
     %script{:charset => "utf-8", :src => "http://widgets.twimg.com/j/2/widget.js"}

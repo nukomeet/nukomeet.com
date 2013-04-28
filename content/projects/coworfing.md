@@ -8,15 +8,12 @@ categories:
 thumb: /assets/images/coworfing_logo.png
 gallery:
 -
-  href: http://coworfing.com
   src: /assets/images/projects/coworfing1.png
   alt: Coworfing
 -
-  href: http://coworfing.com
   src: /assets/images/projects/coworfing2.png
   alt: Coworfing
 -
-  href: http://coworfing.com
   src: /assets/images/projects/coworfing3.png
   alt: Coworfing
 technology:

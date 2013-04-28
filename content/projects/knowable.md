@@ -7,11 +7,9 @@ categories:
 thumb: /assets/images/projects/knowable.png
 gallery:
 -
- href: http://knowable.org
  src: /assets/images/projects/knowable1.png
  alt: Knowable
 -
- href: http://knowable.org
  src: /assets/images/projects/knowable2.png
  alt: Knowable
 technology:
