@@ -13,6 +13,24 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+require 'set'
+
+preprocess do
+  tags = Set.new
+  items.each do |item|
+    tags.merge(item[:tags] || [])
+  end
+
+  tags.each do |tag|
+    items << Nanoc::Item.new("", { tag: tag }, "/nulog/#{tag}/")
+  end
+end
+
+compile '/nulog/business|programming|innovation|society|technology|web/' do
+  layout 'tag'
+  layout 'default'
+end
+
 
 compile '/css/*/' do
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
