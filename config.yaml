@@ -86,6 +86,7 @@ css:
  - style
  - override
  - icons
+ - jquery.fancybox
 
 js:
  - respond
