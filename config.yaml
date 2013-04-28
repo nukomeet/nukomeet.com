@@ -83,14 +83,19 @@ ganalytics:
 debug: false
 
 css:
+ - jquery.fancybox
+ - jquery.fancybox-thumbs
+ - jquery.fancybox-buttons
  - style
  - override
  - icons
- - jquery.fancybox
 
 js:
  - respond
  - jquery.fancybox
+ - jquery.fancybox-buttons
+ - jquery.fancybox-media
+ - jquery.fancybox-thumbs
  - jquery.easing
  - jquery.smartStartSlider
  - jquery.jcarousel
