@@ -82,3 +82,29 @@ h4 {
     padding: 20px 4px 20px;
     margin-bottom: 20px;
 }
+
+.entry {
+  margin: 0;
+}
+
+.entry-body  {
+  margin: 0;
+}
+
+.entry-body h1.title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+article.entry:first-child {
+  padding: 0 0 24px;
+}
+
+article.entry {
+  padding: 24px 0 24px;
+  border-bottom: none;
+}
+
+.page-header h2 {
+  text-align: center;
+}
