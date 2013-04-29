@@ -1,7 +1,7 @@
 ---
 title: Customer360
 handle: customer360
-kind: project
+kind: draft
 categories:
 - Web
 thumb: /assets/images/customer360_logo.png
