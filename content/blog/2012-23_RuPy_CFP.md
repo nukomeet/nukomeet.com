@@ -3,6 +3,8 @@ kind: article
 created_at: 2012-08-23
 title: "RuPy's call for proposal is open"
 publish: true
+tags:
+- technology
 ---
 
 Nukomeet team is closely involved in the organization of [RuPy

@@ -3,6 +3,9 @@ kind: article
 created_at: 2013-01-15
 title: "We accept Bitcoins"
 publish: true
+tags:
+- society
+- innovation
 ---
 
 Considering the recent surge of online services, like

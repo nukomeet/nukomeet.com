@@ -3,6 +3,9 @@ created_at: 2012-10-24
 kind: article
 publish: true
 title: "Let's crowdsource a mobile app for Seth Godin !"
+tags:
+- web
+- technology
 ---
 
 Yesterday, [Seth Godin][1] [announced on his blog][2] that he would like to provide his readers with a mobile application for a better reading experience. [Nukomeet team members][3] are huge fans of Seth’s writings, we like a lot his insights about marketing and business in general.
