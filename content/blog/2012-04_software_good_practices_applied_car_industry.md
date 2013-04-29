@@ -31,14 +31,14 @@ Here is an infography about the results:
 
 Another interesting thing with Wikispeed is the fact that the project is public, you can see their dashboard with what has to be done and what was done here And it is open, anyone can join and contribute. They define themselves as a team of volunteers with “equitable distribution of wealth” as their first principle.
 
-Learn more about how they work watching their [channel on Youtube](http://www.youtube.com/user/WIKISPEED). 
+Learn more about how they work watching their [channel on Youtube](http://www.youtube.com/user/WIKISPEED).
 
 --[Alban](http://twitter.com/albanlv)
 
 
 - - -
 
-We would be delighted to have your feedback on this post, please discuss it on [Hacker News](http://news.ycombinator.com/item?id=3908716). 
+We would be delighted to have your feedback on this post, please discuss it on [Hacker News](http://news.ycombinator.com/item?id=3908716).
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="nukomeet" data-size="large">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 

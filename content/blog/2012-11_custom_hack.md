@@ -2,17 +2,19 @@
 kind: article
 created_at: 2012-11-12
 title: Unveiling Nukomeet Custom Hack
+tags:
+- business
 ---
 
 At Nukomeet, we spend a lot of time making estimations, setting up agenda, and
 negociating prices, because we take care of framing well a project before it
-starts. 
+starts.
 
 Nevertheless, we noticed that some clients had a very clear idea of what they
-wanted to spend on a given project. 
+wanted to spend on a given project.
 
 That’s why we came up with Nukomeet Custom Hack: Let’s invert the roles,*you*
-make the quote and set up the agenda. 
+make the quote and set up the agenda.
 
 How does it work? Describe your problem, give us a quote and a deadline, and we
 come up with a solution.
