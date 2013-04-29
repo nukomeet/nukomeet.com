@@ -3,6 +3,8 @@ kind: article
 created_at: 2013-04-15
 title: "Project management in a distributed self-managed company"
 publish: true
+tags:
+- business
 ---
 
 I am often asked what do we use as tools and rules for our project management. It is something we deeply care about and constantly improve.

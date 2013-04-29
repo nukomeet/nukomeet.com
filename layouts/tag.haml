@@ -7,7 +7,7 @@ title: Our Blog, tag
     %strong Nulog,
     a blog by Nukomeet about technology, society, business, Internet and geek stuff.
 %section#main
-  - items_with_tag(@item[:tag]) do |post|
+  - items_with_tag(@item[:tag]).each do |post|
     %article.entry.clearfix
       .entry-body
         %a{href: "#{post.path}"}
@@ -29,6 +29,5 @@ title: Our Blog, tag
       %a{:href => "#"} 4
     %li.prev
       %a{:href => "#"} Previous →
-/ end #main
 
 = render 'sidebar'

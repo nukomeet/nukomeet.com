@@ -1,8 +1,10 @@
 ---
-created_at: 2012-08-07 
+created_at: 2012-08-07
 kind: article
 publish: true
 title: "E-Learning Breakfast at Agora"
+tags:
+- society
 ---
 
 The [Khan Academy][]. [Udacity][]. [Coursera][]. Only recently,

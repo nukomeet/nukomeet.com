@@ -2,6 +2,9 @@
 kind: article
 created_at: 2012-11-04
 title: Introducing the Sleeper Agent Program
+tags:
+- society
+- web
 ---
 
 We don't have any salesmen at Nukomeet, yet we have clients. Even though we spend some time answering to job boards and requests for proposals, we noticed that most of the project that we actually end up doing come from friends that recommended our work.

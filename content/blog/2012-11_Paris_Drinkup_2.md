@@ -3,6 +3,8 @@ created_at: 2012-11-12 00:23:27 +0100
 kind: article
 publish: true
 title: "Paris Drinkup 2"
+tags:
+- society
 ---
 
 Our 2nd drinkup is a « special event », we want to celebrate new, improved
