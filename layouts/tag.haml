@@ -7,20 +7,15 @@ title: Our Blog, tag
     %strong Nulog,
     a blog by Nukomeet about technology, society, business, Internet and geek stuff.
 %section#main
-  - items_with_tag(@item[:tag]) do |post|
+  - items_with_tag(@item[:tag]).each do |post|
     %article.entry.clearfix
       .entry-body
         %a{href: "#{post.path}"}
           %h1.title= post[:title]
-        %p &nbsp;
       .entry-meta
         %ul
           %li
-            %a{:href => "single-post.html"}
-              %span.post-format Permalink
-          %li
-            %span.title Posted:
-            %a{:href => "#"}= post[:created_at]
+            %a{:href => "#"}= post[:created_at].strftime("%b %d")
 
   %ul.pagination
     %li.next
@@ -34,51 +29,5 @@ title: Our Blog, tag
       %a{:href => "#"} 4
     %li.prev
       %a{:href => "#"} Previous →
-/ end #main
 
-%aside#sidebar
-  .widget
-    %h6.widget-title Categories
-    %ul.categories
-      %li
-        %a{:href => "#"} Business
-      %li
-        %a{:href => "#"} Coding
-      %li
-        %a{:href => "#"} Innovation
-      %li
-        %a{:href => "#"} Society
-      %li
-        %a{:href => "#"} Technology
-      %li
-        %a{:href => "#"} Web
-
-  .widget
-    %h6.widget-title Twitter Feed
-    %script{:charset => "utf-8", :src => "http://widgets.twimg.com/j/2/widget.js"}
-      :javascript
-        new TWTR.Widget({
-          version: 2,
-          type: 'profile',
-          rpp: 4,
-          interval: 30000,
-          width: 200,
-          height: 300,
-          theme: {
-            shell: {
-              background: '#ffffff',
-              color: '#00aeff'
-            },
-            tweets: {
-              background: '#ffffff',
-              color: '#000000',
-              links: '#00ADFF'
-            }
-          },
-          features: {
-            scrollbar: true,
-            loop: false,
-            live: false,
-            behavior: 'all'
-          }
-        }).render().setUser('nukomeet').start();
+= render 'sidebar'
