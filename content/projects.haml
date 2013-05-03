@@ -17,7 +17,8 @@ title: Projects
 %section#portfolio-items.clearfix
 
   - @items.select { |item| item[:kind] == 'project' }.each do |project|
-    %article.one-third{"data-categories" => "#{project[:categories].join(' ')}"}
+    - categories = project[:categories].map{ |c| c.downcase.gsub(" ", "-") }.join(' ')
+    %article.one-third{"data-categories" => "#{categories}"}
       %img{alt: "Project: #{project[:title]}", src: "#{project[:thumb]}"}
       %a.project-meta{href: "/projects/#{project[:handle]}/"}
         %h5.title= project[:title]
