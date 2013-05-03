@@ -760,423 +760,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             }
 
     /* -------------------------------------------------- */
-    /*  Widgets
-    /* -------------------------------------------------- */
-
-        /* ---------------------------------------- */
-        /*  Accordion Content
-        /* ---------------------------------------- */
-
-            .acc-trigger {
-                border-top: 1px dotted #ced8df;
-                cursor: pointer;
-                display: block;
-                margin: 0;
-            }
-
-                .acc-trigger:last-of-type, .acc-container:last-of-type {
-                    border-bottom: 1px dotted #ced8df;
-                    margin-bottom: 20px;
-                }
-
-                .no-js .acc-trigger:last-of-type { border-bottom: none; }
-
-            .acc-trigger a {
-                background: url(/assets/images/accordion-content-buttons.png) no-repeat 20px 23px;
-                display: block;
-                color: #959393;
-                outline: medium none;
-                padding: 25px 20px 25px 55px;
-                text-decoration: none;
-                text-shadow: none;
-            }
-
-            h3.acc-trigger a, h4.acc-trigger a { background-position: 20px 24px; }
-
-            h6.acc-trigger a { background-position: 20px 21px; }
-
-                .acc-trigger a:hover { background-color: #f8f8f8; }
-
-                .acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover { color: #00AED1; }
-
-                .acc-trigger.active a:hover { background-color: transparent; }
-
-                .acc-trigger.active { cursor: default; }
-
-                .acc-trigger.active:last-of-type {
-                    border-bottom: none;
-                    margin-bottom: 0;
-                }
-
-                .acc-trigger.active a {
-                    background-position: 20px -88px;
-                    cursor: default;
-                }
-
-                h3.acc-trigger.active a, h4.acc-trigger.active a { background-position: 20px -87px; }
-
-                h6.acc-trigger.active a { background-position: 20px -90px; }
-
-            .acc-container .content { padding: 0 20px 25px 55px; }
-
-            .js .acc-container { margin-top: -15px; }
-
-        /* ---------------------------------------- */
-        /*  Content Tabs
-        /* ---------------------------------------- */
-
-        .tabs-nav {
-            list-style: none;
-            margin: 0;
-            overflow: hidden;
-            padding: 0;
-            width: 100%;
-        }
-
-            .tabs-nav li {
-                float: left;
-                line-height: 32px;
-                margin: 0;
-                overflow: hidden;
-                padding: 0;
-                position: relative;
-            }
-
-                .tabs-nav li.active { line-height: 31px; }
-
-                .tabs-nav li a {
-                    background: #f8f8f8;
-                    border: 1px solid #eaeaea;
-                    border-bottom: 1px solid #eaeaea;
-                    border-left: none;
-                    color: #959393;
-                    display: block;
-                    letter-spacing: 0;
-                    outline: none;
-                    padding: 0 16px;
-                    text-decoration: none;
-                    text-shadow: 0 1px 0 #fff;
-                }
-
-                .tabs-nav li:first-child a { border-left: 1px solid #eaeaea; }
-
-                .tabs-nav li a:hover { background: #f0f0f0; }
-
-                .tabs-nav li a:hover, .tabs-nav li.active a { color: #f15a23; }
-
-                    .tabs-nav li.active a  {
-                        background: #fff;
-                        border-bottom: 2px solid #fff;
-                        border-top: 1px solid #f15a23;
-                    }
-
-        .tabs-container {
-            border: 1px solid #eaeaea;
-            margin: -1px 0 20px;
-            overflow: hidden;
-            width: 100%;
-        }
-
-            .tab-content { padding: 20px; }
-
-    /* -------------------------------------------------- */
-    /*  Pricing Tables
-    /* -------------------------------------------------- */
-
-        .simple-pricing-table, .extended-pricing-table {
-            height: 100%;
-            margin: 0 0 40px;
-            position: relative;
-            text-align: center;
-            width: 100%;
-        }
-
-            .simple-pricing-table .column, .extended-pricing-table .column {
-                float: left;
-                margin: 0;
-                padding: 0;
-                position: relative;
-            }
-
-                .simple-pricing-table .features, .extended-pricing-table .features {
-                    list-style: none;
-                    margin: 0;
-                }
-
-                    .simple-pricing-table .features li, .extended-pricing-table .features li {
-                        display: block;
-                        margin: 0;
-                        position: relative
-                    }
-
-                .simple-pricing-table .footer, .extended-pricing-table .footer { padding: 16px 20px; }
-
-                    .simple-pricing-table .footer .button, .extended-pricing-table .footer .button {
-                        background: #515151;
-                        font-size: 14px;
-                        font-weight: 600;
-                        text-transform: uppercase;
-                        padding: 9px 20px;
-                    }
-
-        /* ---------------------------------------- */
-        /*  Simple Pricing Table
-        /* ---------------------------------------- */
-
-        .simple-pricing-table.featured { margin-top: 50px; }
-
-            .simple-pricing-table .column {
-                background: #f6f6f6;
-                border-bottom: 1px solid #ededed;
-                border-left: 1px solid #fff;
-                border-top: 1px solid #ededed;
-                width: 938px;
-            }
-
-            .simple-pricing-table .column:first-child { border-left-color: #ededed; }
-
-            .simple-pricing-table .column:last-child { border-right: 1px solid #ededed; }
-
-            .simple-pricing-table.col2 .column { width: 468px; }
-            .simple-pricing-table.col3 .column { width: 312px; }
-            .simple-pricing-table.col4 .column { width: 233px; }
-            .simple-pricing-table.col5 .column { width: 186px; }
-
-            .simple-pricing-table .column.featured {
-                background: #fff;
-                border: 1px solid #ebebeb;
-                -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .15);
-                   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .15);
-                        box-shadow: 0 0 20px rgba(0, 0, 0, .15);
-                margin: -20px -1px 0;
-                padding: 20px 5px 15px;
-                z-index: 1;
-                width: 928px;
-            }
-
-            .simple-pricing-table.col2.featured .column { width: 450px; }
-            .simple-pricing-table.col3.featured .column { width: 299px; }
-            .simple-pricing-table.col4.featured .column { width: 224px; }
-            .simple-pricing-table.col5.featured .column { width: 179px; }
-
-            .simple-pricing-table.col2 .column.featured { width: 478px; }
-            .simple-pricing-table.col3 .column.featured { width: 329px; }
-            .simple-pricing-table.col4 .column.featured { width: 254px; }
-            .simple-pricing-table.col5 .column.featured { width: 209px; }
-
-                .simple-pricing-table .header { padding: 15px 20px 20px; }
-
-                .simple-pricing-table .featured .header { margin: -15px 0 0; }
-
-                    .simple-pricing-table .title {
-                        color: #414141;
-                        font-size: 24px;
-                        font-weight: 700;
-                        letter-spacing: -0.8px;
-                        margin: 0 0 5px;
-                    }
-
-                    .simple-pricing-table .price {
-                        color: #777;
-                        font-size: 18px;
-                        font-weight: 300;
-                        margin: 0 0 7px;
-                    }
-
-                        .simple-pricing-table .price span {
-                            color: #292929;
-                            font-weight: 700;
-                        }
-
-                        .simple-pricing-table .free .price span { color: #4a993e; }
-
-                        .simple-pricing-table .featured .price span { color: #f15a23; }
-
-                    .simple-pricing-table .description {
-                        color: #4b4b4b;
-                        font-size: 14px;
-                        margin: 0;
-                        font-weight: 400;
-                    }
-
-                        .simple-pricing-table .free .description { color: #44af33; }
-
-                        .simple-pricing-table .featured .description { color: #e38c11; }
-
-                    .simple-pricing-table .title + .description {
-                        margin-bottom: 5px;
-                        margin-top: 12px;
-                    }
-
-                .simple-pricing-table .features { padding: 0 10px; }
-
-                    .simple-pricing-table .features li {
-                        border-top: 1px solid #ebebeb;
-                        padding: 5px 10px;
-                    }
-
-                .simple-pricing-table .footer {
-                    background: #e5e5e5;
-                    margin: 1px 0 0;
-                }
-
-                .simple-pricing-table .featured .footer {
-                    background: #fff;
-                    margin-top: 11px;
-                }
-
-                    .simple-pricing-table .featured .footer .button {
-                        background: #f15a23;
-                        font-size: 18px;
-                        padding: 11px 27px;
-                    }
-
-                    .simple-pricing-table .free .footer .button { background: #4a993e; }
-
-                        .simple-pricing-table .footer .button:hover { background: #f15a23; }
-
-                        .simple-pricing-table .free .footer .button:hover,
-                        .simple-pricing-table .featured .footer .button:hover { background: #515151; }
-
-        /* ---------------------------------------- */
-        /*  Extended Pricing Table
-        /* ---------------------------------------- */
-
-        .extended-pricing-table.featured { margin-top: 40px; }
-
-            .extended-pricing-table .column { width: 740px; }
-
-            .extended-pricing-table .features-list {
-                text-align: left;
-                width: 200px !important;
-            }
-
-            .extended-pricing-table.col2 .column { width: 370px; }
-            .extended-pricing-table.col3 .column { width: 246px; }
-            .extended-pricing-table.col4 .column { width: 185px; }
-            .extended-pricing-table.col5 .column { width: 148px; }
-
-            .extended-pricing-table .featured {
-                -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .15);
-                   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .15);
-                        box-shadow: 0 0 20px rgba(0, 0, 0, .15);
-                z-index: 1;
-            }
-
-                .extended-pricing-table .header {
-                    background: #3a3a3a;
-                    color: #fff;
-                    min-height: 110px;
-                }
-
-                .extended-pricing-table .features-list .header { background: none; }
-
-                .extended-pricing-table .free .header { background: #4a993e; }
-
-                .extended-pricing-table .featured .header {
-                    background: #f9612a;
-                    padding: 0 0 10px;
-                }
-
-                .ie7 .extended-pricing-table .featured .header { padding-bottom: 0; }
-
-                    .extended-pricing-table .title {
-                        background: #2c2c2c;
-                        color: #bbbbbb;
-                        font-size: 13px;
-                        font-weight: 400;
-                        margin: 0 0 7px;
-                        padding: 8px 15px;
-                        text-transform: uppercase;
-                    }
-
-                    .extended-pricing-table .free .title {
-                        background: #428937;
-                        color: #fff;
-                    }
-
-                    .extended-pricing-table .featured .title {
-                        background: #dd4913;
-                        color: #fff;
-                        font-size: 17px;
-                        font-weight: 600;
-                        margin-top: -10px;
-                        padding-bottom: 11px;
-                        padding-top: 10px;
-                        position: relative;
-                    }
-
-                    .extended-pricing-table .price {
-                        color: #999;
-                        font-size: 12px;
-                        font-weight: 400;
-                        margin: 0;
-                    }
-
-                    .extended-pricing-table .free .price { color: #9fcd98; }
-
-                    .extended-pricing-table .featured .price { color: #fab197; }
-
-                        .extended-pricing-table .price span {
-                            color: #fff;
-                            font-size: 30px;
-                            display: block;
-                        }
-
-                    .extended-pricing-table .featured .price span { font-weight: 600; }
-
-                .extended-pricing-table .features { border-left: 1px solid #fff; }
-
-                .extended-pricing-table .features-list .features { border-left: none; }
-
-                    .extended-pricing-table .features li {
-                        background: #f8f8f8;
-                        border-bottom: 1px solid #fff;
-                        padding: 8px 10px;
-                    }
-
-                    .extended-pricing-table .features li:before { content: ''; }
-
-                    .extended-pricing-table .featured .features li { background: #fff; }
-
-                    .extended-pricing-table .features li:first-child { border-top: 1px solid #fff; }
-
-                    .extended-pricing-table .features li:nth-child(even) { background: #f0f0f0; }
-
-                    .extended-pricing-table .featured .features li:nth-child(even) { background: #f6f6f6; }
-
-                    .extended-pricing-table .features li .check {
-                        background: url(/assets/images/icon-check-3.png) no-repeat center 2px;
-                        display: inline-block;
-                        height: 18px;
-                        text-indent: -9999px;
-                        width: 18px;
-                    }
-
-                    .ie7 .extended-pricing-table .features li .check {
-                        display: inline;
-                        font-size: 0;
-                        text-indent: 0;
-                    }
-
-                    .extended-pricing-table .free .features li .check { background-image: url(/assets/images/icon-check-3-green.png); }
-
-                .extended-pricing-table .footer { background: #f8f8f8; }
-
-                .extended-pricing-table .featured .footer { padding-bottom: 26px; }
-
-                .extended-pricing-table .features-list .footer { background: none; }
-
-                    .extended-pricing-table .free .footer .button { background: #4a993e; }
-
-                    .extended-pricing-table .featured .footer .button { background: #f15a23; }
-
-                        .extended-pricing-table .footer .button:hover { background: #f15a23; }
-
-                        .extended-pricing-table .free .footer .button:hover,
-                        .extended-pricing-table .featured .footer .button:hover { background: #515151; }
-
-    /* -------------------------------------------------- */
     /*  Back to Top
     /* -------------------------------------------------- */
 
@@ -1606,187 +1189,53 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         .ss-slider.hide-bottom-buttons .active-slide-bar { display: none; }
 
     /* -------------------------------------------------- */
-    /*  Projects Carousel
+    /*  Projects
     /* -------------------------------------------------- */
 
-    .no-js .projects-carousel, .no-js .post-carousel {
-        border-top: 1px solid #efefef;
-        margin: 15px -20px 60px 0;
-        padding: 25px 0 0;
-    }
+        #portfolio-items { font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; }
 
-        .projects-carousel > li, .post-carousel > li, #portfolio-items > article {
-            float: left;
-            list-style: none;
-            margin: 0 20px 0 0;
-            overflow: hidden;
-            position: relative;
-        }
+        .no-js #portfolio-items > article { margin-bottom: 40px; }
 
-        .projects-carousel > li, .post-carousel > li { width: 220px; }
-
-        .projects-carousel, #portfolio-items { font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; }
-
-        .no-js .post-carousel > li {
-            display: inline-block;
-            float: none;
-        }
-
-        .no-js .projects-carousel > li, .no-js #portfolio-items > article { margin-bottom: 40px; }
-
-
-
-        .projects-carousel a, #portfolio-items article a {
+        #portfolio-items article a {
             border-bottom: 1px solid #efefef;
             display: block;
             text-align: center;
         }
 
-        .projects-carousel a { padding: 20px 0 0; }
-
         #portfolio-items article a, #portfolio-items article .audio-player, #portfolio-items article .video-player { margin: 0 auto; }
 
-            .projects-carousel img, #portfolio-items article img {
+            #portfolio-items article img {
                 background-color: #fff;
                 margin: 0 auto -5px;
                 filter: alpha(opacity=70); /* Fallback for old IE */
                 opacity: 0.7;
             }
 
-            .no-js .projects-carousel img, .no-js #portfolio-items article img { margin-bottom: 0; }
+            .no-js #portfolio-items article img { margin-bottom: 0; }
 
-            .projects-carousel img { margin: -25px auto 20px; }
-
-            .projects-carousel .title, #portfolio-items > article .title {
+            #portfolio-items > article .title {
                 font-weight: 400;
                 margin-bottom: 0;
             }
 
-            .projects-carousel > li .categories, #portfolio-items > article .categories {
+            #portfolio-items > article .categories {
                 color: #aeaeae;
                 display: block;
                 font-style: italic;
                 margin: -1px 0 20px;
             }
 
-            .projects-carousel a:hover, #portfolio-items > article:hover {
+            #portfolio-items > article:hover {
                 background: #f8f8f8;
                 border-bottom: 1px solid #00AED1;
             }
 
-            .projects-carousel a:hover img, #portfolio-items > article:hover img {
+            #portfolio-items > article:hover img {
                 filter: alpha(opacity=100); /* Fallback for old IE */
                 opacity: 1;
             }
 
-            .projects-carousel a:hover .title, #portfolio-items > article:hover .title { color: #00AED1; }
-
-    /* -------------------------------------------------- */
-    /*  Post Carousel
-    /* -------------------------------------------------- */
-
-    .post-carousel .entry-meta {
-        float: left;
-        font-style: italic;
-        letter-spacing: -0.5px;
-        line-height: 1.3;
-        margin: 0 12px 0 0;
-        text-align: center;
-        width: 33px;
-    }
-
-        .post-carousel .entry-meta a {
-            display: block;
-            font-style: normal;
-        }
-
-        .post-carousel li .post-format { margin: 0; }
-
-        .post-carousel li .date {
-            display: block;
-            margin: 8px 0 0;
-        }
-
-        .post-carousel .entry-body .title {
-            font-size: 14px;
-            font-weight: 400;
-            margin: 0 0 10px 0;
-        }
-
-    .post-carousel .entry-body {
-        float: right;
-        margin: 0;
-        width: 175px;
-    }
-
-    .post-carousel .entry-image, .post-carousel .entry-video, .post-carousel .entry-audio, .post-carousel .fluid-width-video-wrapper {
-        margin-bottom: 15px;
-        max-width: 100%;
-        width: 100%;
-    }
-
-    .post-carousel .entry-video, .post-carousel .entry-audio, .post-carousel .fluid-width-video-wrapper { margin-bottom: 15px; }
-
-    .touch-device .post-carousel .entry-audio { margin-top: -8px; }
-
-    /* Image Gallery Slider */
-
-    .post-carousel .image-gallery-slider { margin-bottom: 15px; }
-
-        .post-carousel .image-gallery-slider li { margin: 0; }
-
-            .post-carousel .image-gallery-slider img { margin-bottom: 0; }
-
-    /* -------------------------------------------------- */
-    /*  Projects & Post Carousel Navigation
-    /* -------------------------------------------------- */
-
-    .jcarousel-container {
-        border-top: 1px solid #efefef;
-        margin: 45px -20px 80px 0;
-        max-width: 100%;
-        padding: 25px 0 0;
-    }
-
-    .section-title + .jcarousel-container { margin-top: 15px; }
-
-        .jcarousel-clip {
-            overflow: hidden;
-            width: 100%;
-        }
-
-            .jcarousel-item {
-                margin: 0 20px 0 0;
-                width: 220px;
-            }
-
-        .jcarousel-next, .jcarousel-prev {
-            background: #ddd url(/assets/images/button-arrows.png) no-repeat 0 0;
-            cursor: pointer;
-            height: 19px;
-            position: absolute;
-            right: 0;
-            top: -35px;
-            width: 19px;
-        }
-
-        .jcarousel-prev {
-            background-position: 0 -19px;
-            right: 20px;
-        }
-
-            .jcarousel-next:hover, .jcarousel-next:focus, .jcarousel-next:active,
-            .jcarousel-prev:hover, .jcarousel-prev:focus, .jcarousel-prev:active {
-                background-color: #f15a23;
-            }
-
-            .jcarousel-next-disabled, .jcarousel-next-disabled:hover,
-            .jcarousel-next-disabled:focus, .jcarousel-next-disabled:active,
-            .jcarousel-prev-disabled, .jcarousel-prev-disabled:hover,
-            .jcarousel-prev-disabled:focus, .jcarousel-prev-disabled:active {
-                background-color: #eee !important;
-                cursor: auto !important;
-            }
+            #portfolio-items > article:hover .title { color: #00AED1; }
 
 /* ---------------------------------------------------------------------- */
 /*  Our Team
@@ -2330,34 +1779,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                     .categories a:hover { color: #00aed1; }
 
         /* ---------------------------------------- */
-        /*  Accordion Content
-        /* ---------------------------------------- */
-
-        #sidebar .acc-trigger a {
-            background-position: 0 8px;
-            font-size: 11px;
-            font-weight: 400;
-            padding: 12px 12px 12px 30px;
-        }
-
-        #sidebar .acc-trigger:first-of-type { border-top: none; }
-
-        #sidebar .acc-trigger:last-of-type { border-bottom: none; }
-
-        #sidebar .acc-trigger.active a {
-            background-position: 0 -103px;
-            cursor: default;
-        }
-
-        #sidebar .acc-container { margin: -5px 0 0; }
-
-        #sidebar .acc-container:first-of-type { border-top: none; }
-
-        #sidebar .acc-container:last-of-type { border-bottom: none; }
-
-            #sidebar .acc-container .content { padding: 0 12px 12px 30px; }
-
-        /* ---------------------------------------- */
         /*  Tweets
         /* ---------------------------------------- */
 
@@ -2725,117 +2146,6 @@ footer {
 @media only screen and (min-width: 960px) {
 
     /* -------------------------------------------------- */
-    /*  Pricing Tables > Tooltip
-    /* -------------------------------------------------- */
-
-    .simple-pricing-table .features li[data-tooltip],
-    .extended-pricing-table .features li[data-tooltip] { cursor: help; }
-
-    .ie7 .simple-pricing-table .features li[data-tooltip],
-    .ie7 .extended-pricing-table .features li[data-tooltip] { cursor: auto; }
-
-        .simple-pricing-table .features li[data-tooltip]:hover,
-        .extended-pricing-table .features li[data-tooltip]:hover { color: #54555a; }
-
-    /* Tooltip container */
-    .simple-pricing-table .features li[data-tooltip]:before,
-    .extended-pricing-table .features li[data-tooltip]:before {
-        background: #fff8de;
-        border: 1px solid #fee5a2;
-        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .10);
-           -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .10);
-                box-shadow: 0 0 10px rgba(0, 0, 0, .10);
-        bottom: 0;
-        color: #7b7b7b;
-        content: attr(data-tooltip) !important;
-        font-size: 11px;
-        left: 9px;
-        line-height: 1.5;
-        opacity: 0;
-        padding: 5px 10px;
-        position: absolute;
-        text-align: center;
-        -webkit-transition: all .2s ease-in-out;
-           -moz-transition: all .2s ease-in-out;
-            -ms-transition: all .2s ease-in-out;
-             -o-transition: all .2s ease-in-out;
-                transition: all .2s ease-in-out;
-        width: 143px;
-        z-index: 98;
-
-    }
-
-    .simple-pricing-table .features li[data-tooltip]:before {
-        left: 10px;
-        width: 192px;
-    }
-
-    .extended-pricing-table .features-list .features li[data-tooltip]:before {
-        left: 10px;
-        text-align: left;
-        width: 158px;
-    }
-
-        .simple-pricing-table .features li[data-tooltip]:hover:before,
-        .extended-pricing-table .features li[data-tooltip]:hover:before {
-            bottom: 100%;
-            opacity: 1;
-        }
-
-    /* Tooltip arrow */
-    .not-ie .simple-pricing-table .features li[data-tooltip]:after,
-    .not-ie .extended-pricing-table .features li[data-tooltip]:after {
-        background: #fff8de;
-        border-bottom: 1px solid #fee5a2;
-        border-right: 1px solid #fee5a2;
-        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .05);
-           -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .05);
-                box-shadow: 1px 1px 2px rgba(0, 0, 0, .05);
-        bottom: 0;
-        content: '';
-        display: block;
-        height: 10px;
-        left: 50%;
-        margin: 0 0 0 -5px;
-        opacity: 0;
-        position: absolute;
-        -webkit-transform: rotate(45deg);
-           -moz-transform: rotate(45deg);
-             -o-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-                transform: rotate(45deg);
-        -webkit-transition: all .2s ease-in-out;
-           -moz-transition: all .2s ease-in-out;
-            -ms-transition: all .2s ease-in-out;
-             -o-transition: all .2s ease-in-out;
-                transition: all .2s ease-in-out;
-        width: 10px;
-        z-index: 99;
-    }
-
-        .simple-pricing-table .features-list .features li[data-tooltip]:after,
-        .extended-pricing-table .features-list .features li[data-tooltip]:after {
-            left: 22px;
-            margin-left: 0;
-        }
-
-        .not-ie .simple-pricing-table .features li[data-tooltip]:hover:after,
-        .not-ie .extended-pricing-table .features li[data-tooltip]:hover:after {
-            bottom: 30px;
-            opacity: 1;
-        }
-
-        .simple-pricing-table .features li[data-tooltip]:hover:after { bottom: 24px !important; }
-
-    .ie8 .simple-pricing-table .features li[data-tooltip]:before,
-    .ie8 .simple-pricing-table .features li[data-tooltip]:after,
-    .ie8 .extended-pricing-table .features li[data-tooltip]:before,
-    .ie8 .extended-pricing-table .features li[data-tooltip]:after { display: none; }
-
-        .ie8 .simple-pricing-table .features li[data-tooltip]:hover:before,
-        .ie8 .extended-pricing-table .features li[data-tooltip]:hover:before { display: block; }
-
-    /* -------------------------------------------------- */
     /*  Home > Slider
     /* -------------------------------------------------- */
 
@@ -2896,27 +2206,6 @@ footer {
         height: auto;
         max-width: 100%;
     }
-
-    /* -------------------------------------------------- */
-    /*  Simple Pricing Table
-    /* -------------------------------------------------- */
-
-    .simple-pricing-table .column { margin-bottom: 20px !important; }
-
-    /* -------------------------------------------------- */
-    /*  Extended Pricing Table
-    /* -------------------------------------------------- */
-
-    .extended-pricing-table .features li:before {
-        color: #7b7b7b;
-        content: attr(data-feature) ':' !important;
-        display: block;
-        font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-        font-weight: 700;
-        text-align: center;
-    }
-
-    .extended-pricing-table .features-list { display: none; }
 
     /* -------------------------------------------------- */
     /*  Potrfolio
@@ -3038,56 +2327,6 @@ footer {
             }
 
             .no-js #main-nav li:hover > ul, #main-nav ul ul { top: 78px; }
-
-    /* -------------------------------------------------- */
-    /*  Home
-    /* -------------------------------------------------- */
-
-        /* ---------------------------------------- */
-        /*  Simple Pricing Table
-        /* ---------------------------------------- */
-
-        .simple-pricing-table .column { width: 746px; }
-
-        .simple-pricing-table .column.featured { width: 736px; }
-
-        .simple-pricing-table.col2 .column { width: 372px; }
-        .simple-pricing-table.col3 .column { width: 248px; }
-        .simple-pricing-table.col4 .column { width: 185px; }
-        .simple-pricing-table.col5 .column { width: 148px; }
-
-        .simple-pricing-table.col2.featured .column { width: 354px; }
-        .simple-pricing-table.col3.featured .column { width: 235px; }
-        .simple-pricing-table.col4.featured .column { width: 178px; }
-        .simple-pricing-table.col5.featured .column { width: 142px; }
-
-        .simple-pricing-table.col2 .column.featured { width: 382px; }
-        .simple-pricing-table.col3 .column.featured { width: 265px; }
-        .simple-pricing-table.col4 .column.featured { width: 199px; }
-        .simple-pricing-table.col5 .column.featured { width: 165px; }
-
-        /* ---------------------------------------- */
-        /*  Extended Pricing Table
-        /* ---------------------------------------- */
-
-        .extended-pricing-table .column { width: 748px; }
-
-        .extended-pricing-table.col2 .column { width: 374px; }
-        .extended-pricing-table.col3 .column { width: 249px; }
-        .extended-pricing-table.col4 .column { width: 187px; }
-        .extended-pricing-table.col5 .column { width: 149px; }
-
-        /* ---------------------------------------- */
-        /*  Projects Carousel & Post Carousel
-        /* ---------------------------------------- */
-
-        .projects-carousel > li, .post-carousel > li { width: 236px; }
-
-        /* ---------------------------------------- */
-        /*  Post Carousel
-        /* ---------------------------------------- */
-
-        .post-carousel .entry-body { width: 191px; }
 
     /* -------------------------------------------------- */
     /*  Blog
@@ -3253,14 +2492,6 @@ footer {
     .image-gallery-slider { margin-bottom: 10px; }
 
     /* -------------------------------------------------- */
-    /*  Extended Pricing Table
-    /* -------------------------------------------------- */
-
-    .extended-pricing-table .column { margin-bottom: 20px; }
-
-    .extended-pricing-table .column.featured { margin-bottom: 10px; }
-
-    /* -------------------------------------------------- */
     /*  Home > Slider
     /* -------------------------------------------------- */
 
@@ -3422,43 +2653,6 @@ footer {
             .three-fourth, #main .three-fourth { width: 420px; }
 
     /* -------------------------------------------------- */
-    /*  Home
-    /* -------------------------------------------------- */
-
-        /* ---------------------------------------- */
-        /*  Simple Pricing Table
-        /* ---------------------------------------- */
-
-        .simple-pricing-table .column { width: 418px; }
-
-            .simple-pricing-table .column.featured { width: 408px; }
-
-        .simple-pricing-table.col2 .column { width: 208px !important; }
-        .simple-pricing-table.col3 .column,
-        .simple-pricing-table.col4 .column, .simple-pricing-table.col5 .column { width: 204px !important; }
-
-        /* ---------------------------------------- */
-        /*  Extended Pricing Table
-        /* ---------------------------------------- */
-
-        .extended-pricing-table .column { width: 420px; }
-
-        .extended-pricing-table.col2 .column, .extended-pricing-table.col3 .column,
-        .extended-pricing-table.col4 .column, .extended-pricing-table.col5 .column { width: 210px; }
-
-        /* ---------------------------------------- */
-        /*  Projects Carousel & Post Carousel
-        /* ---------------------------------------- */
-
-        .projects-carousel > li, .post-carousel > li { width: 200px; }
-
-        /* ---------------------------------------- */
-        /*  Post Carousel
-        /* ---------------------------------------- */
-
-        .post-carousel .entry-body { width: 155px; }
-
-    /* -------------------------------------------------- */
     /*  Blog > Comments
     /* -------------------------------------------------- */
 
@@ -3509,73 +2703,6 @@ footer {
         .no-js #main-nav > ul, #main-nav .responsive-nav { display: block; }
 
         .no-js #main-nav li:hover > ul { top: 62px; }
-
-    /* -------------------------------------------------- */
-    /*  Home
-    /* -------------------------------------------------- */
-
-        /* ---------------------------------------- */
-        /*  Simple Pricing Table
-        /* ---------------------------------------- */
-
-        .simple-pricing-table .column { width: 298px !important; }
-
-            .simple-pricing-table .column.featured {
-                margin-top: 0;
-                width: 288px !important;
-            }
-
-        /* ---------------------------------------- */
-        /*  Extended Pricing Table
-        /* ---------------------------------------- */
-
-        .extended-pricing-table .column { width: 300px !important; }
-
-            .extended-pricing-table .column.featured {
-                margin-bottom: 20px;
-                margin-top: 10px;
-            }
-
-            .extended-pricing-table .features { background: #f8f8f8 !important; }
-
-            .extended-pricing-table .featured .features { background: #fff !important; }
-
-            .extended-pricing-table .features li {
-                background: none !important;
-                border-bottom: none;
-                border-top: 1px solid #fff;
-                float: left;
-                width: 129px;
-            }
-
-            .extended-pricing-table .features li:nth-child(odd) { border-right: 1px solid #fff; }
-
-            .extended-pricing-table .featured .features li:nth-child(odd) { border-right: 1px solid #f6f6f6; }
-
-            .extended-pricing-table .features li:nth-child(4n-1),
-            .extended-pricing-table .features li:nth-child(4n-4) { background: #f0f0f0 !important; }
-
-            .extended-pricing-table .featured .features li:nth-child(4n-1),
-            .extended-pricing-table .featured .features li:nth-child(4n-4) { background: #f6f6f6 !important; }
-
-            .extended-pricing-table .footer {
-                border-top: 1px solid #fff;
-                clear: both;
-                padding: 12px 10px !important;
-                width: 279px;
-            }
-
-        /* ---------------------------------------- */
-        /*  Projects Carousel
-        /* ---------------------------------------- */
-
-        .projects-carousel > li, .post-carousel > li { width: 300px; }
-
-        /* ---------------------------------------- */
-        /*  Post Carousel
-        /* ---------------------------------------- */
-
-        .post-carousel .entry-body { width: 255px; }
 
     /* -------------------------------------------------- */
     /*  Blog
