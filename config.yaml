@@ -89,8 +89,6 @@ css:
 js:
  - respond
  - jquery.easing
- - jquery.smartStartSlider
- - jquery.jcarousel
  - jquery.cycle.all
  - jquery.isotope
  - custom
