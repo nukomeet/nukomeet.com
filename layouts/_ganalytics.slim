@@ -1,11 +1,8 @@
----
-is_hidden: true
----
 -# tracks all subdomains of a domain
 - domain = @config[:ganalytics][:domain]
 - site_id = @config[:ganalytics][:site_id]
 - if site_id
-  :javascript
+  javascript:
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', "#{site_id}"]);
     _gaq.push(['_setDomainName', "#{domain}"]);
