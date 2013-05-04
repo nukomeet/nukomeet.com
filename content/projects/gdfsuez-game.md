@@ -3,7 +3,7 @@ title: GDF Suez Game
 handle: gdfsuez-game
 kind: project
 categories:
-- Mobile (iPad)
+- Mobile
 thumb: /assets/images/gdf.png
 gallery:
 
