@@ -59,7 +59,7 @@ compile '/fonts/*/' do
 end
 
 compile '/flow/' do
-  filter :haml
+  filter :slim
   layout 'default'
 end
 
@@ -82,7 +82,7 @@ compile 'google51cdab9265302e7f' do
 end
 
 compile 'sitemap' do
-  filter :haml
+  filter :slim
 end
 
 compile '*' do
@@ -95,7 +95,7 @@ compile '*' do
     filter :rdiscount
     layout 'default'
   else
-    filter :haml
+    filter :slim
     layout 'default'
   end
 end
@@ -145,4 +145,4 @@ route '*' do
   end
 end
 
-layout '*', :haml
+layout '*', :slim

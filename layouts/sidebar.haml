@@ -1,7 +1,0 @@
-%aside#sidebar
-  .widget
-    %h6.widget-title Categories
-    %ul.categories
-      %li= link_to('All', "/nulog/")
-      - %w[business programming innovation society technology web].each do |category|
-        %li= link_to(category.capitalize, "/nulog/#{category}/")
