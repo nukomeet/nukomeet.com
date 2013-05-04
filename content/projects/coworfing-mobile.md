@@ -3,7 +3,7 @@ title: Coworfing Mobile
 handle: coworfing-mobile
 kind: project
 categories:
-- Mobile (Android, iOS)
+- Mobile
 thumb: /assets/images/coworfing.jpg
 gallery:
 -
@@ -23,6 +23,8 @@ technology:
 - JavaScript
 - jQuery Mobile
 - PhoneGap
+- Android
+- iOS
 
 link: https://play.google.com/store/apps/details?id=com.workshop
 ---
