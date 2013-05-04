@@ -146,8 +146,6 @@ blockquote {
         width: 19px;
     }
 
-    .ie7 .button .icon, .ie7 .button .arrow { display: inline; }
-
     .button .arrow { background: #ddd url(/assets/images/button-arrows.png) no-repeat 0 0; }
 
     .button .icon.left, .button .arrow.left {
@@ -496,8 +494,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                     z-index: 98;
                 }
 
-                .ie7 #main-nav a { padding: 33px 20px; }
-
                 #main-nav a:after {
                     color: #aeaeae;
                     content: attr(data-description);
@@ -587,8 +583,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
 #content { padding-top: 40px; }
 
-.ie7 #content { padding-top: 25px; }
-
     /* -------------------------------------------------- */
     /*  Page Header
     /* -------------------------------------------------- */
@@ -597,8 +591,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         border-bottom: 1px solid #efefef;
         margin: -15px 0 40px;
     }
-
-    .ie7 .page-header { margin-top: 0; }
 
         .slogan, .page-title, .page-description, .page-subdescription, .project-title {
             font-weight: 300;
@@ -727,8 +719,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
     .image-gallery-slider-nav {}
 
         .image-gallery-slider-nav a {
-            background: rgb(0, 173, 255) url(/assets/images/slider-arrows-medium.png) no-repeat 0 0; /* Fallback for old IE */
-            filter: alpha(opacity=60); /* Fallback for old IE */
             background: rgba(0, 173, 255, 0.6) url(/assets/images/slider-arrows-medium.png) no-repeat 0 0;
             color: transparent;
             cursor: pointer;
@@ -756,7 +746,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             .image-gallery-slider-nav a:hover, .image-gallery-slider-nav a:active {
                 background-color: rgb(0, 173, 255);
                 background-color: rgba(0, 173, 255, 1);
-                filter: alpha(opacity=100); /* Fallback for old IE */
             }
 
     /* -------------------------------------------------- */
@@ -956,7 +945,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                         display: inline-block;
                         font-size: 11px;
                         max-height: 80px;
-                        filter: alpha(opacity=35); /* Fallback for old IE */
                         opacity: 0.35;
                         -webkit-transition: opacity .2s ease-in-out;
                            -moz-transition: opacity .2s ease-in-out;
@@ -971,7 +959,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
                         .ss-slider.fully-loaded .slide-button:hover img, .ss-slider.fully-loaded .slide-button.active img,
                         .no-js .ss-slider .slide-button img {
-                            filter: alpha(opacity=100); /* Fallback for old IE */
                             opacity: 1;
                         }
 
@@ -980,8 +967,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         /* ---------------------------------------- */
 
         .ss-slider .content-container, .no-js .ss-slider .slide-content {
-            background: rgb(0, 0, 0); /* Fallback for old IE */
-            filter: alpha(opacity=60); /* Fallback for old IE */
             background: rgba(0, 0, 0, .6);
             bottom: 115px;
             display: block;
@@ -1000,12 +985,10 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
         .ss-slider.show-content-onhover .content-container, .ss-slider.show-content-onhover .pagination-container a {
             opacity: 0;
-            filter: alpha(opacity=0); /* Fallback for old IE */
         }
 
             .ss-slider.fully-loaded.show-content-onhover:hover .content-container, .ss-slider.fully-loaded.show-content-onhover:hover .pagination-container a {
                 opacity: 1;
-                filter: alpha(opacity=60); /* Fallback for old IE */
             }
 
             .ss-slider.fully-loaded .content-container {
@@ -1092,8 +1075,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         /* ---------------------------------------- */
 
         .ss-slider .pagination-container a {
-            background: rgb(241, 90, 35) url(/assets/images/slider-arrows-small.png) no-repeat 0 center; /* Fallback for old IE */
-            filter: alpha(opacity=60); /* Fallback for old IE */
             background: rgba(241, 90, 35, 0.6) url(/assets/images/slider-arrows-small.png) no-repeat 0 center;
             bottom: 115px;
             color: transparent;
@@ -1128,7 +1109,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
 
             .ss-slider .pagination-container a:hover, .ss-slider.show-content-onhover:hover .pagination-container a:hover {
                 background-color: rgba(241, 90, 35, 1);
-                filter: alpha(opacity=100) !important; /* Fallback for old IE */
             }
 
             .ss-slider .pagination-container.center a {
@@ -1207,7 +1187,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             #portfolio-items article img {
                 background-color: #fff;
                 margin: 0 auto -5px;
-                filter: alpha(opacity=70); /* Fallback for old IE */
                 opacity: 0.7;
             }
 
@@ -1231,7 +1210,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             }
 
             #portfolio-items > article:hover img {
-                filter: alpha(opacity=100); /* Fallback for old IE */
                 opacity: 1;
             }
 
@@ -1521,8 +1499,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             margin: 0 5px 0 0;
         }
 
-        .ie7 .pagination li, .ie7 .pagination a { display: inline; }
-
         .pagination li:last-child { margin-right: 0; }
 
             .pagination .current {
@@ -1570,8 +1546,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         margin-right: 5px;
     }
 
-    .ie7 #portfolio-items-filter li:first-child { display: none !important; }
-
         #portfolio-items-filter a {
             background: #00aed1;
             color: #fff;
@@ -1579,13 +1553,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             display: block;
             margin: 0 0 5px 5px;
             padding: 5px 10px;
-        }
-
-        .ie7 #portfolio-items-filter a {
-            display: block !important;
-            margin: 0 0 5px 5px !important;
-            padding: 5px 10px !important;
-            width: auto !important;
         }
 
             #portfolio-items-filter a:hover { background: #3a3a3a; }
@@ -1653,8 +1620,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
             line-height: 25px;
             margin: 0;
         }
-
-        .ie7 .portfolio-pagination li { display: inline; }
 
         .portfolio-pagination .prev {
             border-right: 1px solid #e8e8e8;
@@ -1823,11 +1788,6 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
                 margin: 0 2px 1px 0;
             }
 
-            .ie7 .flickr-feed li {
-                display: inline;
-                margin: 0 5px 5px 0;
-            }
-
                 .flickr-feed a { }
 
                     .flickr-feed li img {
@@ -1905,8 +1865,6 @@ footer {
                 margin: 0 -3px 0 0;
             }
 
-            .ie7 #footer-nav li { display: inline; }
-
                  #footer-nav li a {
                     border-left: 1px solid #484848;
                     font-size: 10px;
@@ -1956,12 +1914,6 @@ footer {
             list-style: none;
             margin: 0 0 10px 15px;
             text-indent: -9999px;
-        }
-
-        .ie7 .social-links li {
-            display: inline;
-            font-size: 0;
-            text-indent: 0;
         }
 
         .social-links li:nth-child(6n+1) { margin-left: 0; }
@@ -2521,7 +2473,6 @@ footer {
             bottom: 50% !important;
             height: 49px !important;
             margin: 0 0 -25px 0 !important;
-            filter: alpha(opacity=60) !important; /* Fallback for old IE */
             opacity: 1 !important;
             right: auto !important;
             top: auto !important;
@@ -2542,7 +2493,6 @@ footer {
 
             .ss-slider .pagination-container a:hover {
                 background-color: rgba(241, 90, 35, 1);
-                filter: alpha(opacity=100); /* Fallback for old IE */
             }
 
     /* -------------------------------------------------- */
