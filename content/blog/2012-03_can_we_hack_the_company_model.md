@@ -2,11 +2,13 @@
 kind: article
 created_at: 2012-03-02
 title: Can we hack the company model ?
+authors:
+ - company
 ---
 
-We would like to introduce you to a new approach on how to work together and make a living, as an alternative to traditional companies. It's an early draft, but we decided to publish it anyway in order to get feedback. 
+We would like to introduce you to a new approach on how to work together and make a living, as an alternative to traditional companies. It's an early draft, but we decided to publish it anyway in order to get feedback.
 
-From the beginning we didn't want to create a traditional company, being rather unsatisfied with existing models. We wanted to change that, to innovate it that field with a quite simple goal in mind: *how to make people happy at work?* as we profoundly believe that happy people are far more creative and productive, and such configuration makes *work* a very different concept. 
+From the beginning we didn't want to create a traditional company, being rather unsatisfied with existing models. We wanted to change that, to innovate it that field with a quite simple goal in mind: *how to make people happy at work?* as we profoundly believe that happy people are far more creative and productive, and such configuration makes *work* a very different concept.
 
 Nukomeet is about programmers that are passionate about their craft. Our approach can be summarized in six core principles:
 
@@ -24,28 +26,15 @@ The profit is shared, kept or invested according to the will of the people in th
 
 **3. We are equal.**
 
-We think hierarchies belong to another age. What is more, we believe that the workers, those who create the value, should take decisions. Because it is fair, and because it is natural - they know what is at stake as well or even better than managers. 
+We think hierarchies belong to another age. What is more, we believe that the workers, those who create the value, should take decisions. Because it is fair, and because it is natural - they know what is at stake as well or even better than managers.
 
 **4. We trust each other.**
 
-Trust is a crucial element to establish a great company culture. For us, a company moves forward only if everyone cares about. We don't hire people who don't care about the company, who believe it is *their* company. 
+Trust is a crucial element to establish a great company culture. For us, a company moves forward only if everyone cares about. We don't hire people who don't care about the company, who believe it is *their* company.
 Therefore, we refuse to do micro-management. People work when they want, where they want, as they want. We assess only results.
 
 **5. We innovate.**
 
-The mission for Nukomeet is to become a innovation agency where people can start and grow their projects, using company resources if needed. We want to create an adapted environment for innovation. 
+The mission for Nukomeet is to become a innovation agency where people can start and grow their projects, using company resources if needed. We want to create an adapted environment for innovation.
 
 That's is our way. Please tell us what you think about it, what's wrong and what's good in it.
-
--- [@albanlv](http://twitter.com/albanlv) and [@zaiste](http://twitter.com/zaiste)
-
-- - -
-
-Nukomeet is a company ran by self-managed developers using cutting-edge technologies to build top-notch applications - for clients or for fun.
-
-We would be delighted to have your feedback on this post, please discuss it on Hacker News. 
-
-Feel free to ask us any questions on [Twitter](https://twitter.com/#!/nukomeet) or using [an email](mailto:bonjour@nukomeet.com)
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="nukomeet" data-size="large">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

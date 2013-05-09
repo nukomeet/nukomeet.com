@@ -3,16 +3,17 @@ section#main
     .entry-body
       a href="#"
         h1.title = @item[:title]
+
       == yield
+
+      hr/
+
+      == render "authors/#{(@item[:authors] || ['company']).first}"
+
     .entry-meta
       ul
         li
-          a href="single-post.html"
-            span.post-format Permalink
-        li
-          span.title Posted:
-          a href="#" = @item[:created_at]
-        hr
+          a href="#" = @item[:created_at].strftime("%b %d")
         li
           a.twitter-share-button data-count="none" data-size="large" data-via="nukomeet" href="https://twitter.com/share" I share
           javascript:

@@ -6,6 +6,7 @@ publish: true
 tags:
 - society
 - innovation
+authors:
 ---
 
 Considering the recent surge of online services, like

@@ -17,17 +17,29 @@ require 'set'
 
 preprocess do
   tags = Set.new
+  authors = Set.new
+
   items.each do |item|
     tags.merge(item[:tags] || [])
+    authors.merge(item[:authors] || [])
   end
 
   tags.each do |tag|
     items << Nanoc::Item.new("", { tag: tag }, "/nulog/#{tag}/")
   end
+
+  authors.each do |author|
+    items << Nanoc::Item.new("", { author: author }, "/nulog/#{author}/")
+  end
 end
 
-compile '/nulog/business|programming|innovation|society|technology|web/' do
+compile '/nulog/(business|programming|innovation|society|technology|web)/' do
   layout 'tag'
+  layout 'default'
+end
+
+compile '/nulog/(zaiste|albanlv|yaroq|adrien|tukan|tomkuk)/' do
+  layout 'author'
   layout 'default'
 end
 
