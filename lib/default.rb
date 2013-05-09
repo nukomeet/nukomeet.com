@@ -27,3 +27,7 @@ def combined(assets, type='css')
 
   content.join("\n")
 end
+
+def items_by_author(author)
+  @items.select { |i| (i[:authors] || []).include?(author) }
+end

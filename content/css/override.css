@@ -93,18 +93,44 @@ h4 {
 
 .entry-body h1.title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 24px;
+    font-size: 18px;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 6px;
 }
 
 article.entry:first-child {
-  padding: 0 0 24px;
+  padding: 0;
 }
 
 article.entry {
-  padding: 24px 0 24px;
+  padding: 24px 0 0;
   border-bottom: none;
 }
 
 .page-header h2 {
   text-align: center;
+}
+
+.entry-meta a {
+  font-style: normal;
+}
+
+h2.about {
+  border-top: 1px solid #CFCFCF;
+  line-height: 36px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.slogan {
+  font-size: 22px;
+}
+
+.empty-meta ul {
+  margin-bottom: 12px;
+}
+
+.entry-meta li {
+  margin-bottom: 12px;
 }
