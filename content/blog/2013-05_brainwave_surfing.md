@@ -31,4 +31,4 @@ This was the best excuse ever for skipping my daily meditation routine.
 
 Bobby, from San Francisco, tries the brain wave visualizer while wearing tripping glasses
 
-
+###by Yaroq###
