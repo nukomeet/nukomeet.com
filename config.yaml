@@ -99,7 +99,7 @@ autocompile:
 deploy:
   default:
     kind: rsync
-    dst:  "nukomeet:/srv/www/nukomeet.com/public_html"
+    dst:  "nukomeet-deployer:/srv/www/nukomeet.com/public_html"
     options: [
       '-glpPrtvzO',
       '--exclude=".hg"',
