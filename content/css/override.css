@@ -134,3 +134,11 @@ h2.about {
 .entry-meta li {
   margin-bottom: 12px;
 }
+
+.newsletter .one-third input[type="email"]{
+  width: 280px;
+}
+
+.newsletter .one-third .button{
+  padding: 11px 20px;
+}
