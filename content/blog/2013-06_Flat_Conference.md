@@ -25,7 +25,7 @@ we organized a conference about flat organization, like
 We had the chance to receive several people from different contexts who went with
 specific examples according to their personnal experiences.
 
-![Eric Laurent](assets/flat-conference/eric.jpg)
+![Eric Laurent](/assets/images/flat-conference/eric.jpg)
 
 Eric Laurent told us about how he brought transparency, cross-domain relevance
 and immediacy in a context well known for being heavily hierachical. He mainly
@@ -40,7 +40,7 @@ interest.
 Eric told us to also care about cross-domain relevance, immediacy, communication
 in order to make everybody independent and transparency.
 
-![Christophe Baillon](assets/flat-conference/christophe.jpg)
+![Christophe Baillon](/assets/images/flat-conference/christophe.jpg)
 
 Christophe Baillon is the CEO of Sogilis, a software development company, who
 brought a new flat model. He decided to divide his teams in cells of 6-7 people.
@@ -62,7 +62,7 @@ He also told us that the critical size of a cell is when it's not anymore
 possible to share a pizza. Well, I guess it depends on the
 [size](http://melbournepizzadelivery.com.au/wp-content/uploads/2009/12/Worlds-Largest-Pizza.jpg) [of the](http://www.incrediblethings.com/wp-content/uploads/2012/12/worlds-largest-pizza-2.jpg) [pizza](http://www.pizzadelivery.org/Portals/0/ContentImages/largest-pizza-in-south-africa.jpg).
 
-![Jean-Noel Chaintreuil](assets/flat-conference/jean-noel.jpg)
+![Jean-Noel Chaintreuil](/assets/images/flat-conference/jean-noel.jpg)
 
 This man has well known the big traditional companies' organization before
 willing to instore horizontal organisation.
