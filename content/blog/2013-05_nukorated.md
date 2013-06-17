@@ -24,14 +24,14 @@ authors:
 
 [http://planscope.io/blog/giving-up-a-million-dollar-consultancy/][5]
 
-[http://mashable.com/2013/05/07/brain-experiment-extra-20-years/?utm_medium=email][6]
+[http://mashable.com/2013/05/07/brain-experiment-extra-20-years/][6]
 
 [http://www.forbes.com/sites/kashmirhill/2013/05/07/living-on-bitcoin-for-a-week-bitcoin-is-the-internet-applied-to-money-and-i-survived-it/][7]
 
 [http://uxarchive.com/][8]
 
 
-[https://en.bitcoin.it/wiki/Mining_hardware_comparison][9]
+[https://en.bitcoin.it/wiki/Mininghardwarecomparison][9]
 
 [http://www.bitcoinx.com/][10]
 
