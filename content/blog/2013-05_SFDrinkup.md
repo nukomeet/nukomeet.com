@@ -4,9 +4,7 @@ created_at: 2013-05-20
 title: "San Francisco Drinkup 23rd of May"
 publish: true
 tags:
-- drinkup
-- san francisco
-authors:
+- meetup
 ---
 
 Will you be in the Bay Area on next thursday (the 23rd of May)?.

@@ -12,7 +12,7 @@ gem 'yuicompressor'
 gem 'pygments.rb'
 
 gem 'redcarpet'
-gem 'slim'
+gem 'slim', '~> 2.0.0.pre.9'
 gem 'nokogiri'
 gem 'less'
 gem 'therubyracer'

@@ -20,7 +20,7 @@ preprocess do
   authors = Set.new
 
   items.each do |item|
-    tags.merge(item[:tags] || [])
+    tags.merge(item[:tags] || ['business', 'programming', 'innovation', 'society', 'technology', 'web', 'meetup'])
     authors.merge(item[:authors] || [])
   end
 
@@ -33,7 +33,7 @@ preprocess do
   end
 end
 
-compile '/nulog/(business|programming|innovation|society|technology|web)/' do
+compile '/nulog/(business|programming|innovation|society|technology|web|meetup)/' do
   layout 'tag'
   layout 'default'
 end
@@ -111,8 +111,6 @@ compile '*' do
     layout 'default'
   end
 end
-
-
 
 route '/css/*/' do
   item.identifier.chop + '.css'

@@ -4,7 +4,6 @@ kind: article
 publish: true
 title: "Pixel developer or Ruby artist ?"
 tags:
-- team
 authors:
 - albanlv
 ---
