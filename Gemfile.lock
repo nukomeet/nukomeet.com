@@ -58,7 +58,7 @@ DEPENDENCIES
   pygments.rb
   rdiscount
   redcarpet
-  slim
+  slim (~> 2.0.0.pre.9)
   systemu
   therubyracer
   thin
