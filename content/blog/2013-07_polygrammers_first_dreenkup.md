@@ -3,8 +3,6 @@ kind: article
 created_at: 2013-07-18
 title: "Polygrammers: First Dreenkup in Paris"
 publish: true
-authors:
-- adrien
 tags:
 - meetup
 ---
