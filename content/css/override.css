@@ -83,7 +83,6 @@ h4 {
 }
 
 .entry-body img {
-  max-width: 100%;
 }
 
 article.entry:first-child {
@@ -104,8 +103,6 @@ article.entry {
 }
 
 h2.about {
-  border-top: 1px solid #CFCFCF;
-  line-height: 36px;
   font-weight: bold;
   font-size: 16px;
 }
