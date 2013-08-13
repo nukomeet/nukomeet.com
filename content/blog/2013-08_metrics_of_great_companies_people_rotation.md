@@ -25,8 +25,8 @@ ingredient which is necessary to fulfil company's objectives. Great companies
 are those that focus on people. One of my favourite indicators of a great
 company is the number of people that left or was fired, I call it « people
 rotation metric ». Usually, the lower it stays the better the company seems.
-When people leave it's usually company's fault: when people expectations diverge,
-it's a company responsibility to facilitate and reduce the tension; when people
+When people leave it's usually company's fault: when people's expectations diverge,
+it's a company responsibility to facilitate and reduce the tension; when people's
 goals rise, the company must keep up. Once this metric rises 
 considerably, people are not treated as they should - there is something wrong
 whether related to pressure, exploitation or the way « together » is perceived.
