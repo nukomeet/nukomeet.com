@@ -10,24 +10,24 @@ tags:
 - business
 ---
 
-People often asks me how I would define a great company. Some would say it's
+People often asks me how I would define a « great company ». Some would say it's
 about earning money, it's business after all. Other would argue it's about
 creating a product people need and care about. In eyes of many, best companies
 are these who fulfil objectives for its clients and stakeholders in the first
-place. While not false, we tend to put  a value on company’s external
-appearance. Such defined characteristics should be results of building a great
-company as they refer to its performance. It's an internal well-being and
-integrity which should produce excellent results, not an intense pressure,
-a hard exploitation nor an unfair affinity illusion.
+place - while not false, we tend to favor company’s external
+activity when asked the question. Those characteristics, however, should be a consequence
+as they refer to company's performance. It is not intense pressure, hard 
+exploitation nor unfair affinity illusion, but internal well-being and integrity 
+which should produce excellent results.
 
 The company essence is people who decided to work together; it's a preliminary
-ingredient which is necessary to fulfil the company objectives. Great companies
+ingredient which is necessary to fulfil company's objectives. Great companies
 are those that focus on people. One of my favourite indicators of a great
 company is the number of people that left or was fired, I call it « people
 rotation metric ». Usually, the lower it stays the better the company seems.
-When people leave it's usually company fault: when people expectations diverge,
+When people leave it's usually company's fault: when people expectations diverge,
 it's a company responsibility to facilitate and reduce the tension; when people
-goals rise, the company must keep up. Once this metric rises its value
+goals rise, the company must keep up. Once this metric rises 
 considerably, people are not treated as they should - there is something wrong
 whether related to pressure, exploitation or the way « together » is perceived.
 
