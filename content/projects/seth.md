@@ -4,7 +4,7 @@ handle: seth
 kind: project
 categories:
 - Mobile
-thumb: http://placehold.it/300x190
+thumb: /assets/images/projects/seth.png
 gallery:
 -
   src: /assets/images/projects/seth1.png
