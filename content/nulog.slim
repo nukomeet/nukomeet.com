@@ -1,12 +1,13 @@
 section#main
   - @site.sorted_articles.each do |post|
-    article.entry.clearfix
-      .entry-body
-        a href="#{post.path}"
-          h1.title = post[:title]
-      .entry-meta
-        ul
-          li
-            a href="#" == post[:created_at].strftime("%b %d")
+    - if post[:publish]
+      article.entry.clearfix
+        .entry-body
+          a href="#{post.path}"
+            h1.title = post[:title]
+        .entry-meta
+          ul
+            li
+              a href="#" == post[:created_at].strftime("%b %d")
 
 == render 'sidebar'
