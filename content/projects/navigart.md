@@ -4,7 +4,7 @@ handle: navigart
 kind: project
 categories:
 - Web
-thumb: http://placehold.it/300x190
+thumb: /assets/images/projects/navigart.png
 gallery:
 -
   src: /assets/images/projects/navigart1.jpeg
