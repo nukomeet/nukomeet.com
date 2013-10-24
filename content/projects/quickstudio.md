@@ -2,6 +2,7 @@
 title: Quickstudio
 handle: quickstudio
 kind: project
+created_at: January 2012
 categories:
 - Web
 thumb: /assets/images/quickstudio.png

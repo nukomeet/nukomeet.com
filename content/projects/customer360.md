@@ -2,6 +2,7 @@
 title: Customer360
 handle: customer360
 kind: draft
+created_at: February 2013
 categories:
 - Web
 thumb: /assets/images/customer360_logo.png

@@ -2,6 +2,7 @@
 title: NovoED
 handle: novoed
 kind: project
+created_at: May 2013
 categories:
 - Web
 thumb: /assets/images/projects/novoed.png

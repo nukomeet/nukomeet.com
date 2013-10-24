@@ -2,6 +2,7 @@
 title: Knowable
 handle: knowable
 kind: project
+created_at: January 2013
 categories:
 - Web
 thumb: /assets/images/projects/knowable.png

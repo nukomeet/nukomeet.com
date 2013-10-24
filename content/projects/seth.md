@@ -2,9 +2,10 @@
 title: Seth
 handle: seth
 kind: project
+created_at: October 2012
 categories:
 - Mobile
-thumb: http://placehold.it/300x190
+thumb: /assets/images/projects/seth.png
 gallery:
 -
   src: /assets/images/projects/seth1.png

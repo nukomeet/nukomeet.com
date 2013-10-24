@@ -13,7 +13,7 @@ header.page-header
 
 section#portfolio-items.clearfix
 
-  - @items.select { |item| item[:kind] == 'project' }.each do |project|
+  - sorted_projects.each do |project|
     - categories = project[:categories].map{ |c| c.downcase.gsub(" ", "-") }.join(' ')
     article.one-third data-categories="#{categories}"
       img alt="Project: #{project[:title]}" src="#{project[:thumb]}"

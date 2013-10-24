@@ -2,6 +2,7 @@
 title: Ouishare Fest
 handle: ouishare
 kind: project
+created_at: December 2012
 categories:
 - Web
 thumb: /assets/images/projects/ouisharefest.png

@@ -2,6 +2,7 @@
 title: Navigart
 handle: navigart
 kind: project
+created_at: September 2013
 categories:
 - Web
 thumb: /assets/images/projects/navigart.png
