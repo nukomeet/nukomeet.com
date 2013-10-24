@@ -2,6 +2,7 @@
 title: Coworfing
 handle: coworfing
 kind: project
+created_at: October 2011
 categories:
 - Web
 - Open Source

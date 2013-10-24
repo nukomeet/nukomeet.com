@@ -2,6 +2,7 @@
 title: Slicecook
 handle: slicecook
 kind: project
+created_at: April 2012
 thumb: /assets/images/slicecook.png
 categories:
 - Web

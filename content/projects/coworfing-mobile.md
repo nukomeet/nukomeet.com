@@ -2,6 +2,7 @@
 title: Coworfing Mobile
 handle: coworfing-mobile
 kind: project
+created_at: March 2012
 categories:
 - Mobile
 thumb: /assets/images/coworfing.jpg

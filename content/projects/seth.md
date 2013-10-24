@@ -2,6 +2,7 @@
 title: Seth
 handle: seth
 kind: project
+created_at: October 2012
 categories:
 - Mobile
 thumb: /assets/images/projects/seth.png

@@ -2,6 +2,7 @@
 title: GDF Suez Game
 handle: gdfsuez-game
 kind: project
+created_at: March 2012
 categories:
 - Mobile
 thumb: /assets/images/gdf.png

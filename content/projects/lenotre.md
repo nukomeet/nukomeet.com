@@ -2,6 +2,7 @@
 title: LeNotre
 handle: lenotre
 kind: project
+created_at: September 2013
 categories:
 - Web
 thumb: /assets/images/projects/lenotre.png
@@ -29,4 +30,4 @@ technology:
 link: http://lenotre.chateauversailles.fr/
 ---
 
-Le Notre is an application ordered by the Chateau de Versailles and Arte to celebrate the 400th year of Le Notre's birth.
+Le Notre is an application created under the direction of Camera Lucida, for Arte TV and the Chateau de Versailles to celebrate the 400th year of Le Notre's birth.

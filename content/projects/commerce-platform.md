@@ -2,6 +2,7 @@
 title: Commerce platform
 handle: commerce-platform
 kind: project
+created_at: March 2013
 categories:
 - Web
 thumb: /assets/images/projects/commerce-platform.png

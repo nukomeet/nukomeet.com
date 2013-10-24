@@ -31,3 +31,13 @@ end
 def items_by_author(author)
   @items.select { |i| (i[:authors] || []).include?(author) }
 end
+
+def projects
+  @items.select { |item| item[:kind] == 'project' }
+end
+
+def sorted_projects
+  projects.sort_by do |a|
+    attribute_to_time(a[:created_at])
+  end.reverse
+end
