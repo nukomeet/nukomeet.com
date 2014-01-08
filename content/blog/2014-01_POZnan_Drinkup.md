@@ -1,5 +1,5 @@
 ---
-created_at: 2014-01-08 15:52:18 +0100
+created_at: 2014-01-07
 kind: article
 publish: true
 title: "POZnan Drinkup"
