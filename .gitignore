@@ -4,3 +4,4 @@ output/
 content/.DS_Store
 crash.log
 Thumbs.db
+.bundle/
