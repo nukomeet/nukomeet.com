@@ -4,7 +4,7 @@ kind: article
 publish: true
 title: "POZnan Drinkup #1"
 tags:
-- society
+- meetups
 ---
 
 Winter is coming, guys! Say « hello » to cold tempretures with Nukomeet team.
