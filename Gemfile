@@ -8,17 +8,17 @@ gem 'rdiscount'
 gem 'fssm'
 gem 'yuicompressor'
 
-# Code Highlight
+gem 'guard-nanoc'
+
 gem 'pygments.rb'
 
 gem 'redcarpet'
-gem 'slim', '~> 2.0.0.pre.9'
+gem 'slim'
 gem 'nokogiri'
 gem 'less'
 gem 'therubyracer'
 gem 'thin'
 
-# XML Sitemap
 gem 'builder'
 
 gem 'nanoc'
