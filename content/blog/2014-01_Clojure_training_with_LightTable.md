@@ -26,12 +26,22 @@ During the course we will be using [LightTable][1], a brand new, general purpose
 
 ### Where & When
 
- * Where: TBA
+ * Where: [Coworking ZOO][5], [Zwierzyniecka 20][6]
  * February 23th
+
+<iframe width="550" height="350" frameborder="0" scrolling="no" marginheight="0"
+marginwidth="0"
+src="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Zwierzyniecka+20,+Poznan,+Poland&aq=0&oq=zwierzyniecka+20&sll=37.0625,-95.677068&sspn=50.02446,92.724609&ie=UTF8&hq=&hnear=Zwierzyniecka+20,+Pozna%C5%84,+wielkopolskie,+Poland&t=m&z=14&ll=52.408438,16.908426&output=embed"></iframe><br
+/>
+
+[View Larger Map][7]
 
 [1]: http://lighttable.com/
 [2]: http://www.wired.com/wiredenterprise/2014/01/light-table/
 [3]: http://clojure.org/
 [4]: http://nukomeet.com/workshops/
+[5]: http://www.coworkingzoo.pl/
+[6]: http://goo.gl/maps/wgMjt
+[7]: https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=Zwierzyniecka+20,+Poznan,+Poland&aq=0&oq=zwierzyniecka+20&sll=37.0625,-95.677068&sspn=50.02446,92.724609&ie=UTF8&hq=&hnear=Zwierzyniecka+20,+Pozna%C5%84,+wielkopolskie,+Poland&t=m&z=14&ll=52.408438,16.908426
 
 
