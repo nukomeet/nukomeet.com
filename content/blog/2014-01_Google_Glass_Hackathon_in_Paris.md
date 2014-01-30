@@ -15,7 +15,12 @@ From January 17 to 19, I participated in a Google Glass hackathon organized by [
 
 I had the pleasure to be a part of the BikeFinder team. The idea was to create an application that shows bikes disponibility in cities that have such service e.g. Velib in Paris (check [the video][5] that explains the concept). My task was to develop a backend for this application. At the end of the event we managed to deliver a fully operational application that works in any city where JC Decaux data about public bicycles is available.
 
-Our solution won the competition. The jury especially was impressed by the fact that the application was fully usable at the end of the hackathon and that we managed to easily interface with other cities e.g. Barcelona where we had even some beta testers.
+<iframe width="550" height="315" src="//www.youtube.com/embed/d99Sg-09zuc"
+frameborder="0" allowfullscreen></iframe>
+
+---
+
+Our solution won the competition. The jury was impressed by the fact that the application was fully usable at the end of the hackathon and that we managed to easily interface with other cities e.g. Barcelona where we had even some beta testers.
 
 If you like the concept, be sure to like it [on Facebook][3] and/or follow us [on Twitter][4].
 
