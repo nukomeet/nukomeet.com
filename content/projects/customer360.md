@@ -1,18 +1,17 @@
 ---
-title: Customer360
-handle: customer360
-kind: draft
-created_at: February 2013
+title: CustomerMatrix
+handle: customermatrix
+created_at: January 2014
 categories:
 - Web
-thumb: /assets/images/customer360_logo.png
+thumb: /assets/images/customermatrix.png
 gallery:
 -
   src: /assets/images/projects/customer360_1.png
-  alt: Customer360
+  alt: CustomerMatrix
 -
   src: /assets/images/projects/customer360_2.png
-  alt: Customer360
+  alt: CustomerMatrix
 technology:
 - HTML5
 - CSS3
@@ -25,4 +24,4 @@ technology:
 link:
 ---
 
-PolySpot, the client behind this project, edits a high performance enterprise search engine. Customer360 aims to prove that from the data PolySpot search engine can index, it is possible to exploit those data.
+PolySpot, the client behind this project, edits a high performance enterprise search engine. CustomerMatrix aims to prove that from the data PolySpot search engine can index, it is possible to exploit those data and bring insights.
