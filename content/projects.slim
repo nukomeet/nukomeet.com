@@ -16,7 +16,7 @@ section#portfolio-items.clearfix
   - sorted_projects.each do |project|
     - categories = project[:categories].map{ |c| c.downcase.gsub(" ", "-") }.join(' ')
     article.one-third data-categories="#{categories}"
-      img alt="Project: #{project[:title]}" src="#{project[:thumb]}"
       a.project-meta href="/projects/#{project[:handle]}/"
+        img alt="Project: #{project[:title]}" src="#{project[:thumb]}"
         h5.title = project[:title]
         span.categories = project[:categories].join(' / ')
