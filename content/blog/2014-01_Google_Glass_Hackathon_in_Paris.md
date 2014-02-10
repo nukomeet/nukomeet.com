@@ -28,7 +28,12 @@ BikeFinder received very positive media coverage:
 
 * [FrenchWeb - Google Glass Hackathon: « Certains participants ne connaissaient pas du tout l’interface »][7]
 * [FrAndroid - GlassCamp : Compte-rendu du premier hackathon Google Glass européen][6]
-
+* [Garage21 - Google Glass Camp : the winner is Bike Finder][8]
+* [Velib - Bike Finder : l’application gagnante du Google Glass Camp][9]
+* [Focus Optique - « Bike Finder » remporte le Hackathon Google Glass Paris][10]
+* [Giiks - Glasscamp : découvrez l’application gagnante du hackathon parisien des Google Glass][11]
+* [Presse Citron - Glass Camp : De la domotique à la mobilité, en passant par le shopping... la France expérimente les Google Glass][12]
+* And more :)
 
 [1]: http://glasscamp.org/
 [3]: https://www.facebook.com/BikeFinderMobi
@@ -36,4 +41,8 @@ BikeFinder received very positive media coverage:
 [5]: https://www.youtube.com/watch?v=d99Sg-09zuc
 [6]: http://www.frandroid.com/events/191126_glasscamp-compte-rendu-du-premier-hackathon-google-glass-europeen
 [7]: http://frenchweb.fr/google-glass-hackathon-certains-ne-connaissaient-pas-du-tout-linterface/138969
-
+[8]: http://garage21.org/2014/01/23/google-glass-camp-winner-bike-finder/
+[9]: http://blog.velib.paris.fr/blog/2014/01/28/bike-finder-lapplication-gagnante-du-google-glass-camp/
+[10]: http://www.focusoptique.tn/2014/01/bike-finder-remporte-le-hackathon-google-glass-paris/
+[11]: http://www.giiks.com/application/glasscamp-application-google-glass-43810/
+[12]: http://www.presse-citron.net/glass-camp-de-la-domotique-a-la-mobilite-en-passant-par-le-shopping-la-france-experimente-les-google-glass
