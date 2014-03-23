@@ -87,6 +87,9 @@ compile '/projects/*/' do
   layout 'default'
 end
 
+compile 'blast' do
+end
+
 compile 'googleb74edef4a46cf19d' do
 end
 
