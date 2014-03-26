@@ -8,8 +8,6 @@ gem 'rdiscount'
 gem 'fssm'
 gem 'yuicompressor'
 
-gem 'guard-nanoc'
-
 gem 'pygments.rb'
 
 gem 'redcarpet'
@@ -22,3 +20,4 @@ gem 'thin'
 gem 'builder'
 
 gem 'nanoc'
+gem 'guard-nanoc'
