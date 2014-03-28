@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--[if IE 8]>      <html class="no-js lt-ie9" lang="en" > <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Blast by Nukomeet</title>
+
+    </head>
+    <body>
+doctype html
+html lang="en"
+  head
+    meta charset="utf-8"
+    meta content="width=device-width, initial-scale=1.0" name="viewport"
+    meta content="Blast by Nukomeet" name="description"
+    title
+      | Blast by Nukomeet
+    link rel="stylesheet" href="/css/blast/theme.css" media="all"
+    link rel="stylesheet" href="/css/blast/app.css" media="all"
+
+    script src="/js/modernizr.custom.js"
+    /[if lt IE 9]
+      script src="http://html5shim.googlecode.com/svn/trunk/html5.js"
+      link rel="stylesheet" href="css/ie8-hack.css"
+
+  body
+    == yield
+
+    script src="http://code.jquery.com/jquery-1.9.0.js"
+    script src="/js/blast.js"

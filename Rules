@@ -43,7 +43,6 @@ compile '/nulog/(zaiste|albanlv|yaroq|adrien|tukan|tomkuk)/' do
   layout 'default'
 end
 
-
 compile '/css/*/' do
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
 
@@ -75,6 +74,11 @@ compile '/flow/' do
   layout 'default'
 end
 
+compile 'blast' do
+  filter :slim
+  layout 'blast'
+end
+
 compile '/blog/*/' do
   filter :rdiscount, :extensions => %w( strict smart )
   layout 'post'
@@ -85,9 +89,6 @@ compile '/projects/*/' do
   filter :rdiscount, :extensions => %w( strict smart )
   layout 'project'
   layout 'default'
-end
-
-compile 'blast' do
 end
 
 compile 'googleb74edef4a46cf19d' do
