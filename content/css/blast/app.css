@@ -82,9 +82,16 @@ form * {
 }
 
 #quote.done .alert-box {
-  opacity: 1;
+  margin-top: 20px;
+
   font-size: 22px;
   font-weight: 200;
+
+  opacity: 1;
+}
+#quote.done .form-wrapper {
+  opacity: 0;
+  display: none;
 }
 
 .alert-box {
