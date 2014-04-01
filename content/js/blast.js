@@ -18,8 +18,8 @@ $(document).ready(function () {
         email = form.find('input[name=email]').val(),
         company = form.find('input[name=company]').val(),
         phone = form.find('input[name=phone]').val(),
-        projectType = form.find('select[name=project_type]').val(),
-        description = form.find('textarea[name=description]').val();
+        projectType = form.find('select[name="project_type"]').val(),
+        description = form.find('textarea[name="description"]').val();
 
     var data = {
       key: 'rTubFCRldKSrxeVDK_95hA',
