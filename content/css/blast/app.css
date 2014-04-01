@@ -54,8 +54,7 @@ form * {
   background: none;
   border: none
 }
-.actions input[type=submit],
-.actions input[type=submit]:active { width: 100%; }
+.actions input[type=submit] { width: 100%; }
 
 .custom-dropdown { position: relative; }
 .custom-dropdown select {
@@ -110,7 +109,7 @@ li {
   font-size: 24px;
   border: 1px solid #fff;
 }
-.button:hover {
+.button:focus, .button:active, .button:hover {
   background-color: #fff;
   color: #000;
   border: 1px solid #ed5a48;
