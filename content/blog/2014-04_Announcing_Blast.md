@@ -58,7 +58,7 @@ The typical case is:
 </tbody>
 </table>
 
-And the next monday, or so, you get you prototype up and running.
+And the next monday, or so, you get your prototype up and running.
 
 ## Questions?
 
