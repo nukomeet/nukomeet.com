@@ -38,27 +38,27 @@ The typical case is:
 <table>
 <tbody>
 <tr>
-<td><strong>Day 1</strong></td><td>We discuss to know as best as possible your product idea</td>
+<td style="width: 60px"><strong>Day 1</strong></td><td>We discuss to know as best as possible your product idea</td>
 </tr>
 <tr>
-<td><strong>Day 3</strong></td><td>Together, we list the functionalities your prototype will include</td>
+<td style="width: 60px"><strong>Day 3</strong></td><td>Together, we list the functionalities your prototype will include</td>
 </tr>
 <tr>
-<td><strong>Day 3</strong></td><td>After what, either the amount of work fits in our human being capabilities and we get started right at that moment (or the day after :))</td>
+<td style="width: 60px"><strong>Day 3</strong></td><td>After what, either the amount of work fits in our human being capabilities and we get started right at that moment (or the day after :))</td>
 </tr>
 <tr>
 <td colspan="2" style="text-align: center"><strong>OR</strong></td>
 </tr>
 <tr>
-<td><strong>Day 3</strong></td><td>Otherwise, with our help, you decide the priorities (ie. you give up on some functionalities that are not the most important for this first step) until the amount of work fetch our human being capabilities</td>
+<td style="width: 60px"><strong>Day 3</strong></td><td>Otherwise, with our help, you decide the priorities (ie. you give up on some functionalities that are not the most important for this first step) until the amount of work fetch our human being capabilities</td>
 </tr>
 <tr>
-<td><strong>Day 4</strong></td><td>And then, we get started</td>
+<td style="width: 60px"><strong>Day 4</strong></td><td>And then, we get started</td>
 </tr>
 </tbody>
 </table>
 
-And the next monday, or so, you get you prototype up and running.
+And the next monday, or so, you get your prototype up and running.
 
 ## Questions?
 
