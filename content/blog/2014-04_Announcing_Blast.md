@@ -1,5 +1,5 @@
 ---
-created_at: 2014-01-24
+created_at: 2014-04-10
 kind: article
 publish: true
 title: "Blast"
@@ -7,7 +7,7 @@ tags:
 - business
 ---
 
-Recently we announced **[Blast][1]** - an offer to help people transform their ideas into reality. In short, it is hackathons inspired way of providing software solution to our clients. 
+Recently we announced **[Blast][1]** - an offer to help people transform their ideas into reality. In short, it is hackathons inspired way of providing software solution to our clients.
 
 ## Where does it come from?
 
@@ -33,7 +33,7 @@ With our **[Blast][11]** offer, you will get in a week a sound base to start sho
 
 ## How does it work
 
-The typical case is: 
+The typical case is:
 
 <table>
 <tbody>
