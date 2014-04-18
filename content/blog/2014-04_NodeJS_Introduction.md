@@ -11,10 +11,10 @@ tags:
 
 # Developing a NodeJS app - Introduction
 
-I recently went through a simple app which aims to list the pending pull requests of all the repositories of a specific organization on both [Github](https://github.com/) and [Bitbucket](https://bitbucket.org/).
+I recently went through a simple app which aims to list the pending pull requests of all the repositories of a specific organization on both [Github](https://github.com/).org/).
 This application is a [NodeJS](http://nodejs.org/) app, served with [Express](http://expressjs.com/) and hosted on [Heroku](http://heroku.com/). Once a day, it will request Pull Requests (PR) from both platforms and send a notification that lists the PRs to a HipChat room.
 
-In this article, I will go through the entire development of this application, the gotchas, the tips, some details regarding GitHub and Bitbucket interfaces to deal with our needs, etc.
+In this article, I will go through the entire development of this application, the gotchas, the tips, some details regarding GitHub interface to deal with our needs, etc.
 
 To make it more digestible, this will be a series of technical post, each one focusing on a specific part.
 
