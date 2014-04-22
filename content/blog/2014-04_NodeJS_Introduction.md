@@ -1,15 +1,13 @@
 ---
-created_at: 2014-01-24
+created_at: 2014-04-22
 kind: article
 publish: true
-title: ""
+title: "Introduction to a NodeJS app development"
 authors:
 - adrien
 tags:
 - programming
 ---
-
-# Developing a NodeJS app - Introduction
 
 I recently went through a simple app which aims to list the pending pull requests of all the repositories of a specific organization on both [Github](https://github.com/).org/).
 This application is a [NodeJS](http://nodejs.org/) app, served with [Express](http://expressjs.com/) and hosted on [Heroku](http://heroku.com/). Once a day, it will request Pull Requests (PR) from both platforms and send a notification that lists the PRs to a HipChat room.
