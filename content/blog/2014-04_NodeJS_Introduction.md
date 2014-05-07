@@ -18,6 +18,8 @@ In this article, I will go through the entire development of this application, t
 
 To make it more digestible, this will be a series of technical post, each one focusing on a specific part.
 
+* [Part 2 - NodeJS Application - Bootstrap](/2014/05/NodeJS_Bootstrap/)
+
 ## Requirements
 
 Before we can get started, there is a few things that you need to do. For this application, we will need NodeJS and Heroku Toolbelt running on our machine. As I'm running on MacOS, I will mainly use [Homebrew][1] to install required softwares.
