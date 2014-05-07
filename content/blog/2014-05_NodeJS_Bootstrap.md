@@ -1,5 +1,5 @@
 ---
-created_at: 2014-04-22
+created_at: 2014-05-07
 kind: article
 publish: true
 title: "NodeJS Application - Bootstraping"
@@ -20,10 +20,10 @@ Our project is pretty simple, and will be a bit dirty, as we are not gonna separ
 So, here is what you should get at the end of this article when running the `ls` command:
 
 ```
-Procfile     
-app.js       
-node_modules 
-package.json 
+Procfile
+app.js
+node_modules
+package.json
 start.sh
 ```
 
@@ -58,7 +58,7 @@ So, we use [node-hipchat][9] to play with Hipchat but to make it works, like wit
 * Create a new token:
   * Choose *Notification* as **Type**
   * Choose whatever you want as **Label**
-  
+
 ## Bootstrap
 
 Now that we have our libraries and our tokens, we will write a short shell script to define environment variables (best practice when you play with sensitive data like authentication tokens) and start our application.
@@ -97,7 +97,7 @@ app.set('HIPCHAT_KEY', process.env.HIPCHAT_KEY);
 var port = Number(process.env.PORT || 5000);
 var server = app.listen(port, function () {
   console.log('Listening on port %d', server.address().port);
-  
+
   // Display our configuration variables:
   console.log('Github token: ', app.get('GITHUB_AUTH_TOKEN'));
   console.log('Hipchat token: ', app.get('HIPCHAT_KEY'));
@@ -126,7 +126,7 @@ You now have a simple NodeJS app using Express which display some contents comin
 
 ## Questions?
 
-If you have questions, suggestions or remarks, do not hesitate to ping us on Twitter [@Nukomeet](https://twitter.com/nukomeet), by [email](mailto:bonjour+blog@nukomeet.com) or to reach me directly [@AdrienGiboire](https://twitter.com/adriengiboire).  
+If you have questions, suggestions or remarks, do not hesitate to ping us on Twitter [@Nukomeet](https://twitter.com/nukomeet), by [email](mailto:bonjour+blog@nukomeet.com) or to reach me directly [@AdrienGiboire](https://twitter.com/adriengiboire).
 
   [1]: http://nukomeet.com:8080/2014/04/NodeJS_Introduction/
   [2]: heroku.com
