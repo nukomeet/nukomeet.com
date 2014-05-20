@@ -9,7 +9,7 @@ tags:
 - programming
 ---
 
-[Last week, I introduced the context and the needs for our application][1]. We ended installing the tools needed to develop our application.
+[Last time, I introduced the context and the needs for our application][1]. We ended installing the tools needed to develop our application.
 
 Today, we will work on the bootstrap, ie. create the structure of our application, install the dependencies, set up our project to get access to the different services we're going to use, ie. Github and Hipchat.
 
@@ -122,7 +122,8 @@ Github token:  ****************************************
 Hipchat token:  ******************************
 ```
 
-You now have a simple NodeJS app using Express which display some contents coming from your environment! Next week, we will write the code to request Github API and list pull requests of your organisation/profile.
+You now have a simple NodeJS app using Express which display some contents
+coming from your environment! Next time, we will write the code to request Github API and list pull requests of your organisation/profile.
 
 ## Questions?
 
