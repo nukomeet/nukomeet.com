@@ -9,58 +9,62 @@ tags:
 - data science
 ---
 
-As you may already know, we offer data science expertise and development at Nukomeet. We were thus invited at the "Smart data day" organised by [AXA][1] and [HEC][2], to make five blue chips and eight startups meet to talk about data. Zaiste, Seb (our friend and partner from [Jalgos][3]) and I went. Here is an overview of what we heard and what we pitched.
+Recently, we participated (together with our friends from [Jalgos][3]) in "Smart Data Day" organised by [AXA][1] and [HEC Paris][2]. The goal of the meeting was to make five blue chips and eight startups meet to talk about data. Here is our overview.
 
 ## Who was there
 
-The big guests were five french blue chips:
-* [AXA][1]: A big insurance group
+The big guests were five French Blue Chips representing diverse business fields.
+
+* [AXA][1]: Insurance group
 * [Orange][4]: Telecom provider
-* [Société Génerale][5]: Banking (Corporate and investment)
+* [Société Génerale][5]: Banking (Corporate and Investment)
 * [Renault][6]: Car manufacturer
 * [Voyages SNCF][7]: Travels
 
-The first interesting thing is the diversity in business fileds of the blue chips. 
-
-The startups guest were [Algolia][8], [Data Publica][9], [Dataiku][10], [Dataveyes][11], [Follow Analaytics][12], [Quantstreams][13], [Wisembly][14] and of course Nukomeet. 
+The startups guest were [Algolia][8], [Data Publica][9], [Dataiku][10], [Dataveyes][11], [Follow Analaytics][12], [Quantstreams][13], [Wisembly][14] and Nukomeet.
 
 ## What we heard there
 
-The most interesting point was to realize how much the blue chips wer both interested and concerned about the changes brought by the greater use of data in business. Independently of their business, they all knew that the data revolution was something not to be missed.
+Blue Chips were both interested and concerned about the changes brought by the greater use of data in business. They all knew that the data revolution should not be missed. Those companies were also not as much concerned by existing competitors, but rather by newcomers who could disrupt quickly and deeply their market. What if Google or Facebook started to sell cars, insurances, banking services or travels? It's not only about Google or Facebook, but also about agile startups that can quickly build a disruptive technology.
 
-Another interesting point was that the blue chips were not as much concerned by their traditional competitors than by newcomers who could disrupt quickly and deeply their market. What if Google or Facebook started to sell cars, or insurance, or travels? What if they started providing banking services or (as google is already doing) wanted to become an internet access provider? These questions do not limit themselves at Google or Facebook, but were also extended to agile startups that would be able to use quickly the best technologies to provide new services. 
+Another thing that caught our attention were potential synergies between Blue Chips around data. Let's imagine what would mean a connected car's data for a car insurance company, and for the customers...
 
-Another thing that caught out attention was to see how much synergies the blue chips could create by working together around data. They wuickly started to talk (with subtlety) of possible collaboration or competition (imagine for example what would mean a connected car's data for a car insurance company, and for the customers...).
+The Blue Chips were all already investing in internal projects for digital transition with large part specifically dedicated to data. They were present at this event to gather idea, check on what was being done in the startup scene, and eventually find the product, services or set of skills that could help them in that transition process.
 
-The blue chips were all already investing in big internal projects for digital transition, a big part of it dedicated specifically to data. They were present at this event to gather idea, check on what was being done in the startup scene, and eventually find the product, services or set of skills that could help them in their transition process.
-
-
-## What we said (and think) about data
+## What we think about data
 
 ### What's data science really about
-We like to define a data scientist as a person who is better at statistics than any software engineer and better at software engineering than any statistician. Performing data science requires these two sets of skills. 
-This is why we decided to offer the best in both at Nukomeet:
-* Technology edge: We keep ourselves at the edge of innovation in computer science and data management (from data base to cloud computing) and we intend to keep it this way
-* Data science expertise: We have experts in statistics and data science internally and through our partnership with [Jalgos][3]
 
-### Beware of the unicorn promise
-There is a data revolution. Unheard of amounts of data are today available, new tools allow to treat them in no time, and all this did not existe yesterday. We are very excited by the posisbilities these changes bring with them, and by all the innovation that is still to be made thanks to data, and we think you should too. But just be careful not to loose yourself in the frenzy and not to believe every promise that is made about miracle products or algorithms. Data science is a huge field, which core principles remain stable and change slowly. For example, machine learning and deep learning are extremely promising, but keep in mind that they are only a part of a good data scientist's toolkit.
-There is no good generic solution in data science. Not one set of algorithms or one plateform will be able to address in a satisfying way the challenges of Orange's data and AXA's data for example. And no plateform is today able to transform anybody into a data scientist.
+A data scientist can be defined as a person who is better at statistics than any software engineer and better at software engineering than any statistician. Performing data science requires these two sets of skills. This is why we decided to offer the best in both at Nukomeet:
+
+* Technology Edge: We constantly put ourselves at the edge of innovation in Computer Science and Data Management
+* Data Science Expertise: We have experts in statistics and data science internally and through our partnership with [Jalgos][3]
+
+### Unicorn Promise
+
+There is data revolution. New tools and technologies allow to treat large amounts of data easier and faster than before. All this did not exist yesterday. We are excited by new possibilities these changes bring. We are looking forward to innovation to be made thanks to data. Data Science is a vast field which core principles remain stable and change slowly.
+
+There are no generic solutions in Data Science nor one set of algorithms or one platform will be able to address in a satisfying way the challenges of Orange's data and AXA's data. And there is no platform today that will be able to transform anybody into a Data Scientist.
 
 ### Our approach
-Our way to develop and implement data science project articulates itself around 4 basic actions:
-* Assess your data potential
-The first step is to understand what data is available and relevent for you, both internally and externally, by performing a data audit of your business and gathering all the interesting sources that could power your future data tools. This requires to understand both your business and the way data could be used  to power it.
-* Shape your solution
-We then shape the solution that best fits your needs. This is R&D. We will create the best algorithm(s) to solve your data challenges, and design the most relevent architecture to handle your data, relative to your business.
-* Embrace technological diversity
-We then implement the solution we designed during the previous step, using the tools most adapted to your existing architecture. We don't deliver blackboxes, so we care about delivering lightweight, evolutive solutions. Our clients call us again and again not because they have to, but because they want to.
-* Empower your teams
-Finally, we care about your autonomy. This is why we offer trainings in data science, to share with you our expertise and enable you to master the core concepts of data science
 
-That's it! Please do not hesitate to contact us
+Our way to develop and implement Data Science project articulates itself around 4 basic actions:
 
+* __Assess__ your data potential
 
+The first step is to understand what data is available and relevent for you business (both internally and externally). Data audit is supposed to gather all interesting sources that could power your future data tools. This requires to understand both your business and the way data could be used to power it.
+
+* __Shape__ your solution
+
+We then shape the solution that best fits your needs. Our objective is to create the best algorithm(s) to solve your data challenge and to design the most relevent architecture to handle your data.
+
+* __Embrace__ technological diversity
+
+We implement the solution using the tools most adapted to your existing architecture. We do not deliver blackboxes, but rather lightweight solutions that are easy to extend and evolove.
+
+* __Empower__ your teams
+
+Finally, we deeply care about your autonomy. This is why we offer trainings in Data Science, to share with you our expertise and enable you to master the core concepts of data science
 
 
   [1]: http://www.axa.com/en/
@@ -76,6 +80,6 @@ That's it! Please do not hesitate to contact us
   [11]: http://dataveyes.com/#!/en
   [12]: http://follow-apps.com/
   [13]: http://www.quantstreams.com/
-  [14]: http://wisembly.com/en/	
+  [14]: http://wisembly.com/en/
 
 
