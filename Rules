@@ -43,7 +43,6 @@ compile '/nulog/(zaiste|albanlv|yaroq|adrien|tukan|tomkuk)/' do
   layout 'default'
 end
 
-
 compile '/css/*/' do
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
 
@@ -73,6 +72,11 @@ end
 compile '/flow/' do
   filter :slim
   layout 'default'
+end
+
+compile 'blast' do
+  filter :slim
+  layout 'blast'
 end
 
 compile '/blog/*/' do
@@ -121,6 +125,7 @@ route '/js/*/' do
 end
 
 route '/fonts/*/' do
+  item.identifier.chop + '.' + item[:extension]
 end
 
 route '/images/*/' do

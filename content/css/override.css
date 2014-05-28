@@ -126,3 +126,29 @@ h2.about {
 .newsletter .one-third .button{
   padding: 11px 20px;
 }
+
+.light, .dark{
+  margin-bottom: 3.01887%;
+}
+
+.light a, .dark a {
+  display: block;
+  text-align: center;
+}
+
+.light small, .dark small {
+  color: #858585;
+  display: block;
+}
+
+.light a, .light a:link, .light a:visited {
+  border: 1px solid #00afd1;
+  padding: 20px;
+}
+
+.dark a:link, .dark a:visited {
+  background: #4d4c4e;
+  border: none;
+  padding: 21px;
+}
+
