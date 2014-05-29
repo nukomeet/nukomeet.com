@@ -21,7 +21,7 @@ The big guests were five French Blue Chips representing diverse business fields.
 * [Renault][6]: Car manufacturer
 * [Voyages SNCF][7]: Travels
 
-The startups guest were [Algolia][8], [Data Publica][9], [Dataiku][10], [Dataveyes][11], [Follow Analaytics][12], [Quantstreams][13], [Wisembly][14] and Nukomeet.
+The startups guest were [Algolia][8], [Data Publica][9], [Dataiku][10], [Dataveyes][11], [Follow Analytics][12], [Quantstreams][13], [Wisembly][14] and Nukomeet.
 
 ## What we learnt
 
@@ -29,7 +29,7 @@ Blue Chips were both interested and concerned about the changes brought by the g
 
 Another thing that caught our attention were potential synergies between Blue Chips around data. Let's imagine what would mean a connected car's data for a car insurance company, and for the customers...
 
-The Blue Chips were all already investing in internal projects for digital transition with large part specifically dedicated to data. They were present at this event to gather idea, check on what was being done in the startup scene, and eventually find the product, services or set of skills that could help them in that transition process.
+The Blue Chips were all already investing in internal projects for digital transition with large part specifically dedicated to data. They were present at this event to gather ideas, check on what was being done in the startup scene, and eventually find the product, services or set of skills that could help them in that transition process.
 
 ## What we think about Data
 
@@ -42,7 +42,7 @@ A data scientist can be defined as a person who is better at statistics than any
 
 ### Unicorn Promise
 
-There is data revolution. New tools and technologies allow to treat large amounts of data easier and faster than before. All this did not exist yesterday. We are excited by new possibilities these changes bring. We are looking forward to innovation to be made thanks to data. Data Science is a vast field which core principles remain stable and change slowly.
+There is a data revolution. New tools and technologies allow to treat large amounts of data easier and faster than before. All this did not exist yesterday. We are excited by new possibilities these changes bring. We are looking forward to innovation to be made thanks to data. Data Science is a vast field which core principles remain stable and change slowly.
 
 There are no generic solutions in Data Science nor one set of algorithms or one platform will be able to address in a satisfying way the challenges of Orange's data and AXA's data. And there is no platform today that will be able to transform anybody into a Data Scientist.
 
@@ -52,19 +52,19 @@ Our way to develop and implement Data Science project articulates itself around 
 
 * __Assess__ your data potential
 
-The first step is to understand what data is available and relevent for you business (both internally and externally). Data audit is supposed to gather all interesting sources that could power your future data tools. This requires to understand both your business and the way data could be used to power it.
+The first step is to understand what data is available and relevant for you business (both internally and externally). Data audit is supposed to gather all interesting sources that could power your future data tools. This requires to understand both your business and the way data could be used to power it.
 
 * __Shape__ your solution
 
-We then shape the solution that best fits your needs. Our objective is to create the best algorithm(s) to solve your data challenge and to design the most relevent architecture to handle your data.
+We then shape the solution that best fits your needs. Our objective is to create the best algorithm(s) to solve your data challenge and to design the most relevant architecture to handle your data.
 
 * __Embrace__ technological diversity
 
-We implement the solution using the tools most adapted to your existing architecture. We do not deliver blackboxes, but rather lightweight solutions that are easy to extend and evolove.
+We implement the solution using the tools most adapted to your existing architecture. We do not deliver blackboxes, but rather lightweight solutions that are easy to extend and evolve.
 
 * __Empower__ your teams
 
-Finally, we deeply care about your autonomy. This is why we offer trainings in Data Science, to share with you our expertise and enable you to master the core concepts of data science
+Finally, we deeply care about your autonomy. This is why we offer trainings in Data Science, to share with you our expertise and enable you to master the core concepts of data science.
 
 
   [1]: http://www.axa.com/en/
