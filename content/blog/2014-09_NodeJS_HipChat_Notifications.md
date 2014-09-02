@@ -35,7 +35,7 @@ First, we need to reference the hipchat nodejs module at the top of our file.
 var hipchat = require('node-hipchat');
 ```
 
-We have to instanciate it.
+We have to instantiate it.
 
 ```
 var HC = new hipchat(app.get('HIPCHAT_KEY'));
@@ -52,7 +52,7 @@ var params = {
 };
 ```
 
-And finally, he is how to send our fully prepared notifications:
+And finally, this is how to send our fully prepared notifications:
 
 ```
 HC.postMessage(params, function(data) {});
