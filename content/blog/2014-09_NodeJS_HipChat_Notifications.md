@@ -19,11 +19,11 @@ If you followed the [second article of the serie](/2014/05/NodeJS_Bootstrap/), y
 
 All you'll need to provide at this point is the ID of the room you want to reach. For that, I cheated a little. Go to the list of the rooms you have access to.
 
-![go_to_room](go_to_room.jpg)
+![go_to_rooms](/assets/images/blog/nodejs-serie/go_to_rooms.jpg)
 
 Then, hover the link of the room you wanted to ping, and pick the ID form the URL.
 
-![get_id](get_id.jpg)
+![get_id](/assets/images/blog/nodejs-serie/get_id.jpg)
 
 ## Sending notifications
 
@@ -118,7 +118,7 @@ curl http://reviewer-assistant.herokuapp.com/pull-requests
 
 And set it to run at the time you want. For me, it looks like this:
 
-![heroku_scheduler](heroku_scheduler.png)
+![heroku_scheduler](/assets/images/blog/nodejs-serie/heroku_scheduler.png)
 
 And that's all! We are done with this serie.
 
