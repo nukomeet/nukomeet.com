@@ -1319,6 +1319,9 @@ input.placeholder, textarea.placeholder { color: #b0b0b0; }
         width: 550px;
     }
 
+        .entry-body img {
+            width: 100%;
+        }
         .entry-body .title {
             font-size: 18px;
             font-weight: 700;
