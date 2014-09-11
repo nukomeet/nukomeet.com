@@ -13,6 +13,10 @@ tags:
 
 Today, we will work on the bootstrap, ie. create the structure of our application, install the dependencies, set up our project to get access to the different services we're going to use, ie. Github and Hipchat.
 
+* [Part 1 - Introduction to a NodeJS app development](/2014/04/NodeJS_Introduction/)
+* [Part 3 - NodeJS Application - Requesting APIs](/2014/05/NodeJS_Requesting_APIs/)
+* [Part 4 - NodeJS Application - HipChat Notifications](/2014/09/NodeJS_HipChat_Notifications/)
+
 ## Structure
 
 Our project is pretty simple, and will be a bit dirty, as we are not gonna separate the concerns in our app. So what's left in the root folder of your application is a unique `app.js` file in which there will be all our code, a `node_modules` folder that contains the packages we will install in a moment, a `Procfile` to later be able to make our application running on [Heroku][2], `package.json` which lists the dependencies of our project and a `start.sh` script.
