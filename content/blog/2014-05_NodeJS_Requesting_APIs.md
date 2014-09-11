@@ -11,6 +11,10 @@ tags:
 
 [Last time, we created a simple NodeJS app which displays some basic contents provided by the running environment.][1] Today, we will see how to actually consume data from Github API and how to list the pull requests of your organization.
 
+* [Part 1 - Introduction to a NodeJS app development](/2014/04/NodeJS_Introduction/)
+* [Part 2 - NodeJS Application - Bootstrap](/2014/05/NodeJS_Bootstrap/)
+* [Part 4 - NodeJS Application - HipChat Notifications](/2014/09/NodeJS_HipChat_Notifications/)
+
 ## Specs
 
 Now, we are really ready to request Github API but before going further, let's take a moment to think about how we can reach our goal.

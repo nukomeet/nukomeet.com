@@ -11,6 +11,10 @@ tags:
 
 [Last time, we saw how to consume data from GitHub API and how to list the pull requests of your organization](/2014/05/NodeJS_Requesting_APIs/). Today, we will see how to send notifications to hipchat and how to deploy your app and make it run each day.
 
+* [Part 1 - Introduction to a NodeJS app development](/2014/04/NodeJS_Introduction/)
+* [Part 2 - NodeJS Application - Bootstrap](/2014/05/NodeJS_Bootstrap/)
+* [Part 3 - NodeJS Application - Requesting APIs](/2014/05/NodeJS_Requesting_APIs/)
+
 ## Setup
 
 Now that we have our data, we need to integrate HipChat so we can send notifications to a room to let all of our collaborators know PR are waiting for review.

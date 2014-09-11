@@ -19,6 +19,8 @@ In this article, I will go through the entire development of this application, t
 To make it more digestible, this will be a series of technical post, each one focusing on a specific part.
 
 * [Part 2 - NodeJS Application - Bootstrap](/2014/05/NodeJS_Bootstrap/)
+* [Part 3 - NodeJS Application - Requesting APIs](/2014/05/NodeJS_Requesting_APIs/)
+* [Part 4 - NodeJS Application - HipChat Notifications](/2014/09/NodeJS_HipChat_Notifications/)
 
 ## Requirements
 
