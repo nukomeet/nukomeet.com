@@ -133,6 +133,8 @@ coming from your environment! Next time, we will write the code to request Githu
 
 If you have questions, suggestions or remarks, do not hesitate to ping us on Twitter [@Nukomeet](https://twitter.com/nukomeet), by [email](mailto:bonjour+blog@nukomeet.com) or to reach me directly [@AdrienGiboire](https://twitter.com/adriengiboire).
 
+Also, feel free to comment [here](https://news.ycombinator.com/item?id=8355103).
+
   [1]: http://nukomeet.com:8080/2014/04/NodeJS_Introduction/
   [2]: heroku.com
   [3]: http://expressjs.com/

@@ -57,6 +57,8 @@ $ brew install heroku-toolbelt
 If you have questions, suggestions or remarks, do not hesitate (I know you don't) to ping us on Twitter [@Nukomeet](https://twitter.com/nukomeet), by [email](mailto:bonjour+blog@nukomeet.com) or to reach me directly [@AdrienGiboire](https://twitter.com/adriengiboire).
 I'd like to hear from you if you want to help me build this series :)
 
+Also, feel free to comment [here](https://news.ycombinator.com/item?id=8344896).
+
 See you next time for the serious stuff!
 
 > Note: This article will be updated each time to link all the parts of this series.
