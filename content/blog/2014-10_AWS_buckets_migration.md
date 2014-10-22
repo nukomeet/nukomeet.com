@@ -40,8 +40,8 @@ Solution is to add proper policies on destination bucket and use `sync` on sourc
   }
   ```
 1. Synchronise buckets via AWS CLI
-  Make sure you have AWS CLI installed and set up with source bucket user credentials. Than you're ready to use `sync`. 
-  > A sync command makes it easy to synchronise the contents of a local folder with a copy in an S3 bucket.
+  Make sure you have AWS CLI installed and set up with source bucket user credentials. Then you're ready to use `sync`.
+  > A sync command makes it easy to synchronise the contents of a local folder with a copy in a S3 bucket.
 
   In our case we'll synchronise two S3 buckets on different accounts.
   
