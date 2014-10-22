@@ -39,11 +39,13 @@ Solution is to add proper policies on destination bucket and use `sync` on sourc
         ]
   }
   ```
-1. Synchronise buckets via AWS CLI
+2. Synchronise buckets via AWS CLI
   Make sure you have AWS CLI installed and set up with source bucket user credentials. Then you're ready to use `sync`.
   > A sync command makes it easy to synchronise the contents of a local folder with a copy in a S3 bucket.
 
-  In our case we'll synchronise two S3 buckets on different accounts.
+  In our case we'll synchronise two S3 buckets on different accounts with acl set to public-read.
+
+  > Amazon S3 Access Control Lists (ACLs) enable you to manage access to buckets and objects. Each bucket and object has an ACL attached to it as a subresource. It defines which AWS accounts or groups are granted access and the type of access. When a request is received against a resource, Amazon S3 checks the corresponding ACL to verify the requester has the necessary access permissions.
   
   ```
   aws s3 sync s3://source-bucket-name s3://destination-bucket-name --acl public-read
