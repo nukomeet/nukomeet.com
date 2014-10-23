@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.1.3'
+
 # Local web server
 gem 'adsf'
 gem 'mime-types'
@@ -13,8 +15,6 @@ gem 'pygments.rb'
 gem 'redcarpet'
 gem 'slim'
 gem 'nokogiri'
-gem 'less'
-gem 'therubyracer'
 gem 'thin'
 
 gem 'builder'
