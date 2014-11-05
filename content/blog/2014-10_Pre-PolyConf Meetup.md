@@ -8,7 +8,7 @@ tags:
 - maker
 ---
 
-Polyconf 14 is approaching. We would like to meet in the evening just before the conference: get to know each other, discuss and drink a beer. Join us on this special Polyconf warm-up party! It's a joint-venture of Nukomeet, PolyConf & AKAI
+Polyconf 14 is approaching. We would like to meet in the evening just before the conference: get to know each other, discuss and drink a beer. Join us on this special Polyconf warm-up party! It's a joint-venture of Nukomeet, PolyConf & AKAI.
 
 
 ![CichaKuna](/assets/images/blog/CichaKuna.jpg "CichaKuna")
