@@ -10,22 +10,40 @@ footer.footer
             a href="/company/"  Company
           li
             a href="/nulog/"  Blog
-          li
-            a href="/logos/"  Logos
+
       .col-xs-12.col-sm-4.col-lg-3
         h4.footer-headline Newsletter
         p Sign up to our newsletter!
-        form action=""
+
+        form#mc-embedded-subscribe-form.validate action="http://nukomeet.us7.list-manage.com/subscribe/post?u=3c16fa8c924b5ae06d0d07285&amp;id=46a017eb9b" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank"
           .container-fluid
             .footer-form.form-group.row
               .footer-form-col.footer-form-col--left
-                input.form-control placeholder=("Your email...") type="email" /
+                input#mce-EMAIL.form-control placeholder=("Your email...") type="email" name="EMAIL" /
+                #mce-responses.clearfix
+                  #mce-error-response.response style="display:none"
+                  #mce-success-response.response style="display:none"
               .footer-form-col.footer-form-col--right
                 button.btn.btn-primary type="submit"  Sign up
       .col-xs-6.col-sm-4.col-lg-2.col--contact
         h4.footer-headline Contact
         p
           a.footer-email href="mailto:bonjour@nukomeet.com"  bonjour@nukomeet.com
+        p
+          a href="tel:+33652488152"
+            |+33 652 488 152
+      .col-xs-6.col-sm-4.col-lg-2.col--social
+          h4.footer-headline Social Networks
+          ul.footer-social
+            li
+              a href="http://twitter.com/nukomeet"
+                i.icon.icon--twitter
+            li
+              a href="http://facebook.com/nukomeet"
+                i.icon.icon--facebook
+            li
+              a href="http://github.com/nukomeet"
+                i.icon.icon--google
   .footer-footline
     p
       small Nukomeet &copy; 2012-2014. All rights reserved
