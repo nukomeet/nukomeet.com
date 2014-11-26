@@ -1,12 +1,14 @@
 header.header data-height="window"
   .header-container.container data-align="middle"
     h1.header-title We make software
-    a.btn.btn-primary href=""  Learn more
+    a.btn.btn-primary href="/#customers"  Learn more
 
-section.homeCustomers
+section#customers.homeCustomers
   .container
-    h1.home-title Our Customers
-    p.home-subtitle Those are some of our customers who have helped us by using our product
+    h1.home-title
+      ' We help top companies build
+      br
+      ' software solutions
     .homeCustomers-logos
       a href="http://bwm.com"
         img alt="BMW" height="75" src="/assets/images/logos/bmw.png" width="77" /
@@ -40,8 +42,6 @@ section.homeCustomers
         img alt="" height="76" src="/assets/images/logos/imaps.png" width="76" /
 section.homeProjects
   .container
-    h1.home-title Some projects
-    p.home-subtitle What we made
     .homeProjects-single
       .homeProjects-single-desc
         h2.homeProjects-single-title Navigart
@@ -56,7 +56,6 @@ section.homeProjects
       .homeProjects-single-image
         figure
           img alt="Navigart" height="379" src="/assets/images/projects/navigart.jpg" width="682" /
-    /! / .homeProjects-single
     .homeProjects-single.homeProjects-single--right
       .homeProjects-single-desc
         h2.homeProjects-single-title LeNotre
@@ -75,7 +74,7 @@ section.homeProjects
       .homeProjects-single-desc
         h2.homeProjects-single-title Platform.sh
         .homeProjects-single-more
-          p Lorem ipsum
+          p Platform.sh is a hosting and development tool for web applications.
         ul.homeProjects-single-list
           li AngularJS
           li Python
@@ -92,13 +91,12 @@ section.homeProjects
         ul.homeProjects-single-list
           li Node.js
           li iOS
-          li WebSockets (Socket.io)
+          li Socket.io
           li jQuery Mobile
         a.btn.btn-default href=""  View project
       .homeProjects-single-image
         figure
           img alt="iPad" height="423" src="/assets/images/projects/ipad-air.png" width="592" /
-    /! / .homeProjects-single
 section.homeWork
   .homeWork-container.container
     h1.homeWork-title Want to work with us?
