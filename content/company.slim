@@ -1,0 +1,155 @@
+header.header.header--sub
+  .header-container.container data-align="middle"
+    h1.header-title
+      strong
+        ' Nukomeet
+      | is an interdisciplinary team that helps companies build mobile and web applications
+
+section.container.company
+  ul.nav.nav-tabs.company-nav role="tablist"
+    li.active role="presentation"
+      a.company-nav-link aria-controls="about" data-toggle="tab" href="#about" role="tab"
+        figure.company-nav-link-f
+          i.icon.icon--about
+        | Company
+        span.sr-only
+          | <strong>Nukomeet</strong> is a interdisciplinary team that helps companies build mobile and web applications
+    li role="presentation"
+      a.company-nav-link aria-controls="technology" data-toggle="tab" href="#technology" role="tab"
+        figure.company-nav-link-f
+          i.icon.icon--technology
+        | Technology
+        span.sr-only
+          | We are proficient with technologies and tools related to <strong>Clojure</strong>, <strong>Java</strong>, <strong>Ruby</strong> and <strong>Python</strong>.
+    li role="presentation"
+      a.company-nav-link aria-controls="team" data-toggle="tab" href="#team" role="tab"
+        figure.company-nav-link-f
+          i.icon.icon--team
+        | Team
+        span.sr-only
+          | Meet the <strong>team</strong>
+
+  .tab-content
+    #about.tab-pane.company-tab--about.active role="tabpanel"
+      p.text-center
+        img alt="" height="160" src="/assets/images/icon--eiffel.png" width="64" /
+      .lead.lead--beginnings
+        strong.indent 2011
+        p
+          ' <strong>Nukomeet</strong> was started in Paris in 2011 by <strong>Alban</strong> and <strong>Zaiste</strong>.
+          ' Their idea was to build a company based on excellence and entirely new organizational approach.
+      p We aim to group together exceptional and complementary talents to create a work environment based on self-organization to foster creativity and innovation. We do consulting and share our expertise in technology.
+      .images-grid
+        .row
+          .col-sm-6.col-md-8
+            figure.images-grid-single style="background-image: url(/assets/images/team_1.jpg);"
+              img alt="" height="490" src="/assets/images/team_1.jpg" width="740" /
+          .col-sm-6.col-md-4
+            figure.images-grid-single style="background-image: url(/assets/images/el_dude_1.jpg);"
+              img alt="" height="490" src="/assets/images/el_dude_1.jpg" width="434" /
+        .row
+          .col-sm-6.col-md-6
+            figure.images-grid-single style="background-image: url(/assets/images/polyconf.jpg);"
+              img alt="" height="490" src="/assets/images/polyconf.jpg" width="434" /
+          .col-sm-6.col-md-6
+            figure.images-grid-single style="background-image: url(/assets/images/polyconf_2.jpg);"
+              img alt="" height="490" src="/assets/images/polyconf_2.jpg" width="434" /
+    #technology.tab-pane.company-tab--tech role="tabpanel"
+      ul.technology-list
+        li.technology-list-item
+          figure
+            img alt="" height="60" src="/assets/images/icons/png/javascript.png" width="60" /
+          .technology-list-snippet
+            erb:
+              <pre><strong>function</strong> <b class="style1">factorial</b>(<b class="style1">n</b>) {
+                  <strong>if</strong> (<b class="style1">n</b> === <b class="style2">0</b>) {
+                      <strong>return</strong> <b class="style2">1</b>;
+                  }
+                  <strong>return</strong> <b class="style1">n</b> * <b class="style1">factorial</b>(<b class="style1">n</b> - <b class="style2">1</b>);
+              }</pre>
+
+        li.technology-list-item
+          figure
+            img alt="" height="60" src="/assets/images/icons/png/clojure.png" width="200" /
+          .technology-list-snippet
+            erb:
+              <pre>(<strong>let</strong> [<b class="style1">i</b> (<b class="style1">atom</b> <b class="style2">0</b>)]
+                (<strong>defn</strong> <b class="style1">generate-unique-id</b>
+                  "Returns a distinct numeric ID for each call."
+                  []
+                  (<b class="style1">swap</b>! <b class="style1">i</b> <b class="style2">inc</b>)))</pre>
+
+        li.technology-list-item
+          figure
+            img alt="" height="60" src="/assets/images/icons/png/java.png" width="97" /
+          .technology-list-snippet
+            erb:
+              <pre><strong>class</strong> <b>HelloWorldApp</b> {
+                <strong>public static</strong> <b class="style2">void</b> <b class="style1">main</b>(<b class="style1">String</b>[] <b class="style1">args</b>) {
+                    <b class="style1">System</b>.out.println("<b class="style2">Hello World!</b>");
+                }
+              }</pre>
+        li.technology-list-item
+          figure
+            img alt="" height="60" src="/assets/images/icons/png/python.png" width="187" /
+          .technology-list-snippet
+            erb:
+              <pre><strong>def</strong> <b class="style1">average</b>(<b class="style1">iterable</b>):
+                <strong>try</strong>:
+                    <strong>return</strong> <b class="style2">sum</b>(<b class="style1">iterable</b>) / <b class="style2">float</b>(<b class="style2">len</b>(<b class="style1">iterable</b>))
+                <strong>except</strong>:
+                    <strong>return</strong> <b class="style2">0.0</b></pre>
+        li.technology-list-item
+          figure
+            img alt="" height="60" src="/assets/images/icons/png/ruby.png" width="61" /
+          .technology-list-snippet
+            erb:
+              <pre><b class="style2">puts</b> "<b class="style2">Give me a number</b>"
+              <b class="style1">number</b> = <b class="style2">gets</b>.chomp
+              <b class="style2">puts</b> <b class="style1">number.to_i</b>
+              <b class="style1">output_number</b> = <b class="style1">number.to_i</b> + <b class="style2">1</b>
+              <b class="style2">puts</b> <b class="style1">output_number.to_s</b> + '<b class="style2"> is a bigger number.</b>'</pre>
+        li.technology-list-item
+          figure
+            img alt="" height="60" src="/assets/images/icons/png/golang.png" width="122" /
+          .technology-list-snippet
+            erb:
+              <pre><strong>package</strong> <b class="style1">main</b>
+              <strong>import</strong> <b class="style2">"fmt"</b>
+              <b class="style1">func main</b>() {
+                  <b class="style1">fmt.Println</b>("<b class="style2">Hello, World</b>")
+              }</pre>
+    #team.tab-pane.company-tab--team role="tabpanel"
+      h1.team-headline
+        span.founder Founders
+        ' ,
+        span.manager
+          ' management
+        ' &amp;
+        span.partner
+          ' team
+      ul.team
+        li.team-member.team-member--founder
+          figure.team-member-image
+            img alt="Alban" height="200" src="/assets/images/team/alban.jpg" width="200" /
+          h3.team-member-name Alban
+        li.team-member.team-member--founder
+          figure.team-member-image
+            img alt="Zaiste" height="200" src="/assets/images/team/zaiste.jpg" width="200" /
+          h3.team-member-name Zaiste
+        li.team-member.team-member--manager
+          figure.team-member-image
+            img alt="Bartłomiej" height="200" src="/assets/images/team/bartlomiej.jpg" width="200" /
+          h3.team-member-name Bartłomiej
+        li.team-member.team-member--manager
+          figure.team-member-image
+            img alt="" height="200" src="/assets/images/team/tomkuk.jpg" width="200" /
+          h3.team-member-name Tomek
+        li.team-member.team-member--manager
+          figure.team-member-image
+            img alt="Julien" height="200" src="/assets/images/team/julien.jpg" width="200" /
+          h3.team-member-name Julien
+        li.team-member.team-member--manager
+          figure.team-member-image
+            img alt="Adrien" height="200" src="/assets/images/team/adrien.jpg" width="200" /
+          h3.team-member-name Adrien

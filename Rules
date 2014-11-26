@@ -1,0 +1,136 @@
+#!/usr/bin/env ruby
+
+require 'set'
+
+preprocess do
+  tags = Set.new
+  authors = Set.new
+
+  items.each do |item|
+    tags.merge(item[:tags] || ['business', 'programming', 'innovation', 'society', 'technology', 'web', 'meetup'])
+    authors.merge(item[:authors] || [])
+  end
+
+  tags.each do |tag|
+    items << Nanoc::Item.new("", { tag: tag }, "/nulog/#{tag}/")
+  end
+
+  authors.each do |author|
+    items << Nanoc::Item.new("", { author: author }, "/nulog/#{author}/")
+  end
+end
+
+compile '/nulog/(business|programming|innovation|society|technology|web|meetup)/' do
+  layout 'blog'
+  layout 'default'
+end
+
+compile '/nulog/(zaiste|albanlv|julien|adrien|tukan|tomkuk)/' do
+  layout 'author'
+  layout 'default'
+end
+
+compile '/nulog/' do
+  filter :slim
+  layout 'default'
+end
+
+compile '/css/*/' do
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if ext == 'erb'
+    filter :erb
+  end
+end
+
+compile '/js/*/' do
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if ext == 'erb'
+    filter :erb
+  end
+end
+
+compile '/images/*/' do
+end
+
+compile '/flow/' do
+  filter :slim
+  layout 'default'
+end
+
+compile 'blast' do
+  filter :slim
+  layout 'blast'
+end
+
+compile '/blog/*/' do
+  filter :rdiscount, :extensions => %w( strict smart )
+  layout 'post'
+  layout 'default'
+end
+
+compile '/projects/*/' do
+  filter :rdiscount, :extensions => %w( strict smart )
+  layout 'project'
+  layout 'default'
+end
+
+
+compile 'sitemap' do
+  filter :slim
+end
+
+compile '*' do
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if item.binary?
+    # don’t filter binary items
+  elsif ext == 'md' || ext == 'markdown'
+    filter :erb
+    filter :rdiscount
+    layout 'blog'
+    layout 'default'
+  else
+    filter :slim
+    layout 'default'
+  end
+end
+
+route '/css/*/' do
+  item.identifier.chop + '.css'
+end
+
+route '/js/*/' do
+  item.identifier.chop + '.js'
+end
+
+route '/fonts/*/' do
+  item.identifier.chop + '.' + item[:extension]
+end
+
+route '/images/*/' do
+  '/assets' + item.identifier.chop + '.' + item[:extension]
+end
+
+route '/blog/*/' do
+  item.identifier.gsub(%r{^/blog/(\d+)-(\d+)_(.*)$}) do |match|
+    "/#{$1}/#{$2}/#{$3}" + 'index.html'
+  end
+end
+
+route 'sitemap' do
+  item.identifier.chop + '.xml'
+end
+
+route '*' do
+  if item.binary?
+    # Write item with identifier /foo/ to /foo.ext
+    item.identifier.chop + '.' + item[:extension]
+  else
+    # Write item with identifier /foo/ to /foo/index.html
+    item.identifier + 'index.html'
+  end
+end
+
+layout '*', :slim

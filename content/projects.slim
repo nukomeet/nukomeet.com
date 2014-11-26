@@ -1,0 +1,22 @@
+header.page-header
+  h1.page-title Latest work
+  ul#portfolio-items-filter
+    li Select
+    li
+      a data-categories="*" All
+    li
+      a data-categories="mobile" Mobile
+    li
+      a data-categories="web" Web
+    li
+      a data-categories="open-source" Open Source
+
+section#portfolio-items.clearfix
+
+  - sorted_projects.each do |project|
+    - categories = project[:categories].map{ |c| c.downcase.gsub(" ", "-") }.join(' ')
+    article.one-third data-categories="#{categories}"
+      a.project-meta href="/projects/#{project[:handle]}/"
+        img alt="Project: #{project[:title]}" src="#{project[:thumb]}"
+        h5.title = project[:title]
+        span.categories = project[:categories].join(' / ')

@@ -1,0 +1,26 @@
+article.single-project
+  header.page-header
+    h1.page-title.align-left
+      ' Project:
+      = @item[:title]
+    .clear
+
+  #main
+    .image-gallery-slider
+      ul
+        - (@item[:gallery] || []).each do |el|
+          li
+            img alt="#{el[:alt]}" src="#{el[:src]}"
+
+  #sidebar
+    h4 Overview
+    p
+      == yield
+    p
+    h4 Technologies
+    ul.check
+      - (@item[:technology] || []).each do |el|
+        li = el
+    - if not @item[:link].nil? and not @item[:link].empty?
+      p
+        a.button href="#{@item[:link]}" View it

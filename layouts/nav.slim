@@ -1,0 +1,17 @@
+nav.navbar.navbar-default data-offset-bottom="200" data-offset-top="1" data-spy="affix" role="navigation"
+  .container
+    /! Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button.navbar-toggle.collapsed data-target="#main-header" data-toggle="collapse" type="button"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand href="/"
+        img.svg alt="Nukomeet" height="48" src="/assets/images/nukomeet.svg" width="56" /
+    #main-header.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        == link_to_with_current 'Company', '/company/', 'Company'
+        == link_to_with_current 'Nulog', '/nulog/', 'Blog'
+        li
+          a href="mailto:bonjour@nukomeet.com"  Contact

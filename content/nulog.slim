@@ -1,0 +1,22 @@
+== render 'blog_header'
+
+section.container.blog
+  .article-list
+    - @site.sorted_articles.each do |post|
+      - if post[:publish]
+        article.article-item
+          h1.article-item-title
+            a href=post.path
+              = post[:title]
+
+          p = post[:extract]
+          .article-item-meta
+            - (post[:authors] || []).each do |a|
+              a.article-item-user href=""
+                img alt="" height="26" src="/assets/images/team/#{a}.jpg" width="26"
+            time.article-item-date datetime="2014-10-26"
+              == post[:created_at].strftime("%B %d, %Y")
+
+            - (post[:tags] || []).each do |t|
+              == link_to "##{t}", "/nulog/#{t}/", class: 'article-item-tag'
+

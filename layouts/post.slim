@@ -1,0 +1,21 @@
+header.header.header--blog
+  .header-container.container data-align="middle"
+    h1.header-title = @item[:title]
+
+section.container.article
+  article.article-single
+
+    == yield
+
+.article-navigation
+  .article-navigation-col.article-navigation-col--prev
+    a href="/nulog/"
+      | Back to
+      br/
+      strong Blog list
+  .article-navigation-col.article-navigation-col--next
+    a href=""
+      | Next blog post
+      br/
+      strong →
+
