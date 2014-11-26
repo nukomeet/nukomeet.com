@@ -5,7 +5,8 @@ publish: true
 title: "Clojure training (w/ LightTable)"
 author:
 tags:
-- maker
+- meetup
+extract: We are happy to announce Clojure training in the city of POZnan. It will happen on February 23th.
 ---
 
 We are happy to announce [Clojure][3] training in the city of POZnan. It will happen

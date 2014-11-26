@@ -5,7 +5,8 @@ publish: true
 title: "Paris Meetup"
 author:
 tags:
-- maker
+- meetup
+extract: It's been a while since Nukomeet organized a drinkup in Paris and it's time to fix that. Join us! Drinks are on us :)
 ---
 
 It's been a while since Nukomeet organized a drinkup in Paris and it's time to fix that. Join us! Drinks are on us :)

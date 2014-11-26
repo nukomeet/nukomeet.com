@@ -7,6 +7,7 @@ authors:
 - adrien
 tags:
 - programming
+extract: Last time, we created a simple NodeJS app which displays some basic contents provided by the running environment. Today, we will see how to actually consume data from Github API and how to list the pull requests of your organization. 
 ---
 
 [Last time, we created a simple NodeJS app which displays some basic contents provided by the running environment.][1] Today, we will see how to actually consume data from Github API and how to list the pull requests of your organization.

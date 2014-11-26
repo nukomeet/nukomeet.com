@@ -5,6 +5,7 @@ publish: true
 title: "Blast"
 tags:
 - business
+extract: Recently we announced **Blast** - an offer to help people transform their ideas into reality. In short, it is hackathons inspired way of providing software solution to our clients. 
 ---
 
 Recently we announced **[Blast][1]** - an offer to help people transform their ideas into reality. In short, it is hackathons inspired way of providing software solution to our clients.

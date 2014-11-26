@@ -7,6 +7,7 @@ authors:
 - adrien
 tags:
 - programming
+extract: In this article, I will go through the entire development of simple NodeJS application, the gotchas, the tips, some details regarding GitHub interface to deal with our needs, etc.
 ---
 
 I recently went through a simple app which aims to list the pending pull requests of all the repositories of a specific organization on [Github](https://github.com/).

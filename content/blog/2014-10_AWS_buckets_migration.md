@@ -6,7 +6,9 @@ title: "Data migration between two Amazon S3 buckets on different accounts"
 authors:
 - tukan
 tags:
-- amazon
+- web
+- technology
+extract: Recently we needed to migrate data between two Amazon S3 buckets on different accounts. Situation seemed simple but while diving into topic we didn't find good documentation how to accomplish this. We tried few solutions but result one was that we had migrated data between buckets without proper rights on files so we couldn't do much with migrated data.
 ---
 
 Recently we needed to migrate data between two Amazon S3 buckets on different accounts. Situation seemed simple but while diving into topic we didn't find good documentation how to accomplish this. We tried few solutions but result one was that we had migrated data between buckets without proper rights on files so we couldn't do much with migrated data.

@@ -7,6 +7,7 @@ authors:
 - adrien
 tags:
 - programming
+extract: Last time, I introduced the context and the needs for our application. We ended installing the tools needed to develop our application. Today, we will work on the bootstrap, ie. create the structure of our application, install the dependencies, set up our project to get access to the different services we're going to use, ie. Github and Hipchat.
 ---
 
 [Last time, I introduced the context and the needs for our application][1]. We ended installing the tools needed to develop our application.

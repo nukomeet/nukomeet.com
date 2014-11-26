@@ -6,6 +6,7 @@ title: "Is X the next Silicon Valley ?!"
 author:
 tags:
 - business
+extract: Focus on your unique strengths, stop looking up to SV and start doing business on your own rules whenever you are based.
 ---
 
 #### TL;DR

@@ -7,6 +7,7 @@ authors:
 - adrien
 tags:
 - programming
+extract: "Last time, we saw how to consume data from GitHub API and how to list the pull requests of your organization. Today, we will see how to send notifications to hipchat and how to deploy your app and make it run each day."
 ---
 
 [Last time, we saw how to consume data from GitHub API and how to list the pull requests of your organization](/2014/05/NodeJS_Requesting_APIs/). Today, we will see how to send notifications to hipchat and how to deploy your app and make it run each day.

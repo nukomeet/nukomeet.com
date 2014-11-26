@@ -5,7 +5,8 @@ publish: true
 title: "POZnan Drinkup"
 author:
 tags:
-- maker
+- meetup
+extract: Autumn has arrived. Time to warm up! Come and join us in Cafe La Ruina next Wednesday. Beers are on us :)
 ---
 
 Autumn has arrived. Time to warm up! Come and join us in Cafe La Ruina next Wednesday. Beers are on us :)
