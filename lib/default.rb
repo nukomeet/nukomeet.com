@@ -9,7 +9,7 @@ include Nanoc3::Helpers::Tagging
 
 def link_to_with_current(text, path, desc)
   if @item_rep and @item_rep.path == path
-    "<li class='current'>#{link_to(text, path, :'data-description' => desc)}</li>"
+    "<li class='active'>#{link_to(text, path, :'data-description' => desc)}</li>"
   else
     "<li>#{link_to(text, path, :'data-description' => desc)}</li>"
   end
