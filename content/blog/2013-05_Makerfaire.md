@@ -5,6 +5,7 @@ title: "Three takeaways from SF Makerfaire"
 publish: true
 tags:
 - web
+extract: We had the luck last week to attend to San Francisco Makerfaire, a big fair that showcases a diversity of passionate people under the unique label of “maker”.
 ---
 
 We had the luck last week to attend to San Francisco Makerfaire, a big fair that showcases a diversity of passionate people under the unique label of “maker”. You could find there burning man aficionados with fire machines, war vets with mechanical dragons, 3D printer hackers, drone builders, as well as model train enthusiasts, school teachers, Stanford PHDs, brain musicians, permaculture prophets and so on.

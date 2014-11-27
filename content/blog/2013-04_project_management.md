@@ -5,6 +5,7 @@ title: "Project management in a distributed self-managed company"
 publish: true
 tags:
 - business
+extract: I am often asked what do we use as tools and rules for our project management. It is something we deeply care about and constantly improve.
 ---
 
 I am often asked what do we use as tools and rules for our project management. It is something we deeply care about and constantly improve.

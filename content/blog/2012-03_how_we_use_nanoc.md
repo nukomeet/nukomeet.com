@@ -5,6 +5,7 @@ publish: true
 title: "How we use Nanoc"
 authors:
  - zaiste
+extract: "Nanoc is a static site generator, and it is cool, mainly for three reasons."
 ---
 
 [Nanoc](http://nanoc.stoneship.org/) is a static site generator, and it is cool, mainly for three reasons:

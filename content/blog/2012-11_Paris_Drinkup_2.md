@@ -4,7 +4,8 @@ kind: article
 publish: true
 title: "Paris Drinkup 2"
 tags:
-- society
+- meetup
+extract: "Our 2nd drinkup is a « special event », we want to celebrate new, improved version of our cool product for nomad workers: Coworfing"
 ---
 
 Our 2nd drinkup is a « special event », we want to celebrate new, improved
