@@ -9,6 +9,7 @@ authors:
 tags:
 - web
 - technology
+extract: Yesterday, Seth Godin announced on his blog that he would like to provide his readers with a mobile application for a better reading experience. Nukomeet team members are huge fans of Seth’s writings, we like a lot his insights about marketing and business in general.
 ---
 
 Yesterday, [Seth Godin][1] [announced on his blog][2] that he would like to provide his readers with a mobile application for a better reading experience. [Nukomeet team members][3] are huge fans of Seth’s writings, we like a lot his insights about marketing and business in general.

@@ -9,6 +9,7 @@ authors:
 title: "POZnan Drinkup #1"
 tags:
 - meetup
+extract: Winter is coming, guys! Say « hello » to cold tempretures with Nukomeet team. Join us for our first drinkup in the city of POZnan. 
 ---
 
 Winter is coming, guys! Say « hello » to cold tempretures with Nukomeet team.

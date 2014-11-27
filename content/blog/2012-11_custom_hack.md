@@ -6,6 +6,7 @@ authors:
 - alban
 tags:
 - business
+extract: "At Nukomeet, we spend a lot of time making estimations, setting up agenda, and negociating prices, because we take care of framing well a project before it starts."
 ---
 
 At Nukomeet, we spend a lot of time making estimations, setting up agenda, and

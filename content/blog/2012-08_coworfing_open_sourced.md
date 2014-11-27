@@ -8,6 +8,7 @@ tags:
 - web
 - programming
 - innovation
+extract: "Nukomeet team has been working hard during the last monthes to develop Coworfing, an app for nomads - freelancers, entrepreneurs, students and teleworkers - to share the places where they like to work: Cafés, bars, coworking spaces, librairies, airports, parks, and even their own homes."
 ---
 
 Nukomeet team has been working hard during the last monthes to develop [Coworfing]("http://coworfing.com"), an app for nomads - freelancers, entrepreneurs, students and teleworkers - to share the places where they like to work: Cafés, bars, coworking spaces, librairies, airports, parks, and even their own homes.

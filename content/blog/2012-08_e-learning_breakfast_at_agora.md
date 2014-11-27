@@ -7,6 +7,8 @@ authors:
 - alban
 tags:
 - society
+extract: "The Khan Academy, Udacit, Coursera. Only recently, education seems to have discovered the internet. Online courses are
+massively being created. The big universities like MITx start joining the game. Clearly, learning is changing on a bigger scale."
 ---
 
 The [Khan Academy][]. [Udacity][]. [Coursera][]. Only recently,

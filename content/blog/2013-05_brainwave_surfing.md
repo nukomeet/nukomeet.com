@@ -7,6 +7,10 @@ authors:
 - julien
 tags:
 - innovation
+extract: I have been interested in brain and neuroscience for a long time now, teaching myself through books, building on my previous scientific background. But I actually never had the chance to experience brain/computer interface in action in real life yet until this week.
+authors:
+- alban
+- julien
 ---
 
 I have been interested in brain and neuroscience for a long time now, teaching myself through [books](http://www.google.com/url?q=http%3A%2F%2Fwww.amazon.com%2FFundamental-Neuroscience-Fourth-Edition-Squire%2Fdp%2F0123858704&sa=D&sntz=1&usg=AFQjCNGxS8TwhBuelXDCvSzJ9U-S6XoZ0w), building on my previous scientific background. But I actually never had the chance to experience brain/computer interface in action in real life yet. Until this week, when Alban and I headed to the San Francisco [TechShop](http://www.techshop.ws/tssf.html) to attend an event organized by Masahiro Kahata and Brent Thorne about controlling objects with brain waves through an arduino.

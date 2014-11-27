@@ -7,6 +7,7 @@ authors:
 - zaiste
 tags:
 - business
+extract: People often asks me how I would define a « great company ».
 ---
 
 People often asks me how I would define a « great company ». Some would say it's

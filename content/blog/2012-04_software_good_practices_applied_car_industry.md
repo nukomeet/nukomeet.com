@@ -5,6 +5,8 @@ title: "Software good practices applied to the car industry"
 authors:
 - alban
 publish: true
+
+extract: Lean, Agile, Test-Driven, Scrum, Object-oriented… When I talk about these great working processes that the software industry uses I am often answered that it only works with programmers and code.
 ---
 
 Lean, Agile, Test-Driven, Scrum, Object-oriented… When I talk about these great working processes that the software industry uses I am often answered that it only works with programmers and code.

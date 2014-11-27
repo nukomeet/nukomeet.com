@@ -7,6 +7,8 @@ authors:
 - zaiste
 tags:
 - technology
+extract: "Nukomeet team is closely involved in the organization of RuPy and working restlessly to provide you with the best
+conference."
 ---
 
 Nukomeet team is closely involved in the organization of [RuPy

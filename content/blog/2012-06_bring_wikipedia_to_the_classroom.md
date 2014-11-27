@@ -5,7 +5,7 @@ publish: true
 authors:
 - alban
 title: "Bring Wikipedia to the classroom"
-description: "What if students and children translated Wikipedia in their language lessons"
+extract: "What if students and children translated Wikipedia in their language lessons"
 ---
 
 Did you notice that some articles in Wikipedia are much better in a language than in others?

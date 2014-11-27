@@ -9,6 +9,7 @@ authors:
 publish: true
 tags:
 - meetup
+extract: As we had a very good time during during last drinkup at Asiento, we are organizing another one. It will take place in this same wonderful bar, on Bryant and 21st Street.
 ---
 
 Will you be in the Bay Area on next thursday (the 23rd of May)?.
