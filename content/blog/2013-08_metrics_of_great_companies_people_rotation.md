@@ -6,7 +6,6 @@ title: "Metrics of great companies: People rotation"
 authors:
 - zaiste
 tags:
-- vision
 - business
 ---
 

@@ -6,7 +6,8 @@ title: "Our data approach and tales of the HEC-AXA data day"
 authors:
 - julien
 tags:
-- data science
+- meetup
+- innovation
 extract: Recently, we participated (together with our friends from Jalgos) in "Smart Data Day" organised by AXA and HEC Paris. The goal of the meeting was to make five blue chips and eight startups meet to talk about data. Here is our overview.
 ---
 

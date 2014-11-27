@@ -5,6 +5,7 @@ title: "POZnan Drinkup"
 publish: true
 tags:
 - meetup
+extract: Are you in Poznan on June 25th? Come join us at Van Gogh Cafe
 ---
 
 Are you in Poznan on June 25th? Come join us at [Van Gogh Cafe](https://www.google.com/maps?q=Van+Gogh+Cafe,+%C5%BBydowska,+Poznan,+Poland&hl=en&ie=UTF8&sll=37.56454,-77.457025&sspn=0.005604,0.009431&oq=Poznan+van+gogh+cafe&hq=Van+Gogh+Cafe,&hnear=%C5%BBydowska,+Pozna%C5%84,+Greater+Poland+Voivodeship,+Poland&t=m&z=16&iwloc=A) for some great beer around 20h00.

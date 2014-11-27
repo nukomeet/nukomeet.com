@@ -5,7 +5,8 @@ publish: true
 title: "POZnan Drinkup"
 author:
 tags:
-- maker
+- meetup
+extract: Our team just got back from sunny Brazil to celebrate Polish Winter. Come join us for talks about the future of work at Billaboom. Beers are on us.
 ---
 
 Our team just got back from sunny Brazil to celebrate Polish Winter. Come join

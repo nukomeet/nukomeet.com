@@ -5,6 +5,8 @@ title: "Polygrammers: First Dreenkup in Paris"
 publish: true
 tags:
 - meetup
+extract: "Polygrammers is the name we use to designate polyglot programmers, _those who dare to use more than
+programming language._"
 ---
 
 Polygrammers is the name we use to designate polyglot programmers, _those who dare to use more than

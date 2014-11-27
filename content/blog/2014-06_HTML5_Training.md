@@ -6,6 +6,7 @@ title: "Modern Web Development Workshop"
 tags:
 - programming
 - business
+extract: Recently we did a 2 days long workshop for a large company from the public sector. The client challenged us to provide a concise introduction to latest web trends and practices for their internal software workforce.
 ---
 
 # Workshop about latest trends in Web Development

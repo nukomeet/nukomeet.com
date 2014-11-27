@@ -6,7 +6,8 @@ title: "Google Glass Hackathon in Paris"
 authors:
 - adrien
 tags:
-- event
+- innovation
+extract: From January 17 to 19, I participated in a Google Glass hackathon organized by GlassCamp in Paris. It was an almost 40 hours long event with 5 teams in competition. Google Glass is still a very obscure technology - it’s difficult to get the device and get familiar with its SDK. There are about 20 glass devices in France (8 of them were used at the event).
 ---
 
 From January 17 to 19, I participated in a Google Glass hackathon organized by [GlassCamp][1] in Paris. It was an almost 40 hours long event with 5 teams in competition. Google Glass is still a very obscure technology - it’s difficult to get the device and get familiar with its SDK. There are about 20 glass devices in France (8 of them were used at the event).
