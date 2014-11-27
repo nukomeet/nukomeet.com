@@ -5,7 +5,7 @@ publish: true
 title: "Pixel developer or Ruby artist ?"
 tags:
 authors:
-- albanlv
+- alban
 ---
 
 This is the story of **Łukasz** - better known in the internet society by his pseudonym **ofca**.

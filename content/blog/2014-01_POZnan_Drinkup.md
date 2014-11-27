@@ -3,7 +3,9 @@ created_at: 2014-01-07
 kind: article
 publish: true
 title: "POZnan Drinkup"
-author:
+authors:
+- tomkuk
+- zaiste
 tags:
 - meetup
 extract: Our team just got back from sunny Brazil to celebrate Polish Winter. Come join us for talks about the future of work at Billaboom. Beers are on us.

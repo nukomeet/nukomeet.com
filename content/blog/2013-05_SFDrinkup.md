@@ -2,6 +2,10 @@
 kind: article
 created_at: 2013-05-20
 title: "San Francisco Drinkup 23rd of May"
+authors:
+- julien
+- alban
+- zaiste
 publish: true
 tags:
 - meetup

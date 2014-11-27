@@ -3,7 +3,8 @@ created_at: 2014-01-08
 kind: article
 publish: true
 title: "Clojure talk at Poznan JUG"
-author:
+authors:
+- zaiste
 tags:
 - meetup
 extract: Next Tuesday, Zaiste will be giving a gentle introduction to Clojure programming language at Poznan Java User Group. Feel free to join.

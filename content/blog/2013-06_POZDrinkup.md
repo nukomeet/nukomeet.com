@@ -3,6 +3,10 @@ kind: article
 created_at: 2013-06-19
 title: "POZnan Drinkup"
 publish: true
+authors:
+- tukan
+- tomkuk
+- zaiste
 tags:
 - meetup
 extract: Are you in Poznan on June 25th? Come join us at Van Gogh Cafe

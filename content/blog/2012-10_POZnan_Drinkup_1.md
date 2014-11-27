@@ -2,6 +2,10 @@
 created_at: 2012-10-29 16:03:42 +0100
 kind: article
 publish: true
+authors:
+- tomkuk
+- zaiste
+- tukan
 title: "POZnan Drinkup #1"
 tags:
 - meetup

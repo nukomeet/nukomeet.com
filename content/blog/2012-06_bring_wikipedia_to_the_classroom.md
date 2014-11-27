@@ -2,6 +2,8 @@
 created_at: 2012-06-20
 kind: article
 publish: true
+authors:
+- alban
 title: "Bring Wikipedia to the classroom"
 description: "What if students and children translated Wikipedia in their language lessons"
 ---

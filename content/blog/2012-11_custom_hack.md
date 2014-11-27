@@ -2,6 +2,8 @@
 kind: article
 created_at: 2012-11-12
 title: Unveiling Nukomeet Custom Hack
+authors:
+- alban
 tags:
 - business
 ---

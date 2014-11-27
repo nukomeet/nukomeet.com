@@ -2,6 +2,8 @@
 kind: article
 created_at: 2012-08-30
 title: Coworfing is now open-source
+authors:
+- alban
 tags:
 - web
 - programming

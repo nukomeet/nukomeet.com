@@ -3,7 +3,9 @@ created_at: 2014-11-05
 kind: article
 publish: true
 title: "Paris Meetup"
-author:
+authors:
+- adrien
+- kasia
 tags:
 - meetup
 extract: It's been a while since Nukomeet organized a drinkup in Paris and it's time to fix that. Join us! Drinks are on us :)

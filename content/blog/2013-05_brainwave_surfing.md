@@ -3,6 +3,8 @@ kind: article
 created_at: 2013-05-16
 title: "Surfing your own brainwaves, the next extreme sport?"
 publish: true
+authors:
+- julien
 tags:
 - innovation
 ---

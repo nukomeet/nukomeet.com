@@ -3,7 +3,8 @@ created_at: 2014-01-19
 kind: article
 publish: true
 title: "Clojure training (w/ LightTable)"
-author:
+authors:
+- zaiste
 tags:
 - meetup
 extract: We are happy to announce Clojure training in the city of POZnan. It will happen on February 23th.

@@ -3,6 +3,9 @@ created_at: 2012-10-24
 kind: article
 publish: true
 title: "Let's crowdsource a mobile app for Seth Godin !"
+authors:
+- zaiste
+- alban
 tags:
 - web
 - technology

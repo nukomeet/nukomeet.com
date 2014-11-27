@@ -2,6 +2,8 @@
 kind: article
 created_at: 2012-03-05 
 title: Nukomeet Team goes to ZOO 
+authors:
+- alban
 ---
 
 ![Coworking ZOO](/assets/images/zoo.jpg "Coworking ZOO")

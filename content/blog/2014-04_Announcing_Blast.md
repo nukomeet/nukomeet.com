@@ -3,6 +3,8 @@ created_at: 2014-04-10
 kind: article
 publish: true
 title: "Blast"
+authors:
+- zaiste
 tags:
 - business
 extract: Recently we announced **Blast** - an offer to help people transform their ideas into reality. In short, it is hackathons inspired way of providing software solution to our clients. 

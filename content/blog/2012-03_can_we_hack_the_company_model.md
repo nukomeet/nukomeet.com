@@ -3,7 +3,8 @@ kind: article
 created_at: 2012-03-02
 title: Can we hack the company model ?
 authors:
- - company
+- zaiste
+- alban
 ---
 
 We would like to introduce you to a new approach on how to work together and make a living, as an alternative to traditional companies. It's an early draft, but we decided to publish it anyway in order to get feedback.

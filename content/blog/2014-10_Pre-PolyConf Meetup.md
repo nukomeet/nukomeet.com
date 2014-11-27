@@ -3,7 +3,9 @@ created_at: 2014-10-16
 kind: article
 publish: true
 title: "Pre-Polyconf Meetup"
-author:
+authors:
+- kasia
+- zaiste
 tags:
 - meetup
 extract: "Polyconf 14 is approaching. We would like to meet in the evening just before the conference: get to know each other, discuss and drink a beer. Join us on this special Polyconf warm-up party! It's a joint-venture of Nukomeet, PolyConf & AKAI."

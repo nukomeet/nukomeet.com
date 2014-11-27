@@ -3,7 +3,11 @@ created_at: 2014-10-03
 kind: article
 publish: true
 title: "POZnan Drinkup"
-author:
+authors:
+- tomkuk
+- kasia
+- tukan
+- zaiste
 tags:
 - meetup
 extract: Autumn has arrived. Time to warm up! Come and join us in Cafe La Ruina next Wednesday. Beers are on us :)

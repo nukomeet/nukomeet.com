@@ -3,6 +3,8 @@ created_at: 2012-08-07
 kind: article
 publish: true
 title: "E-Learning Breakfast at Agora"
+authors:
+- alban
 tags:
 - society
 ---

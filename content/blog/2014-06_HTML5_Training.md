@@ -3,6 +3,8 @@ created_at: 2014-06-29
 kind: article
 publish: true
 title: "Modern Web Development Workshop"
+authors:
+- adrien
 tags:
 - programming
 - business

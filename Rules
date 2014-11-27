@@ -25,7 +25,7 @@ compile '/nulog/(business|programming|innovation|society|technology|web|meetup)/
   layout 'default'
 end
 
-compile '/nulog/(zaiste|albanlv|julien|adrien|tukan|tomkuk)/' do
+compile '/nulog/(zaiste|albanlv|julien|adrien|tukan|tomkuk|kasia)/' do
   layout 'author'
   layout 'default'
 end

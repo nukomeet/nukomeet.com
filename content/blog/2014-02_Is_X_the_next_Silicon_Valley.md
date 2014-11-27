@@ -3,10 +3,12 @@ created_at: 2014-02-06 17:53:04 +0100
 kind: article
 publish: true
 title: "Is X the next Silicon Valley ?!"
-author:
+authors:
+- zaiste
+- kasia
 tags:
 - business
-extract: Focus on your unique strengths, stop looking up to SV and start doing business on your own rules whenever you are based.
+extract: Focus on your unique strengths, stop looking up to Silicon Valley and start doing business on your own rules whenever you are based.
 ---
 
 #### TL;DR

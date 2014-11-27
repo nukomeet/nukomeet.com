@@ -3,6 +3,8 @@ kind: article
 created_at: 2013-07-18
 title: "Polygrammers: First Dreenkup in Paris"
 publish: true
+authors:
+- adrien
 tags:
 - meetup
 extract: "Polygrammers is the name we use to designate polyglot programmers, _those who dare to use more than

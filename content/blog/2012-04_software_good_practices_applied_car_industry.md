@@ -2,6 +2,8 @@
 kind: article
 created_at: 2012-04-01
 title: "Software good practices applied to the car industry"
+authors:
+- alban
 publish: true
 ---
 

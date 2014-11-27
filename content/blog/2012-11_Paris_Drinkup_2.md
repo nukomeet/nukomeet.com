@@ -2,6 +2,8 @@
 created_at: 2012-11-12 00:23:27 +0100
 kind: article
 publish: true
+authors:
+- alban
 title: "Paris Drinkup 2"
 tags:
 - society

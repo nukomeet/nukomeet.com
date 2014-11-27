@@ -2,6 +2,8 @@
 kind: article 
 created_at: 2012-03-15
 title: Another view on porn business
+authors:
+- alban
 ---
 
 ![ParisHackers Meetup](/assets/images/porn.jpg "ParisHackers Meetup")We went last night to the excellent ParisHacker meetup, where we had the luck to hear Michel Bartz talk about performance in a high traffic environment. Michel knows about the topic as he was Lead Software Engineer at Pornhub for four years. 

@@ -3,6 +3,9 @@ kind: article
 created_at: 2013-01-15
 title: "We accept Bitcoins"
 publish: true
+authors:
+- alban
+- zaiste
 tags:
 - society
 - innovation
