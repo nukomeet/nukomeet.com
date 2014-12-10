@@ -25,13 +25,11 @@ passthrough '/assets/fonts/*'
 compile '/assets/stylesheets/(styles|ie)/' do
   filter :less
   filter :rainpress
-  filter :cache_buster
 end
 
 compile '/assets/stylesheets/(styles|ie)/', :rep => :gzip do
   filter :less
   filter :rainpress
-  filter :cache_buster
   filter :gzip
 end
 
@@ -40,12 +38,10 @@ end
 
 compile '/assets/javascripts/*/' do
   filter :uglify_js
-  filter :cache_buster
 end
 
 compile '/assets/javascripts/*/', :rep => :gzip do
   filter :uglify_js
-  filter :cache_buster
   filter :gzip
 end
 
@@ -55,7 +51,6 @@ end
 # right now for blast only, should be removed or changed
 compile '/css/*/' do
   filter :rainpress
-  filter :cache_buster
 end
 
 compile '/nulog/(business|programming|innovation|society|technology|web|meetup)/' do
@@ -110,6 +105,8 @@ compile '*' do
     filter :slim
     layout 'default'
   end
+
+  filter :cache_buster unless item.identifier == "/favicon/"
 end
 
 route '/assets/stylesheets/(styles|ie)' do
