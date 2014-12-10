@@ -12,20 +12,20 @@ html lang="en"
     meta property="og:description" content="Nukomeet is a company with exceptional talents who are passionate about creating great software."
     meta property="og:image" content="http://nukomeet.com/assets/images/company.jpg"
 
-    script src="/js/lib/head.js"
+    script src="/assets/javascripts/lib/head.js"
     link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'
-    link href="/css/styles.css" media="screen" rel="stylesheet" type="text/css"
+    link href="/assets/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css"
 
     /![if lt IE 9]
-      | <link rel="stylesheet" href="css/ie.css"
-      | <script src="js/ie/html5shiv.js"></script
-      | <script src="js/ie/respond.js"></script
+      | <link rel="stylesheet" href="/assets/stylesheets/ie.css"
+      | <script src="/assets/javascripts/ie/html5shiv.js"></script
+      | <script src="/assets/javascripts/ie/respond.js"></script
   body
     .wrap
       == render 'nav'
       == yield
       == render 'footer'
 
-    script src="/js/async.js"
+    script src="/assets/javascripts/async.js"
 
     == render '_ganalytics'

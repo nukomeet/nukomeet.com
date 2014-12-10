@@ -10,11 +10,18 @@
 	We're using HEADJS.com classes.
 
 */
-/* FONT_FACE mixin */
-body {
-  direction: ltr;
-  text-align: left;
-}
-body a:hover {
-  text-decoration: none;
+
+@import "_lib/_variables";
+@import "_lib/lesshat"; // lesshat.com
+@import "_lib/_mixins";
+
+body{
+	direction: ltr;
+	text-align: left;
+	
+	a{
+		&:hover{
+			text-decoration: none;
+		}
+	}
 }

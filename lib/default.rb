@@ -1,11 +1,13 @@
 # All files in the 'lib' directory will be loaded
 # before nanoc starts compiling.
+require 'nanoc/cachebuster'
 
 include Nanoc3::Helpers::Blogging
 include Nanoc3::Helpers::LinkTo
 include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::XMLSitemap
 include Nanoc3::Helpers::Tagging
+include Nanoc::Helpers::CacheBusting
 
 def link_to_with_current(text, path, desc)
   if @item_rep and @item_rep.path == path
@@ -13,19 +15,6 @@ def link_to_with_current(text, path, desc)
   else
     "<li>#{link_to(text, path, :'data-description' => desc)}</li>"
   end
-end
-
-def combined(assets, type='css')
-  content = []
-
-  assets.each do |asset|
-    item = @items.find { |i| i.identifier == "/#{type}/#{asset}/" }
-    if item
-      content << item.compiled_content
-    end
-  end
-
-  content.join("\n")
 end
 
 def items_by_author(author)
