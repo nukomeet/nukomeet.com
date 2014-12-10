@@ -1,0 +1,26 @@
+//	Author: 	FrontLabs
+//	URI: 		http://frontlabs.pl
+//	Contact: 	kontakt@frontlabs.pl
+
+/* FONT_FACE mixin */
+.font_face(@name, @filename, @weight:normal, @style:normal){
+	
+	@font-face{ 
+		font-family: @name;
+		src: url('/assets/fonts/@{filename}.eot');
+		src: url('/assets/fonts/@{filename}.eot?#iefix') format('embedded-opentype'),
+			 url('/assets/fonts/@{filename}.woff') format('woff'),
+			 url('/assets/fonts/@{filename}.ttf') format('truetype'),
+			 url('/assets/fonts/@{filename}.svg#@{filename}') format('svg');
+		font-weight: @weight;
+		font-style: @style;
+	}
+}
+
+.text-overflow(){
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
