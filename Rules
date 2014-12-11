@@ -37,11 +37,6 @@ end
 compile '/assets/images/*/' do
 end
 
-# right now for blast only, should be removed or changed
-compile '/css/*/' do
-  filter :rainpress
-end
-
 compile '/nulog/(business|programming|innovation|society|technology|web|meetup)/' do
   layout 'blog'
   layout 'default'
@@ -71,7 +66,7 @@ end
 
 compile 'blast' do
   filter :slim
-  layout 'blast'
+  layout 'default'
 end
 
 compile 'sitemap' do
