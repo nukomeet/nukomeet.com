@@ -48,10 +48,6 @@ GEM
     mini_portile (0.6.1)
     nanoc (3.7.4)
       cri (~> 2.3)
-    nanoc-cachebuster (0.3.1)
-      nanoc (>= 3.3.0)
-    nanoc-gzip-filter (0.0.1)
-      nanoc (>= 3.4.0)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
     posix-spawn (0.3.9)
@@ -110,8 +106,6 @@ DEPENDENCIES
   less
   mime-types
   nanoc
-  nanoc-cachebuster
-  nanoc-gzip-filter
   nokogiri
   pygments.rb
   rainpress

@@ -27,22 +27,11 @@ compile '/assets/stylesheets/(styles|ie)/' do
   filter :rainpress
 end
 
-compile '/assets/stylesheets/(styles|ie)/', :rep => :gzip do
-  filter :less
-  filter :rainpress
-  filter :gzip
-end
-
 compile '/assets/fonts/*/' do
 end
 
 compile '/assets/javascripts/*/' do
   filter :uglify_js
-end
-
-compile '/assets/javascripts/*/', :rep => :gzip do
-  filter :uglify_js
-  filter :gzip
 end
 
 compile '/assets/images/*/' do
@@ -105,24 +94,14 @@ compile '*' do
     filter :slim
     layout 'default'
   end
-
-  filter :cache_buster unless item.identifier == "/favicon/"
 end
 
 route '/assets/stylesheets/(styles|ie)' do
-  item.identifier.chop + fingerprint(item[:filename]) + '.' + '.css'
-end
-
-route '/assets/stylesheets/(styles|ie)', :rep => :gzip do
-  item.identifier.chop + fingerprint(item[:filename]) + '.' + 'css' + '.gz'
+  item.identifier.chop + '.css'
 end
 
 route '/assets/javascripts/*/' do
-  item.identifier.chop + fingerprint(item[:filename]) + '.' + '.js'
-end
-
-route '/assets/javascripts/*/', :rep => :gzip do
-  item.identifier.chop + fingerprint(item[:filename]) + '.' + '.js' + '.gz'
+  item.identifier.chop + '.js'
 end
 
 route '/assets/images/*/' do
@@ -130,7 +109,7 @@ route '/assets/images/*/' do
 end
 
 route '/css/*/' do
-  item.identifier.chop + fingerprint(item[:filename]) + '.' + '.css'
+  item.identifier.chop + '.css'
 end
 
 route '/blog/*/' do

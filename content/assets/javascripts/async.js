@@ -1,10 +1,10 @@
 head.load(
   [
-    {jquery:  "/js/lib/jquery.js"},
-    {scroll:  "/js/lib/scrollReveal.js"},
-    {btstrp:  "/js/lib/bootstrap.min.js"},
-    {inline:  "/js/lib/jquery.inline-search.js"},
-    {functs:  "/js/functions.js"}
+    {jquery:  "/assets/javascripts/lib/jquery.js"},
+    {scroll:  "/assets/javascripts/lib/scrollReveal.js"},
+    {btstrp:  "/assets/javascripts/lib/bootstrap.min.js"},
+    {inline:  "/assets/javascripts/lib/jquery.inline-search.js"},
+    {functs:  "/assets/javascripts/functions.js"}
   ],
   function(){}
 );
