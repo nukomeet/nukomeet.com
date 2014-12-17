@@ -10,7 +10,7 @@ $(document).ready(function () {
     }, 1000);
   });
 
-  $('form').on('submit', function (event) {
+  $('form#blast-form').on('submit', function (event) {
     event.preventDefault();
 
     var form = $(this),
