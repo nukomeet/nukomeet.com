@@ -8,6 +8,7 @@ authors:
  - tukan
 tags:
  - meetup
+extract: "It’s already our tradition that few times a year entire Nukomeet team physically meets together to see each other, to exchange and to celebrate our cooperation. It’s a wonderful way to rejoice and to integrate especially as we often don’t see each other on a regular basis, working mainly in a remote manner."
 ---
 
 ![Gueuleton in Berlin](/assets/images/gueuleton-berlin.jpg "Le Gueuleton in
