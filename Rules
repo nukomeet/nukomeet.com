@@ -69,6 +69,11 @@ compile 'blast' do
   layout 'default'
 end
 
+compile '/contact/' do
+  filter :slim
+  layout 'default'
+end
+
 compile 'sitemap' do
   filter :slim
 end

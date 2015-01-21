@@ -1,0 +1,37 @@
+header.header.header--blog
+  .header-container.container data-align="middle"
+    h1.header-title Contact 
+
+section.container.blast.text-center
+  .article-list
+    .row#quote
+      .alert.alert-success role="alert"
+        | Thank you! Your message has been sent. We will get back to you real soon.
+
+      .form-wrapper
+        h3
+          'Get in 
+          strong touch
+        form#blast-form action="#" method="post"
+          fieldset
+            .form-group
+              input.form-control name="name" type="text" placeholder="Name" required=""
+            .form-group
+              input.form-control name="email" type="email" placeholder="Your Email Address" required=""
+            .form-group
+              input.form-control name="company" type="text" placeholder="Company Name"
+            .form-group
+              input.form-control name="phone" type="tel" placeholder="Contact Number"
+
+            .form-group
+              select.form-control name="project_type"
+                option value="" Select Project type
+                option value="Website" Website
+                option value="Mobile Application" Mobile Application
+                option value="Design" Design
+                option value="Desktop Application" Desktop Application
+
+            .form-group
+              textarea.form-control rows="6" name="description" placeholder="Project Details" autocomplete="off"
+            .form-group
+              button.btn.btn-default.btn-lg.btn-block type="submit" Send
