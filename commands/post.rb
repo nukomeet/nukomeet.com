@@ -14,7 +14,7 @@ run do |opts, args, cmd|
 
   date = Time.now
 
-  filename, path = calc_path(title, date)
+  filename, path = calc_path(title.downcase, date)
 
   template = <<TEMPLATE
 ---
