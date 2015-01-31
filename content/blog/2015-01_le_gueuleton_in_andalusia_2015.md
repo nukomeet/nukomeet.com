@@ -7,7 +7,7 @@ authors:
  - zaiste
  - kasia
  - alban
- - bartek
+ - tukan
 tags:
  - meetup
 ---
@@ -19,6 +19,8 @@ January is a cold and gray month in most of Europe. For that reason we decided t
 We rented a cosy apartment in central Cadiz for the whole month and focused on two important things: work and surf. Cádiz, situated on a peninsula, is home to some of Spain's most beautiful beaches. It is a cool spot for novice surfers.
 
 We used this time to finish the redesign of our website and to work on some of our internal products with a special focus on our new brainstorming app, called « Voila! ».
+
+![Cadiz Sundown](/assets/images/blog/cadiz.jpg "Cadiz Sundown")
 
 We also had some visitors:
 
