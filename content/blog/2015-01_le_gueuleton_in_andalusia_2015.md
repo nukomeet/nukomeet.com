@@ -11,6 +11,7 @@ authors:
 tags:
  - meetup
 extract: January is a cold and gray month in most of Europe. For that reason we decided to organize our next Gueuleton in Andalusia. With a beautiful sun and an average of 14 °C it’s a perfect place to recharge your batteries and start the new year with a boost of energy.
+cover: /assets/images/blog/cadiz_beach.jpg
 ---
 
 ![A beach in Cadiz](/assets/images/blog/cadiz_beach.jpg "A beach in Cadiz")
