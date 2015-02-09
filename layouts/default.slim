@@ -18,6 +18,10 @@ html lang="en"
     meta name="twitter:title" content="#{page_title(@item)}"
     meta name="twitter:description" content="#{page_description(@item)}"
     meta name="twitter:image" content="#{page_cover_url(@item)}"
+      
+    meta itemprop="name" content="#{page_title(@item)}"
+    meta itemprop="description" content="#{page_description(@item)}"
+    meta itemprop="image" content="#{page_cover_url(@item)}"
 
     script src="/assets/javascripts/lib/head.js"
     link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'
