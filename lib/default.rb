@@ -28,3 +28,9 @@ def sorted_projects
     attribute_to_time(a[:created_at])
   end.reverse
 end
+
+def page_cover_url(item)
+  return 'http://nukomeet.com/assets/images/company.jpg' if item[:cover].nil?
+  return item[:cover] if item[:cover] =~ /(https|http):\/\//
+  return "http://nukomeet.com#{item[:cover]}"
+end
