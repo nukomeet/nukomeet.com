@@ -7,6 +7,7 @@ authors:
 - kasia
 tags:
 - meetup
+extract: Git is an important tool in our toolbox. After few years of using it we realized that there are still things about it we are not yet familiar with. That’s why we decided to organize an internal Git workshop.start the new year with a boost of energy.
 ---
 
 Git is an important tool in our toolbox. After few years of using it we realized that there are still things about it we are not yet familiar with. That’s why we decided to organize an internal Git workshop.

@@ -7,6 +7,7 @@ authors:
 - kasia
 tags:
 - meetup
+extract: We are already in the brand new year 2015. Let’s celebrate it together with a beer! Feel invited to join us and to talk about technology and business.
 ---
 
 We are already in the brand new year 2015. Let’s celebrate it together with a beer! Feel invited to join us and to talk about technology and business.
