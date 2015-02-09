@@ -36,9 +36,8 @@ def page_cover_url(item)
 end
 
 def page_title(item)
-  base = 'Nukomeet: '
-  return base + 'We make software' if item[:title].nil? or item[:title].empty?
-  return base + item[:title]
+  return 'Nukomeet: We make software' if item[:title].nil? or item[:title].empty?
+  return item[:title]
 end
 
 def page_description(item)
