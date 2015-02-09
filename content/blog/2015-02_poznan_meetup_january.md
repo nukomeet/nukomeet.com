@@ -17,9 +17,7 @@ We are already in the brand new year 2015. Let’s celebrate it together with a 
 ### Where & When
 
  * [Cicha Kuna][1] at św. Marcin 30
- * February 10th around 19:00
+ * [February 10th around 19:00][2]
 
 [1]: https://www.facebook.com/kunacicha
-
-
-
+[2]: http://www.google.com/calendar/event?action=TEMPLATE&text=Nukomeet%20Meetup&dates=20150110T180000Z/20150110T200000Z&details=Nukomeet%20POZnan%20Meetup%20January%20at%20Cicha%20Kuna&location=%C5%9Awi%C4%99ty%20Marcin%2030%2C%20Pozna%C5%84%2C%20Polska
