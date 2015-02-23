@@ -8,7 +8,6 @@ $(function() {
             // the 150 is a fixed header offset
           scrollTop: target.offset().top - 150
         }, 1000);
-        return false;
       }
     }
   });
