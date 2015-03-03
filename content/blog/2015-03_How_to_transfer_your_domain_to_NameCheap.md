@@ -13,7 +13,7 @@ extract: Domain transfer can be intimidating and cumbersome operation. In this a
 
 **Switching DNS**
 
-Switching domain provider means that it’s highly probable you’re also switching DNS system. It depends on which DNS you are using for your domain. If your domain is using a custom (hosting) DNS system, there should not be any downtime during transfer. If your to-be-transferred domain is using the default DNS system/nameservers of the old registrar, it will no longer resolve domain once the transfer is completed. In the latter case to obtain zero downtime switch you need to setup FreeDNS (link - https://www.namecheap.com/domains/freedns.aspx) (or similar service) before you start procedure of transfer.
+Switching domain provider means that it’s highly probable you’re also switching DNS system. It depends on which DNS you are using for your domain. If your domain is using a custom (hosting) DNS system, there should not be any downtime during transfer. If your to-be-transferred domain is using the default DNS system/nameservers of the old registrar, it will no longer resolve domain once the transfer is completed. In the latter case to obtain zero downtime switch you need to setup [FreeDNS ](https://www.namecheap.com/domains/freedns.aspx)(or similar service) before you start procedure of transfer.
 
 Here's how it works instruction taken from [FreeDNS help](https://www.namecheap.com/support/knowledgebase/article.aspx/582/8).
 
