@@ -15,12 +15,12 @@ extract: Domain transfer can be intimidating and cumbersome operation. In this a
 
 Switching domain provider means that it’s highly probable you’re also switching DNS system. It depends on which DNS you are using for your domain. If your domain is using a custom (hosting) DNS system, there should not be any downtime during transfer. If your to-be-transferred domain is using the default DNS system/nameservers of the old registrar, it will no longer resolve domain once the transfer is completed. In the latter case to obtain zero downtime switch you need to setup FreeDNS (link - https://www.namecheap.com/domains/freedns.aspx) (or similar service) before you start procedure of transfer.
 
-Here's how it works instruction taken from FreeDNS help (link  - https://www.namecheap.com/support/knowledgebase/article.aspx/582/8/).
+Here's how it works instruction taken from [FreeDNS help](https://www.namecheap.com/support/knowledgebase/article.aspx/582/8).
 
-Enroll the domain (example.com) to use our FreeDNS service and explicitly authorize your domain to use our FreeDNS service.
-Copy all your domain settings (host records, email settings etc) to our control panel.
-At the other registrar (OldRegistrar), point your domain to use our FreeDNS name servers as well. For information on how to setup custom DNS at your current registrar (ex: OldRegistrar), please check the OldRegistrar's FAQ documentation.
-Wait until the DNS settings for the domain are propagated, and then transfer your domain to Namecheap using the normal transfer process.
+1. Enroll the domain (example.com) to use our FreeDNS service and explicitly authorize your domain to use our FreeDNS service.
+2. Copy all your domain settings (host records, email settings etc) to our control panel.
+3. At the other registrar (OldRegistrar), point your domain to use our FreeDNS name servers as well. For information on how to setup custom DNS at your current registrar (ex: OldRegistrar), please check the OldRegistrar's FAQ documentation.
+4. Wait until the DNS settings for the domain are propagated, and then transfer your domain to Namecheap using the normal transfer process.
 
 In short you need to setup FreeDNS for your domain which also means you’ll need to authorize via email. FreeDNS will send authorization email to account specified during FreeDNS setup. This email account have to be created for domain you are transfering eg. webmaster@example.com.
 
