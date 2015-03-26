@@ -17,6 +17,6 @@ Come and join us if you are around to talk and drink a beer in our good company.
 ### Where & When
 
  * [Ślepe Ryby][1] at Murna 3
- * <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Nukomeet%20Meetup&dates=20150331T190000Z/20150401T200000Z&details=Nukomeet%20POZnan%20Meetup%31March%20at%C5%9Alepe%20Ryby&location=Murna%203%2C%20Pozna%C5%84%2C%20Polska" target="_blank"> March 31st around 19:00</a>
+ * <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Nukomeet%20Meetup&dates=20150331T180000Z/20150331T230000Z&details=Nukomeet%20POZnan%20Meetup%31March%20at%C5%9Alepe%20Ryby&location=Murna%203%2C%20Pozna%C5%84%2C%20Polska" target="_blank"> March 31st around 19:00</a> 
 
 [1]:https://www.sleperyby.pl/
