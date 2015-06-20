@@ -39,7 +39,7 @@ data_sources:
   -
     # The type is the identifier of the data source. By default, this will be
     # `filesystem_unified`.
-    type: filesystem_unified
+    type: filesystem
 
     # The path where items should be mounted (comparable to mount points in
     # Unix-like systems). This is “/” by default, meaning that items will have
@@ -61,9 +61,12 @@ data_sources:
     allow_periods_in_identifiers: true
     encoding: utf-8
     identifier_type: full
-  #-
-    #type: static
-    #identifier_type: full
+  -
+    type: filesystem
+    items_root: /static
+    content_dir: static
+    layouts_dir: null
+    identifier_type: full
 
 # Configuration for the “watch” command, which watches a site for changes and
 # recompiles if necessary.
