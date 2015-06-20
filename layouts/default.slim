@@ -34,10 +34,10 @@ html lang="en"
       | <script src="/assets/javascripts/ie/respond.js"></script>
   body
     .wrap
-      == render 'nav'
+      == render '/nav.*'
       == yield
-      == render 'footer'
+      == render '/footer.*'
 
     script src="/assets/javascripts/async.js"
 
-    == render '_ganalytics'
+    == render '/_ganalytics.*'
