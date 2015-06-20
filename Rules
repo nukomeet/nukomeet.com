@@ -76,6 +76,7 @@ compile '/contact/' do
 end
 
 compile '/sitemap/' do
+  # FIXME: slim escapes all output
   filter :slim
 end
 
