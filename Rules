@@ -117,11 +117,6 @@ route '/assets/images/**/*' do
   item.identifier.to_s
 end
 
-# FIXME: Not used
-route '/css/**/*' do
-  item.identifier.with_ext('css')
-end
-
 route '/blog/**/*' do
   item.identifier.to_s.gsub(%r{^/blog/(\d+)-(\d+)_(.*)\..*$}) do |match|
     "/#{$1}/#{$2}/#{$3}" + '/index.html'
