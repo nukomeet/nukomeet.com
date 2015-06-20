@@ -12,11 +12,11 @@ preprocess do
   end
 
   tags.each do |tag|
-    items << Nanoc::Item.new("", { tag: tag }, "/nulog/#{tag}/")
+    items.create("", { tag: tag }, "/nulog/#{tag}/")
   end
 
   authors.each do |author|
-    items << Nanoc::Item.new("", { author: author }, "/nulog/#{author}/")
+    items.create("", { author: author }, "/nulog/#{author}/")
   end
 end
 
@@ -113,7 +113,7 @@ route '/css/*/' do
 end
 
 route '/blog/*/' do
-  item.identifier.gsub(%r{^/blog/(\d+)-(\d+)_(.*)$}) do |match|
+  item.identifier.to_s.gsub(%r{^/blog/(\d+)-(\d+)_(.*)$}) do |match|
     "/#{$1}/#{$2}/#{$3}" + 'index.html'
   end
 end

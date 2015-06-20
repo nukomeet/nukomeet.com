@@ -1,3 +1,5 @@
+string_pattern_type: legacy
+
 # A list of file extensions that nanoc will consider to be textual rather than
 # binary. If an item with an extension not in this list is found,  the file
 # will be considered as binary.
@@ -17,7 +19,7 @@ index_filenames: [ 'index.html' ]
 # Whether or not to generate a diff of the compiled content when compiling a
 # site. The diff will contain the differences between the compiled content
 # before and after the last site compilation.
-enable_output_diff: false
+enable_output_diff: true
 
 prune:
   # Whether to automatically remove files not managed by nanoc from the output
@@ -58,8 +60,10 @@ data_sources:
     # it will become “/about.html/” instead.
     allow_periods_in_identifiers: true
     encoding: utf-8
-  -
-    type: static
+    identifier_type: legacy
+  #-
+    #type: static
+    #identifier_type: legacy
 
 # Configuration for the “watch” command, which watches a site for changes and
 # recompiles if necessary.
