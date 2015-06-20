@@ -12,73 +12,82 @@ preprocess do
   end
 
   tags.each do |tag|
-    items << Nanoc::Item.new("", { tag: tag }, "/nulog/#{tag}/")
+    items.create("", { tag: tag }, "/nulog/#{tag}.txt")
   end
 
   authors.each do |author|
-    items << Nanoc::Item.new("", { author: author }, "/nulog/#{author}/")
+    items.create("", { author: author }, "/nulog/#{author}.txt")
   end
 end
 
-passthrough '/assets/fonts/*'
+passthrough '/assets/fonts/**/*'
+ignore '/assets/stylesheets/_lib/**/*'
 
-compile '/assets/stylesheets/(styles|ie)/' do
+compile '/static/**/*' do
+end
+
+route '/static/**/*' do
+  item.identifier.to_s.sub(/\A\/static/, '')
+end
+
+compile '/assets/stylesheets/{styles,ie}.*' do
   filter :less
   filter :rainpress
 end
 
-compile '/assets/fonts/*/' do
+compile '/assets/fonts/**/*' do
 end
 
-compile '/assets/javascripts/*/' do
+compile '/assets/javascripts/**/*' do
   filter :uglify_js
 end
 
-compile '/assets/images/*/' do
+compile '/assets/images/**/*' do
 end
 
-compile '/nulog/(business|programming|innovation|society|technology|web|meetup)/' do
-  layout 'blog'
-  layout 'default'
+compile '/nulog/{business,programming,innovation,society,technology,web,meetup}.*' do
+  layout '/blog.*'
+  layout '/default.*'
 end
 
-compile '/nulog/(zaiste|albanlv|julien|adrien|tukan|tomkuk|kasia|adam)/' do
-  layout 'author'
-  layout 'default'
+compile '/nulog/{zaiste,albanlv,julien,adrien,tukan,tomkuk,kasia,adam}.*' do
+  layout '/author.*'
+  layout '/default.*'
 end
 
-compile '/nulog/' do
+compile '/nulog.*' do
   filter :slim
-  layout 'default'
+  layout '/default.*'
 end
 
-compile '/blog/*/' do
+compile '/blog/**/*' do
   filter :rdiscount, :extensions => %w( strict smart )
-  layout 'post'
-  layout 'default'
+  layout '/post.*'
+  layout '/default.*'
 end
 
-compile '/projects/*/' do
+compile '/projects/**/*' do
   filter :rdiscount, :extensions => %w( strict smart )
-  layout 'project'
-  layout 'default'
+  layout '/project.*'
+  layout '/default.*'
 end
 
-compile 'blast' do
+compile '/blast.*' do
   filter :slim
-  layout 'default'
+  layout '/default.*'
 end
 
-compile '/contact/' do
+compile '/contact.*' do
   filter :slim
-  layout 'default'
+  layout '/default.*'
 end
 
-compile 'sitemap' do
+compile '/sitemap.*' do
+  # FIXME: slim escapes all output
   filter :slim
 end
 
-compile '*' do
+compile '/**/*' do
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
 
   if item.binary?
@@ -86,50 +95,50 @@ compile '*' do
   elsif ext == 'md' || ext == 'markdown'
     filter :erb
     filter :rdiscount
-    layout 'blog'
-    layout 'default'
+    layout '/blog.*'
+    layout '/default.*'
   elsif ext == 'less'
     # do nothing as it should be filtered somewhere before
   else
     filter :slim
-    layout 'default'
+    layout '/default.*'
   end
 end
 
-route '/assets/stylesheets/(styles|ie)' do
-  item.identifier.chop + '.css'
+route '/assets/stylesheets/{styles,ie}.*' do
+  item.identifier.with_ext('css')
 end
 
-route '/assets/javascripts/*/' do
-  item.identifier.chop + '.js'
+route '/assets/javascripts/**/*' do
+  item.identifier.with_ext('.js')
 end
 
-route '/assets/images/*/' do
-  item.identifier.chop + '.' + item[:extension]
+route '/assets/images/**/*' do
+  item.identifier.to_s
 end
 
-route '/css/*/' do
-  item.identifier.chop + '.css'
-end
-
-route '/blog/*/' do
-  item.identifier.gsub(%r{^/blog/(\d+)-(\d+)_(.*)$}) do |match|
-    "/#{$1}/#{$2}/#{$3}" + 'index.html'
+route '/blog/**/*' do
+  item.identifier.to_s.gsub(%r{^/blog/(\d+)-(\d+)_(.*)\..*$}) do |match|
+    "/#{$1}/#{$2}/#{$3}" + '/index.html'
   end
 end
 
-route 'sitemap' do
-  item.identifier.chop + '.xml'
+route '/sitemap.*' do
+  item.identifier.with_ext('xml')
 end
 
-route '*' do
+route '/index.*' do
+  '/index.html'
+end
+
+route '/**/*' do
   if item.binary?
-    # Write item with identifier /foo/ to /foo.ext
-    item.identifier.chop + '.' + item[:extension]
+    # Write item with identifier /foo.dat to /foo.dat
+    item.identifier.to_s
   else
-    # Write item with identifier /foo/ to /foo/index.html
-    item.identifier + 'index.html'
+    # Write item with identifier /foo.md to /foo/index.html
+    item.identifier.without_ext + '/index.html'
   end
 end
 
-layout '*', :slim
+layout '/**/*', :slim

@@ -16,7 +16,7 @@ gem 'thin'
 
 gem 'builder'
 
-gem 'nanoc'
+gem 'nanoc', github: 'nanoc/nanoc'
 gem 'guard-nanoc'
 gem 'less'
 gem 'therubyracer'

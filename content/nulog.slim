@@ -1,8 +1,8 @@
-== render 'blog_header'
+== render '/blog_header.*'
 
 section.container.blog
   .article-list
-    - @site.sorted_articles.each do |post|
+    - sorted_articles.each do |post|
       - if post[:publish]
         article.article-item
           h1.article-item-title
