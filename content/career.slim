@@ -6,9 +6,7 @@ section.container
   .article-list
     .row
       p Currently, we're looking for:
-      h2 
-        a href="/careers/javascript-programmer-react/" JavaScript Programmer / React
-      h2 
-        a href="/careers/javascript-programmer-angularjs/" JavaScript Programmer / AngularJS 
-      h2 
-        a href="/careers/javascript-programmer-ruby/" Ruby Programmer / Rails
+
+      - careers.each do |c|
+        h2 
+          a href="#{c.path}" #{c[:name]} 
