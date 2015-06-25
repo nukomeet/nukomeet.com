@@ -23,6 +23,10 @@ def projects
   @items.select { |item| item[:kind] == 'project' }
 end
 
+def careers 
+  @items.select { |item| item[:kind] == 'career' }
+end
+
 def sorted_projects
   projects.sort_by do |a|
     attribute_to_time(a[:created_at])

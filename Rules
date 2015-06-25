@@ -64,6 +64,12 @@ compile '/projects/*/' do
   layout 'default'
 end
 
+compile '/careers/*/' do
+  filter :rdiscount, :extensions => %w( strict smart )
+  layout 'page'
+  layout 'default'
+end
+
 compile 'blast' do
   filter :slim
   layout 'default'
