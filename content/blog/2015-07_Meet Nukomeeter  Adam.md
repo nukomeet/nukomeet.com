@@ -7,7 +7,8 @@ authors:
 - adam
 - kasia
 tags: 
-- interview
+- society
+- technology
 
 extract: This article opens a series of interviews with members of our Nukomeet team. 
 ---
