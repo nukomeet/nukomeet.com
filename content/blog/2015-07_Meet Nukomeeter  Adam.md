@@ -6,7 +6,8 @@ title: "Meet Nukomeeter: Adam"
 authors:
 - adam
 - kasia
-tags: interview
+tags: 
+- interview
 
 extract: This article opens a series of interviews with members of our Nukomeet team. 
 ---
