@@ -12,7 +12,7 @@ tags:
 
 extract: This article opens a series of interviews with members of our Nukomeet team. 
 ---
-![Adam](/assets/images/blog/Adam.jpg "Adam")
+![AdamBlog](/assets/images/blog/AdamBlog.jpg "AdamBlog")
 
 **It's been over a year since you started your work in Nukomeet. Tell us in a few words: how was that time for you?**
 
