@@ -42,7 +42,7 @@ compile '/nulog/(business|programming|innovation|society|technology|web|meetup)/
   layout 'default'
 end
 
-compile '/nulog/(zaiste|albanlv|julien|adrien|tukan|tomkuk|kasia)/' do
+compile '/nulog/(zaiste|albanlv|julien|adrien|tukan|tomkuk|kasia|adam)/' do
   layout 'author'
   layout 'default'
 end
@@ -61,6 +61,12 @@ end
 compile '/projects/*/' do
   filter :rdiscount, :extensions => %w( strict smart )
   layout 'project'
+  layout 'default'
+end
+
+compile '/careers/*/' do
+  filter :rdiscount, :extensions => %w( strict smart )
+  layout 'page'
   layout 'default'
 end
 

@@ -1,0 +1,8 @@
+header.header.header--blog
+  .header-container.container data-align="middle"
+    h1.header-title = @item[:title] 
+
+section.container
+  .article-list
+    .row
+      == yield
