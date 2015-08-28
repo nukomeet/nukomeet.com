@@ -1,3 +1,4 @@
+
 ---
 created_at: 2015-08-28
 kind: article
@@ -6,18 +7,19 @@ title: "Deploying app on server"
 authors:
 - kasia kasprzak
 - kasia
-tags:
+tags: 
 - technology
 
-extract: I have been accepted to internship in Nukomeet. My task will be to assist in creating application written in Ruby on Rails. I'll post weekly updates about my tasks and about what I learned each week.
+extract:I have been accepted to internship in Nukomeet. My task will be to assist in creating application written in Ruby on Rails. I'll post weekly updates about my tasks and about what I learned each week.
+
 ---
 
 Last week I received task to deploy app on server. I have to mention that app is developed from two weeks and it's time to prepare some production environment. I received access to the virtual machine and some information about the solutions used in deploying apps on server. Now lets just connect it all together and it should work.
 
 Assume we have address IP and username as below:
 
-```
-User: kate
+``` 
+User: kate  
 ADDRESS_IP: 111.1.111.111
 ```
 
@@ -137,7 +139,7 @@ The next step is command mina deploy, but unfortunately we receive error.
 
 ```
 $ mina deploy
-Cloning the Git repository
+Cloning the Git repository    	
   	Cloning into bare repository '/home/user/app...’
   	ssh: Could not resolve hostname makesense: Name or service not known
   	fatal: Could not read from remote repository.
@@ -155,11 +157,10 @@ $ ssh kate@111.1.111.111.
 Welcome to Ubuntu 14.04.3 LTS (GNU/Linux 3.13.0-61-generic x86_64)
 * Documentation:  https://help.ubuntu.com/
 Last login: … from …
-kate@host_name:~$
+kate@host_name:~$ 
 ```
 
 Now we run command:
-
 ```
 kate@0101:~$ ssh-keygen -t rsa -C “super_app@kate”
 Generating public/private rsa key pair.
@@ -191,21 +192,15 @@ Prepare server to rails app
 ---
 1.Install bundler :
 
-```
-kate@0101:~$ sudo gem install bundler
-```
+```kate@0101:~$ sudo gem install bundler```
 
 2.Create database.
 
 While the first part is simple and does not cause problems when creating a database we need a little toil.
 If we run command mina deploy in our local repository after installing bundler on server we receive:
-
-```
-PG::ConnectionBad: FATAL:  Peer authentication failed for user "app".
-```
+```PG::ConnectionBad: FATAL:  Peer authentication failed for user "app".```
 
 Firstly we have to check if we have prepared user in postgres.
-
 ```
 kate@0101:~$ sudo -u postgres psql postgres
 psql (9.4.4)
@@ -216,12 +211,11 @@ postgres=#  \du
 Role name   |      Attributes              | Member of
 ------------+------------------------------+-----------
 app   	  |                              | {}
-postgres    | Superuser, Create role,      | {}
+postgres    | Superuser, Create role,      | {}        
                Create DB, Replication
 ```
 Ok, We have besides superuser, user: app. Now we have to create database.yml file (in shared/config) and push some data inside.
 Let’s assume our database name is . super_app_database and password is pass.
-
 ```
 production:
  adapter: postgresql
@@ -235,7 +229,6 @@ production:
 ```
 
 Now, try if we can go to postgres using those credentials.
-
 ```
 kate@0101:~$ psql -h localhost -d super_app_database  -U  app –W
 (Enter the password ‘pass’)
@@ -250,7 +243,6 @@ Managed to! Now we’re comming back to our local repository and running command
 ```
 $ mina deploy
 ```
-
 Again success.
 
 Switch on Unix domain socket
@@ -260,20 +252,14 @@ Using host as localhost we’re using TCP/IP loopback. To receive better efficie
 To do this, we have to:
 
 1.Remove this line from database.yml, because when we specify localhost, PostgreSQL will use TCP/IP loopback.
-
-```
-host: localhost
-```
+```host: localhost```
 
 2.Log in to postgres
-
-```
-kate@0101:~/app/current$ sudo -u postgres psql postgres
-```
+		
+```kate@0101:~/app/current$ sudo -u postgres psql postgres```
 
 
 3.Add to user privileges to create database:
-
 ```
 kate@0101:~/app/current$ postgres=# ALTER USER app CREATEDB;
 ALTER ROLE
@@ -282,12 +268,11 @@ postgres=# \du
 Role name   |     Attributes           | Member of
 ------------+--------------------------+-----------
 app   	  |          	Create DB   | {}
-postgres    | Superuser, Create role,  | {}
+postgres    | Superuser, Create role,  | {}  
              Create DB, Replication
 ```
 
 4.Now we can go out from postgres and set up our database by running commands on server.
-
 ```
 kate@0101:~/app/current$ sudo RAILS_ENV=production rake db:drop
 kate@0101:~/app/current$ sudo RAILS_ENV=production rake db:create
